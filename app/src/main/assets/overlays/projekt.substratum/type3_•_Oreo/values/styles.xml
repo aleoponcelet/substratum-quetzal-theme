@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
+        <item name="android:colorBackground">@*android:color/holo_purple</item>
+        <item name="android:windowElevation">0.5dip</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="SplashScreen.ActivityTheme" parent="@*projekt.substratum:style/Theme.AppCompat">
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
+        <item name="android:windowLightStatusBar">@*projekt.substratum:bool/SplashscreenWindowLightStatusBar</item>
+    </style>
+    <style name="LeakCanaryTheme" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar" />
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@*projekt.substratum:style/Platform.ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@*android:color/holo_purple</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowElevation">0.5dip</item>
+    </style>
+    <style name="AppTheme.DialogAlert" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert" />
+    <style name="RestoreDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
+    <style name="PreferenceFragment">
+        <item name="android:divider">@*android:color/transparent</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="ShowcaseDialog" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="*projekt.substratum:windowActionBar">false</item>
+        <item name="*projekt.substratum:windowNoTitle">true</item>
+    </style>
+    <style name="Widget.MaterialSheetFab.Sheet" parent="">
+        <item name="android:layout_width">@*projekt.substratum:dimen/sheet_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@*projekt.substratum:dimen/sheet_spacing</item>
+        <item name="android:layout_marginBottom">@*projekt.substratum:dimen/sheet_spacing</item>
+        <item name="android:layout_marginStart">@*projekt.substratum:dimen/sheet_spacing</item>
+        <item name="android:layout_marginEnd">@*projekt.substratum:dimen/sheet_spacing</item>
+        <item name="*projekt.substratum:cardBackgroundColor">@*android:color/holo_purple</item>
+        <item name="*projekt.substratum:cardElevation">@*projekt.substratum:dimen/fab_sheet_elevation</item>
+        <item name="*projekt.substratum:cardMaxElevation">@*projekt.substratum:dimen/fab_sheet_elevation</item>
+        <item name="*projekt.substratum:contentPadding">-3.0dip</item>
+    </style>
+    <style name="AppTheme.InformationActivity" parent="@*projekt.substratum:style/AppTheme">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*projekt.substratum:windowActionBar">false</item>
+        <item name="*projekt.substratum:windowNoTitle">true</item>
+    </style>
+
+</resources>

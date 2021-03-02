@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+	<color name="udc_g_blue_600">@*android:color/accent_material_dark</color>
+    <color name="activity_primary">@*android:color/accent_material_dark</color>
+    <color name="material_google_blue_600">@*android:color/accent_material_dark</color>
+    <color name="quantum_googblue600">@*android:color/accent_material_dark</color>
+	
+	<color name="material_light_green_700">@*android:color/primary_material_dark</color>
+	<color name="play_games_theme_primary">@*android:color/primary_material_dark</color>
+	<color name="play_games_theme_primary_filter">@*android:color/primary_material_dark</color>
+	<color name="play_apps_primary">@*android:color/primary_material_dark</color>
+	<color name="play_apps_primary_disabled">@*android:color/primary_material_dark</color>
+
+    <color name="google_deep_teal">@*android:color/accent_material_dark</color>
+    <color name="material_blue_grey_950">@*android:color/primary_material_dark</color>
+    <color name="material_deep_teal_200">@*android:color/accent_material_dark</color>
+    <color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
+    <color name="material_teal_500">@*android:color/accent_material_dark</color>
+    <color name="button_material_light">@*android:color/button_material_dark</color>	
+    <color name="material_teal_100">@*android:color/accent_material_dark</color>
+    <color name="material_teal_200">@*android:color/accent_material_dark</color>
+    <color name="material_teal_300">@*android:color/accent_material_dark</color>
+    <color name="material_teal_400">@*android:color/accent_material_dark</color>
+    <color name="material_teal_50">@*android:color/accent_material_dark</color>
+    <color name="material_teal_600">@*android:color/accent_material_dark</color>
+    <color name="material_teal_700">@*android:color/accent_material_dark</color>
+    <color name="material_teal_800">@*android:color/accent_material_dark</color>
+    <color name="material_teal_900">@*android:color/accent_material_dark</color>
+    <color name="material_teal_A100">@*android:color/accent_material_dark</color>
+    <color name="material_teal_A200">@*android:color/accent_material_dark</color>
+    <color name="material_teal_A400">@*android:color/accent_material_dark</color>
+    <color name="material_teal_A700">@*android:color/accent_material_dark</color>
+    <color name="plus_deep_teal_500">@*android:color/accent_material_dark</color>
+	
+    <color name="gh_google_blue_500">@*android:color/accent_material_dark</color>
+    <color name="google_blue_500">@*android:color/accent_material_dark</color>
+    <color name="material_google_blue_500">@*android:color/accent_material_dark</color>
+    <color name="nearby_secondary_blue">@*android:color/accent_material_dark</color>
+    <color name="plus_facl_text_blue">@*android:color/accent_material_dark</color>
+    <color name="quantum_googblue500">@*android:color/accent_material_dark</color>
+    <color name="suw_color_accent_glif_dark">@*android:color/accent_material_dark</color>
+    <color name="suw_color_accent_glif_light">@*android:color/accent_material_dark</color>
+    <color name="text_blue">@*android:color/accent_material_dark</color>
+    <color name="udc_g_blue_500">@*android:color/accent_material_dark</color>
+    <color name="wallet_google_blue">@*android:color/accent_material_dark</color>
+    <color name="tp_google_blue">@*android:color/accent_material_dark</color>
+    <color name="auth_minutemaid_header_background">@*android:color/accent_material_dark</color>
+    <color name="activity_accent">@*android:color/accent_material_dark</color>
+    <color name="activity_secondary">@*android:color/accent_material_dark</color>
+    <color name="audience_auth_button_text_color">@*android:color/accent_material_dark</color>
+    <color name="auth_authzen_low_risk">@*android:color/accent_material_dark</color>
+    <color name="backgroundColor">@*android:color/accent_material_dark</color>
+    <color name="gf_got_it_text_color">@*android:color/accent_material_dark</color>
+    <color name="chromesync_action_button">@*android:color/accent_material_dark</color>
+    <color name="button_accent_color">@*android:color/accent_material_dark</color>
+	
+    <color name="wallet_material_link_disabled">@*android:color/accessibility_focus_highlight</color>
+    <color name="material_grey_850">@*android:color/holo_gray_bright</color>
+	
+    <color name="gh_black_opacity_60_percent">#99ffffff</color>
+    <color name="gh_black_opacity_80_percent">#ccffffff</color>
+	
+    <color name="coffee_personal_unlocking_icon_color">@*android:color/accent_material_dark</color>
+    <color name="gh_google_deep_teal">@*android:color/accent_material_dark</color>
+	
+    <color name="trust_agent_onboarding_button_background">@*android:color/primary_material_dark</color>
+    <color name="trust_agent_onboarding_button_text_color">@android:color/white</color>
+    <color name="trust_agent_onboarding_text_background">#ffb1c1c9</color>
+	
+	<color name="plus_oob_title_background_color">@*android:color/primary_material_dark</color>
+    <color name="plus_oob_title_color">@android:color/white</color>
+
+	<color name="background_floating_material_light">@android:color/black</color>
+
+	<color name="wallet_background_light">@*android:color/background_dark</color>
+
+    <color name="plus_add_to_circles_header_grey">@*android:color/primary_material_dark</color>
+    <color name="plus_add_to_circles_header_text">@android:color/white</color>
+	<color name="auth_action_button_text_color">@*android:color/primary_material_dark</color>
+	<color name="plus_auth_scope_fragment_circles_text">@*android:color/primary_material_dark</color>
+	<color name="plus_sharebox_audience_view_blue">@*android:color/primary_material_dark</color>
+	<color name="talladega_text_blue">@*android:color/primary_material_dark</color>
+	
+    <color name="credentials_black_alpha_54">#8affffff</color>
+    <color name="credentials_black_alpha_87">#deffffff</color>
+    <color name="credentials_colorPrimary">@*android:color/primary_material_dark</color>
+    <color name="common_nexus_primary_dark">@*android:color/primary_material_dark</color>
+	<color name="common_nexus_primary">@*android:color/primary_material_dark</color>
+    <color name="material_blue_grey_900">@*android:color/primary_material_dark</color>
+	<color name="highlighted_text_material_light">#66777777</color>
+
+	<color name="material_grey_400">@*android:color/primary_material_dark</color>
+	<color name="primary_material_light">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_material_dark</color>
+	<color name="gh_help_console_background">@*android:color/background_dark</color>
+	
+	<color name="google_grey_300">@*android:color/primary_material_dark</color>
+	<color name="material_blue_grey_800">@*android:color/primary_material_dark</color>
+	<color name="material_grey_300">@*android:color/primary_material_dark</color>	
+	
+	<color name="auth_grant_credentials_text_color">#ffffffff</color>
+	<color name="auth_signin_text_label">#ffffffff</color>
+	<color name="plus_apps_text_color">#ffffffff</color>
+</resources>

@@ -1,0 +1,13 @@
+
+<resources>
+<!-- Accent -->
+<color name="accent_material_dark">#f4314f</color><!--Main accent-->
+<color name="accent_material_light">#f4314f</color><!-- Sec accent-->
+<color name="highlighted_text_dark">#80f4314f</color><!--Text selection-->
+<color name="holo_blue_bright">#fff4314f</color>
+<color name="lighter_gray">#f4314f</color>
+    <!-- Gradiente -->
+    <color name="holo_red_dark">#751826</color>
+    <!-- Primary_dark -->
+    <color name="holo_orange_light">#40f4314f</color>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">@*android:color/primary_material_dark</color>
+    <color name="primary_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="accent">@*android:color/accent_material_dark</color>
+    <color name="floating_action_button_touch_tint">@*android:color/accent_material_dark</color>
+    <color name="album_background">@*android:color/material_grey_850</color>
+    <color name="album_placeholder">@*android:color/ripple_material_dark</color>
+    <color name="background_screen">@*android:color/material_grey_850</color>
+    <color name="albumset_background">@*android:color/material_grey_850</color>
+    <color name="albumset_label_background">@*android:color/material_grey_850</color>
+    <color name="albumset_placeholder">@*android:color/ripple_material_dark</color>
+    <color name="bitmap_screennail_placeholder">@*android:color/ripple_material_dark</color>
+    <color name="button_dark_transparent_background">@*android:color/material_grey_850</color>
+    <color name="cache_background">@*android:color/material_grey_850</color>
+    <color name="cache_placeholder">@*android:color/ripple_material_dark</color>
+    <color name="timeline_title_text_color">@*android:color/accent_material_dark</color>
+    <color name="timeline_title_number_text_color">#ffffff</color>
+    <color name="timeline_title_background_color">@*android:color/button_material_dark</color>
+    <color name="ingest_date_tile_text">@android:color/white</color>
+    <color name="ingest_highlight_semitransparent">#f2f2f2</color>
+    <color name="photo_background">@*android:color/material_grey_850</color>
+    <color name="photo_overlay">#40000000</color>
+    <color name="photo_placeholder">@*android:color/ripple_material_dark</color>
+    <color name="slideshow_background">@*android:color/material_grey_850</color>
+	<color name="material_blue_grey_950">@*android:color/material_grey_850</color>
+	<color name="filtershow_categoryview_background">@*android:color/material_grey_850</color>
+	<color name="filtershow_background">@*android:color/material_grey_850</color>
+    <color name="multiselect_background">@*android:color/material_grey_850</color>
+    <color name="black_transparent_4">#8affffff</color>
+</resources>

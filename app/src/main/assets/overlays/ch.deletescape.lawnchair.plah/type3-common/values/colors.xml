@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="quantum_panel_bg_color_dark">#ff000000</color>
+    <color name="accent_material_light">@*android:color/accent_material_dark</color>
+    <color name="place_autocomplete_search_text">#deffffff</color>
+    <color name="place_autocomplete_search_hint">#88ffffff</color>
+    <color name="place_autocomplete_prediction_primary_text">#FFD2D2D2</color>
+    <color name="place_autocomplete_prediction_primary_text_highlight">@*android:color/holo_blue_light</color>
+    <color name="place_autocomplete_prediction_secondary_text">#ff9a9a9a</color>
+    <color name="place_autocomplete_separator">#44ffffff</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="delete_target_hover_tint">#ffc1c1c1</color>
+    <color name="uninstall_target_hover_tint">#fff0592b</color>
+    <color name="workspace_icon_text_color">#ffffffff</color>
+    <color name="workspace_edge_effect_color">#ffffffff</color>
+    <color name="folder_edge_effect_color">#ff757575</color>
+    <color name="page_indicator_dot_color">#FFD2D2D2</color>
+    <color name="outline_color">#ffffffff</color>
+    <color name="all_apps_divider_color">#1effffff</color>
+    <color name="all_apps_caret_color">#ffffffff</color>
+    <color name="all_apps_container_color">#ff000000</color>
+    <color name="spring_loaded_panel_color">#40000000</color>
+    <color name="spring_loaded_highlighted_panel_border_color">#ffffffff</color>
+    <color name="widgets_view_section_text_color">#ffffffff</color>
+    <color name="widgets_view_item_text_color">#ddffffff</color>
+    <color name="fallback_secondary_color">#ff0c0f11</color>
+    <color name="qsb_connector">#ff000000</color>
+    <color name="qsb_background">#ffffffff</color>
+    <color name="quantum_panel_text_color">#aaffffff</color>
+    <color name="quantum_panel_bg_color">#000000</color>
+</resources>

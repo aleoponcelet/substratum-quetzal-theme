@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="background" />
+    <item type="id" name="secondaryProgress" />
+    <item type="id" name="progress" />
+    <item type="id" name="off">false</item>
+    <item type="id" name="on">false</item>
+    <item type="id" name="pressed">false</item>
+    <item type="id" name="unpressed">false</item>
+    <item type="id" name="not_pressed">false</item>
+    <item type="id" name="checked">false </item>
+    <item type="id" name="unchecked">false </item>
+</resources>

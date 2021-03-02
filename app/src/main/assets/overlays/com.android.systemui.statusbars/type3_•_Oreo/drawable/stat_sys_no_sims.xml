@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Sim Card"
+        android:pathData="m10 7h12v12h-12v-12zm1.5 3h3v1.5h-3v2.25h3v1.5h-3v2.25h9v-2.25h-3v-1.5h3v-2.25h-3v-1.5h3v-1.5h-9v1.5zm12 12.75v-17.25h-15v21h10.94l2.78 -2.78l1.06 1.06l-3.22 3.22h-13.06v-24h18v18.75h-1.5z" />
+</vector>

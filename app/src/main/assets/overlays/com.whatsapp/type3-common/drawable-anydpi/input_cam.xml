@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="DSLR Camera"
+        android:pathData="m26 14.03v-2h2v2h-2zm-2 15v-2h6v-17h-6.57l-3 -5h-8.87l-3 5h-6.57v17h6v2h-8v-21h7.43l3 -5h11.13l3 5h7.43v21h-8zm-8 -18c4.96 0 9 4.04 9 9c0 4.96 -4.04 9 -9 9c-4.96 0 -9 -4.04 -9 -9c0 -4.96 4.04 -9 9 -9zm0 16c3.86 0 7 -3.14 7 -7c0 -3.86 -3.14 -7 -7 -7c-3.86 0 -7 3.14 -7 7c0 3.86 3.14 7 7 7zm0 -12v2c-1.65 0 -3 1.35 -3 3h-2c0 -2.76 2.24 -5 5 -5z" />
+</vector>

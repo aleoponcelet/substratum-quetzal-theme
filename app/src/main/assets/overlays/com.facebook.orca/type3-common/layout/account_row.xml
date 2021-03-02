@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:orca="http://schemas.android.com/apk/com.facebook.orca"
+              android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:background="@*com.facebook.orca:drawable/orca_neue_item_background"
+              android:minHeight="@*com.facebook.orca:dimen/picture_section_width"
+              android:orientation="horizontal">
+    <com.facebook.user.tiles.UserTileView android:id="@*com.facebook.orca:id/me_user_tile_image"
+                                          android:layout_width="@*com.facebook.orca:dimen/user_tile_dimen"
+                                          android:layout_height="@*com.facebook.orca:dimen/user_tile_dimen"
+                                          android:layout_margin="@*com.facebook.orca:dimen/user_tile_margin"
+                                          orca:asCircle="true"
+                                          orca:badgeBackgroundColor="#ff424242"
+                                          orca:messengerBadge="@*com.facebook.orca:drawable/msgr_ic_messenger_user_badge_material_borderless"/>
+    <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content"
+                  android:layout_marginTop="16.0dip" android:layout_weight="1.0"
+                  android:orientation="vertical">
+        <com.facebook.resources.ui.FbTextView android:id="@*com.facebook.orca:id/name"
+                                              style="@*com.facebook.orca:style/AccountSwitchRowNameText"/>
+        <com.facebook.resources.ui.FbTextView android:id="@*com.facebook.orca:id/online_status"
+                                              android:layout_width="fill_parent"
+                                              android:layout_height="wrap_content"
+                                              android:gravity="left"
+                                              android:textColor="#8affffff"
+                                              android:textSize="14.0sp"/>
+    </LinearLayout>
+    <include android:id="@*com.facebook.orca:id/unread_count_badge"
+             layout="@*com.facebook.orca:layout/orca_neue_preference_badge"
+             android:layout_width="wrap_content" android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_marginEnd="@*com.facebook.orca:dimen/unread_badge_lr_margin"
+             android:layout_marginLeft="@*com.facebook.orca:dimen/unread_badge_lr_margin"
+             android:layout_marginRight="@*com.facebook.orca:dimen/unread_badge_lr_margin"
+             android:layout_marginStart="@*com.facebook.orca:dimen/unread_badge_lr_margin"
+             android:visibility="gone"/>
+    <ImageView android:id="@*com.facebook.orca:id/popup_menu_anchor"
+               android:layout_width="36.0dip"
+               android:layout_height="fill_parent"
+               android:background="@*com.facebook.orca:drawable/orca_neue_item_background"
+               android:contentDescription="@*com.facebook.orca:string/menu_more_options"
+               android:scaleType="center"
+               android:src="@*com.facebook.orca:drawable/orca_action_overflow_button"/>
+</LinearLayout>

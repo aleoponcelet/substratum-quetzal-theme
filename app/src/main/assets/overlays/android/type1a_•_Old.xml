@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Fondo_opaco-->              <color name="material_grey_800">#101111</color>
+  <!--Fondo_transp-->             <color name="material_blue_grey_800">#BF101111</color>
+  <!--Statusbar_and_navbar-->     <color name="material_blue_grey_900">#99101111</color>
+  <!--Sombra-->                   <color name="holo_gray_bright">#99101111</color>
+  <!--AUX-->                      <color name="holo_green_dark">#ff171818</color>
+</resources>

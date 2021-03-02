@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarPopupTheme" parent="@*com.myfitnesspal.android:style/Mfp.Theme.Default">
+        <item name="android:colorBackground">@*android:color/background_dark</item>
+        <item name="android:textColor">@*com.myfitnesspal.android:color/white</item>
+        <item name="android:textAppearanceLargePopupMenu">@*com.myfitnesspal.android:style/PopupMenuTextAppearance</item>
+        <item name="android:textAppearanceSmallPopupMenu">@*com.myfitnesspal.android:style/PopupMenuTextAppearance</item>
+        <item name="android:listPreferredItemHeightSmall">48.0dip</item>
+    </style>
+
+    <style name="AdContainer">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+</resources>

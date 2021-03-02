@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <vector android:height="19dp" android:viewportHeight="56"
+            android:viewportWidth="56" android:width="19dp" xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <path android:fillAlpha="0.3"
+                  android:fillColor="@*android:color/accent_material_dark" android:name="Ellipse" android:pathData="m8.91 28c0 -10.54 8.55 -19.09 19.09 -19.09c10.54 0 19.09 8.55 19.09 19.09c0 10.54 -8.55 19.09 -19.09 19.09c-10.54 0 -19.09 -8.55 -19.09 -19.09z"/>
+            <path android:fillColor="@*android:color/accent_material_dark" android:name="Pool" android:pathData="m28 49c-11.58 0 -21 -9.42 -21 -21c0 -11.58 9.42 -21 21 -21c11.58 0 21 9.42 21 21c0 11.58 -9.42 21 -21 21zm0 -39.38c-10.13 0 -18.38 8.24 -18.38 18.38c0 10.13 8.24 18.38 18.38 18.38c10.13 0 18.37 -8.24 18.37 -18.38c0 -10.13 -8.24 -18.38 -18.37 -18.38z"/>
+            <path android:fillColor="@*android:color/accent_material_dark" android:name="Ellipse" android:pathData="m25.67 28c0 -1.29 1.04 -2.33 2.33 -2.33c1.29 0 2.33 1.04 2.33 2.33c0 1.29 -1.04 2.33 -2.33 2.33c-1.29 0 -2.33 -1.04 -2.33 -2.33z"/>
+        </vector>
+
+    </item>
+    <item android:state_checked="false">
+        <vector android:height="19dp" android:viewportHeight="56"
+            android:viewportWidth="56" android:width="19dp" xmlns:android="http://schemas.android.com/apk/res/android">
+            <path android:fillAlpha="0.4"
+                  android:fillColor="@*android:color/background_material_dark" android:name="Ellipse" android:pathData="m8.91 28c0 -10.54 8.55 -19.09 19.09 -19.09c10.54 0 19.09 8.55 19.09 19.09c0 10.54 -8.55 19.09 -19.09 19.09c-10.54 0 -19.09 -8.55 -19.09 -19.09z"/>
+            <path android:fillAlpha="0.7" android:fillColor="#fff" android:name="Pool" android:pathData="m28 49c-11.58 0 -21 -9.42 -21 -21c0 -11.58 9.42 -21 21 -21c11.58 0 21 9.42 21 21c0 11.58 -9.42 21 -21 21zm0 -39.38c-10.13 0 -18.38 8.24 -18.38 18.38c0 10.13 8.24 18.38 18.38 18.38c10.13 0 18.37 -8.24 18.37 -18.38c0 -10.13 -8.24 -18.38 -18.37 -18.38z"/>
+            <path android:fillAlpha="0.7" android:fillColor="#fff" android:name="Ellipse" android:pathData="m25.67 28c0 -1.29 1.04 -2.33 2.33 -2.33c1.29 0 2.33 1.04 2.33 2.33c0 1.29 -1.04 2.33 -2.33 2.33c-1.29 0 -2.33 -1.04 -2.33 -2.33z"/>
+        </vector>
+    </item>
+</selector>

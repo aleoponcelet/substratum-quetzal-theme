@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+	android:width="28dp"
+	android:height="32dp"
+	android:viewportWidth="28"
+	android:viewportHeight="32">
+	<path
+		android:fillColor="@*android:color/accent_material_light"
+		android:name="Music Mixer"
+		android:pathData="m24 14c-2.206 0 -4 -1.794 -4 -4c0 -2.206 1.794 -4 4 -4c2.206 0 4 1.794 4 4c0 2.206 -1.794 4 -4 4zm0 -6c-1.102 0 -2 0.898 -2 2c0 1.103 0.898 2 2 2c1.103 0 2 -0.898 2 -2c0 -1.102 -0.897 -2 -2 -2zm-1 -8h2v4h-2v-4zm-9 26c-2.206 0 -4 -1.794 -4 -4c0 -2.206 1.794 -4 4 -4c2.206 0 4 1.794 4 4c0 2.206 -1.794 4 -4 4zm0 -6c-1.103 0 -2 0.898 -2 2c0 1.102 0.897 2 2 2c1.102 0 2 -0.898 2 -2c0 -1.102 -0.897 -2 -2 -2zm-1 -20h2v16h-2v-16zm-9 18c-2.206 0 -4 -1.794 -4 -4c0 -2.206 1.794 -4 4 -4c2.206 0 4 1.794 4 4c0 2.206 -1.794 4 -4 4zm0 -6c-1.103 0 -2 0.897 -2 2c0 1.102 0.897 2 2 2c1.102 0 2 -0.898 2 -2c0 -1.103 -0.898 -2 -2 -2zm-1 -12h2v8h-2v-8zm2 32h-2v-12h2v12zm10 0h-2v-4h2v4zm10 0h-2v-16h2v16z" />
+</vector>

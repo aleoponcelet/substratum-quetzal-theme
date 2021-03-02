@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_dark"
+        android:name="Video"
+        android:pathData="m22.76 24.99 0.48 -1.94 6.76 1.69v-11.44l-6.76 1.69l-0.48 -1.94l9.24 -2.31v16.56l-9.24 -2.31zm-18.76 -9.97h9.97v2h-9.97v-2zm-4 -4h13.97v2h-11.97v12h16v-16.15l-11.15 -1.86l0.33 -1.97l12.82 2.14v19.85h-20v-16z" />
+</vector>

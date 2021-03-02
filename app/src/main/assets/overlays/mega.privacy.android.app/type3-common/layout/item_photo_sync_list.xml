@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@*mega.privacy.android.app:id/photo_sync_large_layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@*mega.privacy.android.app:id/photo_sync_list_item_layout" android:background="@*mega.privacy.android.app:drawable/statelist_item_layout" android:backgroundTint="@*android:color/legacy_primary_dark" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <ImageView android:id="@*mega.privacy.android.app:id/photo_sync_list_thumbnail" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@*mega.privacy.android.app:id/photo_sync_list_thumbnail">
+            <TextView android:textSize="16.0sp" android:textColor="@*mega.privacy.android.app:color/file_list_first_row" android:ellipsize="middle" android:id="@*mega.privacy.android.app:id/photo_sync_list_filename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:maxLines="1" android:singleLine="true" android:layout_toRightOf="@*mega.privacy.android.app:id/photo_sync_list_thumbnail" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@*mega.privacy.android.app:color/file_list_second_row" android:ellipsize="end" android:id="@*mega.privacy.android.app:id/photo_sync_list_filesize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@*mega.privacy.android.app:id/photo_sync_list_thumbnail" android:layout_below="@*mega.privacy.android.app:id/photo_sync_list_filename" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@*mega.privacy.android.app:id/photo_sync_list_month_layout" android:background="@*mega.privacy.android.app:color/camera_uploads_list_view" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@*mega.privacy.android.app:color/mail_my_account" android:id="@*mega.privacy.android.app:id/photo_sync_list_month_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:singleLine="false" android:layout_centerVertical="true" android:fontFamily="sans-serif" />
+    </RelativeLayout>
+</RelativeLayout>

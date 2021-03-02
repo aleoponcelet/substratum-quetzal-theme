@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="cardview_light_background">@*android:color/holo_gray_bright</color>
+<color name="cardview_dark_background">@*android:color/background_material_dark</color>
+<color name="cardview_shadow_start_color">#37000000</color>
+<color name="cardview_shadow_end_color">#03000000</color>
+<color name="cards_bg_color">@*android:color/holo_gray_bright</color>
+<!-- Top title page colors -->
+<color name="tab_ripple_color">@*android:color/accent_material_light</color>
+<color name="tab_accent_color">#b3ffffff</color>
+<color name="tab_selected_underline_color">@*android:color/accent_material_light</color>
+<!-- Color for the visualizer bars -->
+<color name="visualizer_fill_color">@*android:color/accent_material_light</color>
+<!-- Color for the Progress bar -->
+<color name="circular_progress_bar_background">#40ffffff</color>
+<color name="circular_progress_bar">@*android:color/accent_material_light</color>
+<color name="accent">@*android:color/accent_material_light</color>
+<color name="background_color">@*android:color/background_material_dark</color>
+<color name="header_action_bar_color">@*android:color/primary_material_dark</color>
+<color name="header_shadow_color">#ea232323</color>
+<color name="page_header_background">@*android:color/holo_gray_bright</color>
+<color name="primary">@*android:color/accent_material_light</color>
+<color name="primary_dark">@*android:color/primary_dark_material_dark</color>
+<color name="primary_light">@*android:color/primary_dark_material_dark</color>
+
+<color name="default_text_color">@android:color/white</color>
+<color name="default_text_color_light">@android:color/white</color>
+<color name="grid_list_item_text_color">@android:color/white</color>
+
+<color name="list_base_container_background_color">@color/background_color</color>
+<color name="list_item_background">@*android:color/accent_material_light</color>
+<color name="list_item_header_text_color">@android:color/white</color>
+<color name="list_item_search_footer_text_color">@android:color/white</color>
+<color name="list_item_text_color">@android:color/white</color>
+<color name="list_item_text_color_light">@android:color/white</color>
+
+<color name="no_results">@android:color/white</color>
+<color name="smart_playlist_item_background">@*android:color/background_material_dark</color>
+</resources>

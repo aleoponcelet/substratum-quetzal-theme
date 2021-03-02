@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:launcher="http://schemas.android.com/apk/ch.deletescape.lawnchair"
+              android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:descendantFocusability="afterDescendants"
+              android:focusable="true"
+              android:orientation="vertical">
+    <ch.deletescape.lawnchair.BubbleTextView android:id="@*ch.deletescape.lawnchair.plah:id/section"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             android:background="?android:colorPrimary"
+                                             android:drawablePadding="@*ch.deletescape.lawnchair.plah:dimen/widget_section_horizontal_padding"
+                                             android:ellipsize="end"
+                                             android:focusable="true"
+                                             android:gravity="center"
+                                             android:maxLines="1"
+                                             android:paddingBottom="@*ch.deletescape.lawnchair.plah:dimen/widget_section_vertical_padding"
+                                             android:paddingLeft="@*ch.deletescape.lawnchair.plah:dimen/widget_section_horizontal_padding"
+                                             android:paddingRight="@*ch.deletescape.lawnchair.plah:dimen/widget_section_horizontal_padding"
+                                             android:paddingTop="@*ch.deletescape.lawnchair.plah:dimen/widget_section_vertical_padding"
+                                             android:textColor="#ffffffff"
+                                             android:textSize="16.0sp"
+                                             launcher:customShadows="false"
+                                             launcher:deferShadowGeneration="true"
+                                             launcher:iconDisplay="widget_section"
+                                             launcher:iconSizeOverride="12dp"
+                                             launcher:layoutHorizontal="true"/>
+    <include layout="@*ch.deletescape.lawnchair.plah:layout/widgets_scroll_container"/>
+</LinearLayout>

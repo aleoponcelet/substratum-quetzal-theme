@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="22dp"
+    android:viewportWidth="28"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Timer"
+        android:pathData="m26.709 7.121 -0.707 -0.707 -2.293 2.293 -1.414 -1.414 2.293 -2.293 -0.707 -0.707 1.414 -1.414 2.828 2.828 -1.414 1.414zm-10.707 1.879h-2v-5h3v-2h-8v2h3v5h-2v-3h-3v-6h12v6h-3v3zm5 11h-9v-9h2v7h7v2zm4.947 -2.081 -1.994 0.162c-0.334 -4.104 -2.908 -7.644 -6.719 -9.239l0.771 -1.845c4.504 1.884 7.546 6.069 7.941 10.921zm-17.182 -9.077c-4.11 1.719 -6.766 5.706 -6.766 10.158c0 6.065 4.935 11 11 11c5.68 0 10.495 -4.429 10.963 -10.082l1.994 0.165c-0.554 6.683 -6.245 11.917 -12.957 11.917c-7.168 0 -13 -5.831 -13 -13c0 -5.261 3.138 -9.972 7.994 -12.002l0.772 1.845z" />
+</vector>

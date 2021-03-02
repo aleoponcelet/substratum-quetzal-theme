@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp"
+    android:id="@*com.whatsapp:id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <FrameLayout android:id="@*com.whatsapp:id/navigation_bar_protection" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_gravity="bottom"
+        android:background="@*android:color/transparent"/>
+    <FrameLayout android:id="@*com.whatsapp:id/camera_frame" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:fitsSystemWindows="true" android:orientation="vertical">
+        <RelativeLayout android:id="@*com.whatsapp:id/call_notification"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:background="@*com.whatsapp:drawable/call_duration_bar_background"
+            android:paddingBottom="8.0dip" android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip" android:paddingTop="8.0dip">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true" android:layout_toLeftOf="@*com.whatsapp:id/call_notification_timer"
+                android:text="@*com.whatsapp:string/tap_to_return_to_call"
+                android:textColor="@android:color/white"
+                android:textSize="17.0sp"/>
+            <TextView android:id="@*com.whatsapp:id/call_notification_timer" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_alignParentRight="true"
+                android:gravity="center_vertical" android:textAllCaps="true"
+                android:textColor="@android:color/white" android:textSize="16.0sp"/>
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@*com.whatsapp:id/pager_holder" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:paddingTop="0.0dip">
+                <view android:id="@*com.whatsapp:id/pager" class="com.whatsapp.HomeActivity$TabsPager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"/>
+            </FrameLayout>
+            <LinearLayout android:id="@*com.whatsapp:id/header" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:background="?android:colorPrimary"
+                android:orientation="vertical">
+                <include layout="@*com.whatsapp:layout/toolbar"/>
+                <com.whatsapp.HomePagerSlidingTabStrip android:id="@*com.whatsapp:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@*com.whatsapp:dimen/tab_height"
+                    android:background="@*com.whatsapp:color/primary_material_dark"
+                    android:backgroundTint="@*com.whatsapp:color/primary_material_dark"
+                    style="@*com.whatsapp:style/Base.TextAppearance.AppCompat.Medium"
+                    />
+            </LinearLayout>
+            <FrameLayout android:id="@*com.whatsapp:id/search_holder" android:layout_width="fill_parent"
+                android:layout_height="@*com.whatsapp:dimen/abc_action_bar_default_height_material"
+                android:background="@*android:color/background_dark"
+                android:backgroundTint="@*android:color/background_dark"
+                android:elevation="@*com.whatsapp:dimen/actionbar_elevation"
+                android:visibility="invisible"/>
+            <ImageView android:id="@*com.whatsapp:id/fab" android:layout_width="@*com.whatsapp:dimen/submit_button_size"
+                android:layout_height="@*com.whatsapp:dimen/submit_button_size"
+                android:layout_gravity="bottom|center|right"
+                android:layout_margin="16.0dip"
+                android:background="@*com.whatsapp:drawable/input_circle_green" android:elevation="4.0dip"
+                android:scaleType="center"/>
+            <ImageView android:id="@*com.whatsapp:id/fab_aux" android:layout_width="46.0dip"
+                android:layout_height="46.0dip" android:layout_gravity="bottom|center|right"
+                android:layout_marginBottom="88.0dip" android:layout_marginRight="21.0dip"
+                android:background="@*com.whatsapp:drawable/input_circle_grey" android:contentDescription="@*com.whatsapp:string/menuitem_new_text_status"
+                android:elevation="0.0dip"
+                android:scaleType="center"
+                android:visibility="gone"/>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@*com.whatsapp:id/preview_container" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+</FrameLayout>

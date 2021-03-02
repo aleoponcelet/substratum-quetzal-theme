@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Soda can"
+        android:pathData="m22.45 8.27 1.84 -0.78c0.47 1.11 0.71 2.29 0.71 3.5h-2c0 -0.95 -0.19 -1.86 -0.55 -2.73zm-5.31 2.21 6.04 -10 1.71 1.03 -6.04 10 -1.71 -1.03zm-1.14 -6.48c-3.86 0 -7 3.14 -7 7h-2c0 -4.96 4.04 -9 9 -9c1.2 0 2.36 0.23 3.46 0.69l-0.77 1.85c-0.85 -0.36 -1.76 -0.53 -2.69 -0.53zm-5 7c0 -2.76 2.24 -5 5 -5v2c-1.65 0 -3 1.35 -3 3h-2zm10.84 21h-11.68l-3.35 -19h18.38l-3.35 19zm-10 -2h8.32l2.65 -15h-13.62l2.65 15zm0.12 -11.85 1.98 -0.31 1.41 9 -1.98 0.31 -1.41 -9z" />
+</vector>

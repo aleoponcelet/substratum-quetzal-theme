@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tumblr_dark">@*android:color/background_dark</color>
+    <color name="tumblr_100">@*android:color/background_dark</color>
+	
+	<color name="tumblr_accent">@*android:color/accent_material_dark</color>
+	<color name="tumblr_accent_95">@*android:color/accent_material_dark</color>
+	<color name="chat_post_color">@*android:color/accent_material_dark</color>
+	<color name="link_post_color">@*android:color/accent_material_dark</color>
+	<color name="post_actionable_button_color">@*android:color/accent_material_dark</color>
+	
+	<color name="tumblr_40">@android:color/white</color>
+	
+	<color name="rainy_gray">#ff666666</color>
+
+</resources>

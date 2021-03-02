@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#f7c783"
+        android:name="Signal"
+        android:pathData="m6 12.5c2.04 0 3.69 1.68 3.69 3.75c0 2.07 -1.66 3.75 -3.69 3.75c-2.04 0 -3.69 -1.68 -3.69 -3.75c0 -2.07 1.66 -3.75 3.69 -3.75zm0 5.63c1.02 0 1.85 -0.84 1.85 -1.88c0 -1.03 -0.83 -1.88 -1.85 -1.88c-1.02 0 -1.85 0.84 -1.85 1.88c0 1.03 0.83 1.88 1.85 1.88z" />
+    <path
+        android:fillColor="#f7c783"
+        android:name="Signal"
+        android:pathData="m16 12.5c2.04 0 3.69 1.68 3.69 3.75c0 2.07 -1.66 3.75 -3.69 3.75c-2.04 0 -3.69 -1.68 -3.69 -3.75c0 -2.07 1.66 -3.75 3.69 -3.75zm0 5.63c1.02 0 1.85 -0.84 1.85 -1.88c0 -1.03 -0.83 -1.88 -1.85 -1.88c-1.02 0 -1.85 0.84 -1.85 1.88c0 1.03 0.83 1.88 1.85 1.88z" />
+    <path
+        android:fillColor="#f7c783"
+        android:name="Signal"
+        android:pathData="m26 12.5c2.04 0 3.69 1.68 3.69 3.75c0 2.07 -1.66 3.75 -3.69 3.75c-2.04 0 -3.69 -1.68 -3.69 -3.75c0 -2.07 1.66 -3.75 3.69 -3.75zm0 5.63c1.02 0 1.85 -0.84 1.85 -1.88c0 -1.03 -0.83 -1.88 -1.85 -1.88c-1.02 0 -1.85 0.84 -1.85 1.88c0 1.03 0.83 1.88 1.85 1.88z" />
+</vector>

@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillAlpha="0.4" 
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Tag"
+        android:pathData="m29.13 14.98v-12.11h-12.14v-1.86h14v13.98h-1.87zm-7.5 0c-2.57 -0.02 -4.66 -2.12 -4.64 -4.69c0.01 -2.55 2.11 -4.63 4.67 -4.63c2.6 0.02 4.68 2.12 4.67 4.69c-0.01 2.55 -2.11 4.63 -4.67 4.63h-0.03zm2.83 -4.64c0.01 -1.54 -1.24 -2.8 -2.78 -2.81c-1.55 0 -2.81 1.25 -2.82 2.78c-0.01 1.54 1.24 2.8 2.78 2.81l0.02 0.93v-0.93c1.53 0 2.79 -1.25 2.8 -2.78zm3.07 5.85 1.32 1.32 -12.8 13.5 -15.06 -15.09 13.47 -12.77 1.32 1.32 -12.15 11.45 12.42 12.46 11.48 -12.18z" />
+</vector>

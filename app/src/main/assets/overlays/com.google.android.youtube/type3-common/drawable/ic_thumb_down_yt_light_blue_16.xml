@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="16dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Dislike"
+        android:pathData="m8.239 14.853v6.146c0 1.654 1.347 3 3.002 3c1.655 0 3.002 -1.346 3.002 -3v-2.737l2.612 -3.263h1.14v-1.5h-1.862l-3.392 4.237v3.263c0 0.827 -0.673 1.5 -1.501 1.5c-0.828 0 -1.501 -0.673 -1.501 -1.5v-7.377l-0.617 -0.134l-7.28 -1.346l2.457 -10.642h6.835l5.359 1.5h1.501v-1.5h-1.396l-5.359 -1.5h-8.114l-3.127 13.334l8.239 1.519zm15.761 -13.353h-4.503v13.5h4.503v-13.5zm-1.501 12h-1.501v-10.5h1.501v10.5z" />
+</vector>

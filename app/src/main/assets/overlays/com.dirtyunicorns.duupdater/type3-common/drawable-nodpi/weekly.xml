@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#fff"
+        android:name="Agenda"
+        android:pathData="m2 20.5v-15.179h3.75v1.214h-2.5v3.036h17.5v-3.036h-2.5v-1.214h3.75v15.179h-20zm1.25 -9.714v8.5h17.5v-8.5h-17.5zm3.75 6.071v-1.214h10v1.214h-10zm0 -3.643h10v1.214h-10v-1.214zm6.875 -9.714h3.125v4.857h-3.125v-4.857zm1.25 3.643h0.625v-2.429h-0.625v2.429zm-3.75 -1.821h1.25v1.214h-1.25v-1.214zm-4.375 -1.821h3.125v4.857h-3.125v-4.857zm1.25 3.643h0.625v-2.429h-0.625v2.429z" />
+</vector>

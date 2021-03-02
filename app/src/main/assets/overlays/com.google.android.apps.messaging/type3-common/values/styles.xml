@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="ConversationMessageViewStyle">
+    <item name="android:paddingStart">8.0dip</item>
+    <item name="android:paddingEnd">8.0dip</item>
+    <item name="android:backgroundTint">#ffffffff</item>
+  </style>
+  <style name="ConversationListFragmentStartNewButtonStyle">
+    <item name="android:backgroundTint">@null</item>
+    <item name="android:layout_marginRight">@*com.google.android.apps.messaging:dimen/fab_left_right_margin</item>
+  </style>
+
+
+
+  <style name="AppBaseTheme" parent="@android:style/Theme" />
+  <style name="BugleActionBar">
+    <item name="android:backgroundTint">@null</item>
+  </style>
+  <style name="BugleToolbar" >
+    <item name="android:backgroundTint">@null</item>
+  </style>
+</resources>

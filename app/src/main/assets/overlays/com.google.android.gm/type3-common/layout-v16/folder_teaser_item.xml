@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@*com.google.android.gm:id/folder_teaser_row" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@*com.google.android.gm:dimen/folder_teaser_item_height" style="@*com.google.android.gm:style/FolderTeaserPaddingEndStyle">
+        <ImageView android:layout_gravity="center_vertical" android:id="@*com.google.android.gm:id/nested_folder_icon" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="@*com.google.android.gm:dimen/folder_teaser_start_margin" android:layout_height="wrap_content" android:src="@*com.google.android.gm:drawable/ic_drawer_folder_24dp" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@*com.google.android.gm:id/text_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@*com.google.android.gm:style/FolderTeaserPaddingEndStyle">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@*com.google.android.gm:color/folder_teaser_main_text" android:ellipsize="end" android:id="@*com.google.android.gm:id/folder_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@*com.google.android.gm:color/folder_teaser_sub_text" android:ellipsize="end" android:id="@*com.google.android.gm:id/senders_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+        <TextView android:id="@*com.google.android.gm:id/unread_count_textView" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@*com.google.android.gm:style/FolderTeaserUnreadCountTextStyle" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@*com.google.android.gm:id/unseen_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:id="@*com.google.android.gm:id/unseen_count_textView" android:visibility="gone" android:minWidth="57.0sp" style="@*com.google.android.gm:style/UnseenCount" />
+            <include layout="@*com.google.android.gm:layout/promo_folder_teaser_item" />
+        </LinearLayout>
+    </LinearLayout>
+    <View style="@*com.google.android.gm:style/ConversationListDividerStyle" />
+</LinearLayout>

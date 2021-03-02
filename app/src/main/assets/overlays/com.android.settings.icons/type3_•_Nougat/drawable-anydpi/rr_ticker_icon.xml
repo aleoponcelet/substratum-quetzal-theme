@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Tablet"
+        android:pathData="m11.25 19.5h1.5v1.5h-1.5v-1.5zm-8.25 -16.499h1.5v19.499h15v-19.499h1.5v20.999h-18v-20.999zm3 14.999v-15h12v15h-12zm10.5 -1.5v-12h-9v12h9zm4.5 -16.5v1.5h-18v-1.5h18z" />
+</vector>

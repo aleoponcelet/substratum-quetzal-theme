@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="AdminMessageItem">
+    <item name="android:backgroundTint">@null</item>
+    <item name="android:paddingTop">12.0dip</item>
+    <item name="android:layout_marginTop">5.0dip</item>
+    <item name="android:layout_marginBottom">8.0dip</item>
+  </style>
+
+
+
+  <style name="Widget.Messenger.Neue.Button.PanelBottom" parent="@*com.facebook.orca:style/Widget.Messenger.Neue.Button">
+  <item name="android:background">@*com.facebook.orca:drawable/neue_orca_panel_button_background</item>
+  <item name="android:backgroundTint">#ff424242</item>
+  <item name="android:minHeight">48.0dip</item>
+  <item name="android:maxLines">1</item>
+  <item name="android:lines">1</item>
+</style>
+
+
+  <!--<style name="Widget.Messenger.Toolbar.Material.ChatHeads" parent="@*com.facebook.orca:style/Widget.Messenger.Toolbar.Material">
+       <item name="android:background">@*com.facebook.orca:drawable/orca_neue_ab_background</item>
+   </style>
+   <style name="Theme.Messenger.Material.ChatHeads" parent="@*com.facebook.orca:style/Theme.Messenger.Material">
+   <item name="*com.facebook.orca:toolbarStyle">@*com.facebook.orca:style/Widget.Messenger.Toolbar.Material.ChatHeads</item>
+   <item name="*com.facebook.orca:popupMenuStyle">@*com.facebook.orca:style/OrcaChatHeadsPopupMenu</item>
+   <item name="*com.facebook.orca:presenceIndicatorTextStyle">@*com.facebook.orca:style/PresenceIndicatorTextStyle.ChatHeads</item>
+   <item name="*com.facebook.orca:presenceIndicatorIconStyle">@*com.facebook.orca:style/PresenceIndicatorIconStyle.ChatHeads</item>
+   <item name="*com.facebook.orca:omniPickerTincanToggleStyle">@*com.facebook.orca:style/Widget.Messenger.OmniPickerTincanToggle.ChatHeads</item>
+   <item name="*com.facebook.orca:divebarFragmentTheme">@*com.facebook.orca:style/Subtheme.Messenger.Material.Divebar.DiveHead</item>
+   <item name="*com.facebook.orca:threadViewFragmentTheme">@*com.facebook.orca:style/Subtheme.Messenger.Material.ThreadView.ChatHeads</item>
+   <item name="*com.facebook.orca:threadTitleNameStyle">@*com.facebook.orca:style/Widget.Messenger.ThreadTitle.Material</item>
+   <item name="*com.facebook.orca:threadTitleStatusStyle">@*com.facebook.orca:style/Widget.Messenger.ThreadStatus.Material</item>
+   <item name="*com.facebook.orca:messageComposerTheme">@*com.facebook.orca:style/Subtheme.Messenger.Material.MessageComposer.ChatHeads</item>
+   <item name="*com.facebook.orca:topToolbarContentInsetStart">8.0dip</item>
+</style>-->
+  <style name="AccountSwitchDialog.Content.Description" parent="@*com.facebook.orca:style/AccountSwitchDialog.Content">
+    <item name="android:layout_marginTop">12.0dip</item>
+    <item name="android:textColor">#8affffff</item>
+    <item name="android:textSize">13.0sp</item>
+  </style>
+  <style name="AccountSwitchDialog.Content.Input" parent="@*com.facebook.orca:style/AccountSwitchDialog.Content">
+    <item name="android:background">@*com.facebook.orca:drawable/orca_reg_text_field</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:gravity">center|left</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textColorHint">@*com.facebook.orca:color/orca_neue_login_text</item>
+    <item name="android:textCursorDrawable">@*com.facebook.orca:drawable/dialog_input_field_cursor</item>
+  </style>
+  <style name="AccountSwitchDialog.Title" parent="@*com.facebook.orca:style/AccountSwitchDialog">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:textColor">#deffffff</item>
+    <item name="android:textSize">18.0sp</item>
+  </style>
+  <style name="commerce_bubble_retail_item_desc">
+    <item name="android:ellipsize">end</item>
+    <item name="android:lineSpacingExtra">2.0dip</item>
+    <item name="android:maxLines">6</item>
+    <item name="android:textColor">#8affffff</item>
+    <item name="android:textSize">12.0sp</item>
+  </style>
+  <style name="commerce_bubble_retail_item_domain">
+    <item name="android:maxLines">1</item>
+    <item name="android:textColor">#61ffffff</item>
+    <item name="android:textSize">12.0sp</item>
+  </style>
+  <style name="commerce_bubble_retail_item_metaline">
+    <item name="android:ellipsize">end</item>
+    <item name="android:lineSpacingExtra">2.0dip</item>
+    <item name="android:maxLines">2</item>
+    <item name="android:minLines">1</item>
+    <item name="android:textColor">#8affffff</item>
+    <item name="android:textSize">12.0sp</item>
+  </style>
+  <style name="commerce_bubble_retail_item_title">
+    <item name="*com.facebook.orca:fbFontFamily">roboto</item>
+    <item name="*com.facebook.orca:fbFontWeight">medium</item>
+    <item name="android:lineSpacingExtra">2.0dip</item>
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:textSize">14.0sp</item>
+  </style>
+  <style name="LiveLocationKeyboardButton" parent="@*com.facebook.orca:style/LiveLocationRoundedButton">
+    <item name="*com.facebook.orca:cardElevation">0.0dip</item>
+    <item name="android:foreground">@null</item>
+    <item name="android:layout_margin">@*com.facebook.orca:dimen/live_location_keyboard_button_margin</item>
+  </style>
+  <style name="MePreferenceIconStyle">
+    <item name="android:layout_alignParentLeft">true</item>
+    <item name="android:layout_centerVertical">true</item>
+    <item name="android:layout_marginLeft">@*com.facebook.orca:dimen/orca_me_preference_icon_margin_start</item>
+    <item name="android:layout_marginRight">@*com.facebook.orca:dimen/orca_me_preference_icon_margin_end</item>
+    <item name="android:tint">#ffffffff</item>
+  </style>
+  <style name="MePreferenceProfileName">
+    <item name="android:gravity">center</item>
+    <item name="android:paddingBottom">16.0dip</item>
+    <item name="android:paddingLeft">16.0dip</item>
+    <item name="android:paddingRight">16.0dip</item>
+    <item name="android:paddingTop">12.0dip</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">@*com.facebook.orca:dimen/fbui_text_size_xxxlarge_1</item>
+  </style>
+  <style name="MontageInboxItem.Text.Primary.Blankstate" parent="@*com.facebook.orca:style/MontageInboxItem.Text.Primary"> <!--titolo storie-->
+    <item name="android:includeFontPadding">false</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">@*com.facebook.orca:dimen/msgr_montage_inbox_unit_text_large</item>
+  </style>
+  <style name="OrcaDialogNeueListItem">
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:textSize">16.0sp</item>
+  </style>
+  <style name="OrcaDialogNeueMessage">
+    <item name="android:textColor">#8affffff</item>
+    <item name="android:textSize">16.0sp</item>
+  </style>
+  <style name="OrcaDialogNeueWindowTitle">
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:textSize">20.0sp</item>
+  </style>
+  <style name="OrcaRegBodyText">
+    <item name="android:textColor">#dfffffff</item>
+    <item name="android:textSize">14.0sp</item>
+  </style>
+  <style name="OrcaRegMainTitleText">
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">@*com.facebook.orca:dimen/orca_reg_main_title_size</item>
+  </style>
+  <style name="OrcaRegTextInput">
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">16.0sp</item>
+  </style>
+  <style name="PlatformGameAdminMessagePrimaryText">
+    <item name="*com.facebook.orca:fbFontFamily">roboto</item>
+    <item name="*com.facebook.orca:fbFontWeight">medium</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:gravity">start|center</item>
+    <item name="android:layout_marginEnd">@*com.facebook.orca:dimen/orca_platform_game_admin_message_primary_text_margin</item>
+    <item name="android:layout_marginLeft">@*com.facebook.orca:dimen/orca_platform_game_admin_message_primary_text_margin</item>
+    <item name="android:layout_marginRight">@*com.facebook.orca:dimen/orca_platform_game_admin_message_primary_text_margin</item>
+    <item name="android:layout_marginStart">@*com.facebook.orca:dimen/orca_platform_game_admin_message_primary_text_margin</item>
+    <item name="android:lineSpacingExtra">@*com.facebook.orca:dimen/orca_platform_game_admin_message_primary_text_line_spacing</item>
+    <item name="android:maxLines">2</item>
+    <item name="android:minLines">1</item>
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:textSize">@*com.facebook.orca:dimen/orca_platform_game_admin_message_medium_text_size</item>
+  </style>
+  <style name="PreferencePrimaryTextStyle.Caspian" parent="@*com.facebook.orca:style/Widget.ListView.PrimaryItem.TextStyle">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+  <style name="TextAppearance.Messenger.ContextBannerMainContext" parent="@*com.facebook.orca:style/TextAppearance.Messenger">
+    <item name="android:shadowColor">@*android:color/white</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowRadius">2</item>
+    <item name="android:textColor">@*android:color/white</item>
+    <item name="android:textSize">@*com.facebook.orca:dimen/fbui_text_size_medium</item>
+  </style>
+  <style name="TextAppearance.Messenger.ContextBannerTitle" parent="@*com.facebook.orca:style/TextAppearance.Messenger">
+    <item name="android:shadowColor">@*android:color/white</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowRadius">2</item>
+    <item name="android:textColor">@*android:color/white</item>
+    <item name="android:textSize">@*com.facebook.orca:dimen/fbui_text_size_xxxlarge_1</item>
+  </style>
+  <style name="Widget.AppCompat.Toolbar" parent="@*com.facebook.orca:style/Base.Widget.AppCompat.Toolbar">
+    <item name="android:backgroundTint">@null</item>
+  </style>
+  <style name="Widget.Messenger.Button.Grey" parent="@*com.facebook.orca:style/Widget.Messenger.Button">
+    <item name="*com.facebook.orca:fbFontFamily">roboto</item>
+    <item name="android:background">@*com.facebook.orca:drawable/msgr_grey_rect_button</item>
+    <item name="android:backgroundTint">@null</item>
+    <item name="android:gravity">center</item>
+    <item name="android:minWidth">@*com.facebook.orca:dimen/msgr_rect_button_min_width</item>
+    <item name="android:paddingLeft">16.0dip</item>
+    <item name="android:paddingRight">16.0dip</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+  <style name="Widget.Messenger.ComposerEditText" parent="@*com.facebook.orca:style/Widget.Messenger">
+    <item name="android:background">@*com.facebook.orca:drawable/orca_compose_edit_text_spacing</item>
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:textColorHint">#99ffffff</item>
+    <item name="android:textSize">@*com.facebook.orca:dimen/fbui_text_size_large</item>
+  </style>
+  <style name="Widget.Messenger.ContactPickerItem.Container" parent="@*com.facebook.orca:style/Widget.Messenger.ContactPickerItem">
+    <item name="android:background">@*android:color/material_grey_800</item>
+    <item name="android:layout_height">@*com.facebook.orca:dimen/material_contact_picker_row_height</item>
+    <item name="android:paddingLeft">@*com.facebook.orca:dimen/material_standard_padding</item>
+    <item name="android:paddingRight">@*com.facebook.orca:dimen/material_standard_padding</item>
+  </style>
+  <style name="Widget.Messenger.Material.ListView" parent="@*com.facebook.orca:style/Widget.Messenger.ListView">
+    <item name="android:drawSelectorOnTop">false</item>
+    <item name="android:listSelector">?android:selectableItemBackground</item>
+  </style>
+</resources>

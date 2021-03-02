@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="32dp"
+    android:viewportWidth="28"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Corkscrew"
+        android:pathData="m24 7.998h-20c-2.206 0 -4 -1.794 -4 -4c0 -2.206 1.794 -4 4 -4h20c2.206 0 4 1.794 4 4c0 2.206 -1.794 4 -4 4zm0 -6h-20c-1.103 0 -2 0.897 -2 2c0 1.103 0.897 2 2 2h20c1.103 0 2 -0.897 2 -2c0 -1.103 -0.897 -2 -2 -2zm-9.371 19.02 -4.023 -3.977 2.395 -2.451v-4.593h2v5.407l-1.574 1.612l4.055 4.007l-4.07 3.988l1.611 1.574l-0.022 5.415l-2 -0.008l0.018 -4.569l-2.467 -2.411l4.078 -3.996z" />
+</vector>

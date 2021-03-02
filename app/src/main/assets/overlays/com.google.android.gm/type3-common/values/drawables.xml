@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="drawable" name="account_list_background">@*com.google.android.gm:drawable/nonfolder_item</item>
+    <item type="drawable" name="notification_template_icon_bg">#33000000</item>
+</resources>

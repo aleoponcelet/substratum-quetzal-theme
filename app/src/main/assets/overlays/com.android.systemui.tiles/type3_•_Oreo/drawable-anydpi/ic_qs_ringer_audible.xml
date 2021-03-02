@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@*android:color/transparent"
+    android:tintMode="src_atop"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="Ringer"
+        android:pathData="m6 26.31 1.83 -12.31c0.04 -4.6 3.68 -8.34 8.15 -8.34c4.47 0 8.11 3.73 8.15 8.33l1.86 12.32h-20zm16.33 -12.24c0 -3.6 -2.84 -6.53 -6.34 -6.53c-3.5 0 -6.34 2.93 -6.34 6.54l-0.01 0.15l-1.72 10.2h16.15l-1.73 -10.36zm-6.34 -4.65v1.88c-1.5 0 -2.72 1.25 -2.72 2.8l-0.01 0.54l-0.91 7.11l-1.8 -0.25l0.9 -7.4c0 -2.58 2.03 -4.67 4.53 -4.67zm-2.86 -7.51 5.44 -0.91 0.29 1.85 -5.44 0.91 -0.29 -1.85zm2.86 27.21c0.5 0 0.91 -0.42 0.91 -0.94h1.81c0 1.55 -1.22 2.82 -2.72 2.82c-1.5 0 -2.72 -1.26 -2.72 -2.82h1.81c0 0.52 0.41 0.94 0.91 0.94z" />
+</vector>

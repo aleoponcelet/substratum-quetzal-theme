@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ch.deletescape.lawnchair.shortcuts.DeepShortcutView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/ch.deletescape.lawnchair"
+    android:layout_width="@*ch.deletescape.lawnchair.plah:dimen/bg_popup_item_width"
+    android:layout_height="@*ch.deletescape.lawnchair.plah:dimen/bg_popup_item_height">
+    <ch.deletescape.lawnchair.shortcuts.DeepShortcutTextView android:id="@*ch.deletescape.lawnchair.plah:id/bubble_text"
+                                                             style="@*ch.deletescape.lawnchair.plah:style/Base.TextAppearance.AppCompat.Small"
+                                                             android:background="?android:selectableItemBackground"
+                                                             android:backgroundTint="@null"
+                                                             android:drawableEnd="@*ch.deletescape.lawnchair.plah:drawable/deep_shortcuts_drag_handle"
+                                                             android:drawablePadding="@*ch.deletescape.lawnchair.plah:dimen/deep_shortcut_drawable_padding"
+                                                             android:fontFamily="sans-serif"
+                                                             android:gravity="start|center"
+                                                             android:paddingEnd="@*ch.deletescape.lawnchair.plah:dimen/popup_padding_end"
+                                                             android:paddingStart="@*ch.deletescape.lawnchair.plah:dimen/deep_shortcuts_text_padding_start"
+                                                             android:textAlignment="viewStart"
+                                                             android:textColor="#ffffffff"
+                                                             android:textSize="14.0sp"
+    />
+    <View android:id="@*ch.deletescape.lawnchair.plah:id/icon" android:layout_width="@*ch.deletescape.lawnchair.plah:dimen/deep_shortcut_icon_size"
+          android:layout_height="@*ch.deletescape.lawnchair.plah:dimen/deep_shortcut_icon_size"
+          android:layout_gravity="start|center"
+          android:layout_marginStart="@*ch.deletescape.lawnchair.plah:dimen/popup_padding_start"/>
+    <View android:id="@*ch.deletescape.lawnchair.plah:id/divider"
+          android:layout_width="@*ch.deletescape.lawnchair.plah:dimen/deep_shortcuts_divider_width"
+          android:layout_height="@*ch.deletescape.lawnchair.plah:dimen/popup_item_divider_height" android:layout_gravity="end|bottom|center"
+          android:background="?android:listDivider"
+          android:visibility="gone"/>
+</ch.deletescape.lawnchair.shortcuts.DeepShortcutView>

@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="20dp"
+android:height="20dp"
+android:viewportWidth="32"
+android:viewportHeight="32">
+<path
+    android:fillColor="#fff"
+    android:name="Download"
+    android:pathData="m32 30h-8v-2h6v-24h-6v-2h8v28zm-22 -4.13v-5.87h-10v-2h12v4.13l9.2 -6.13l-9.2 -6.13v4.13h-12v-2h10v-5.87l14.8 9.87l-14.8 9.87z" />
+</vector>

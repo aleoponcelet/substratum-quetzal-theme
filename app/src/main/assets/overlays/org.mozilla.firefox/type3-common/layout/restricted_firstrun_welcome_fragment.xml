@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@*org.mozilla.firefox:color/restricted_profile_background_gold"
+        android:minHeight="@*org.mozilla.firefox:dimen/firstrun_min_height"
+        android:orientation="vertical"
+        android:weightSum="50.0">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="21.0"
+            android:padding="30.0dip">
+
+            <TextView
+                android:layout_width="320.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@*org.mozilla.firefox:color/restricted_profile_background_green"
+                android:gravity="center"
+                android:paddingBottom="40.0dip"
+                android:paddingLeft="30.0dip"
+                android:paddingRight="30.0dip"
+                android:paddingTop="40.0dip"
+                android:text="@*org.mozilla.firefox:string/firstrun_welcome_restricted"
+                android:textColor="#ffffffff"
+                android:textSize="22.0sp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="29.0"
+            android:background="#ff000000"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="40.0dip">
+
+            <Button
+                android:id="@*org.mozilla.firefox:id/welcome_browse"
+                style="@*org.mozilla.firefox:style/Widget.Firstrun.Button"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20.0dip"
+                android:background="@*org.mozilla.firefox:drawable/button_background_action_blue_round"
+                android:text="@*org.mozilla.firefox:string/firstrun_welcome_button_browser"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@*org.mozilla.firefox:id/learn_more_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20.0dip"
+                android:text="@*org.mozilla.firefox:string/pref_learn_more"
+                android:textAppearance="@*org.mozilla.firefox:style/TextAppearance.Link" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="Layers"
+        android:pathData="m16 19.15 -15.11 -8.14 15.11 -8.14 15.11 8.14 -15.11 8.14zm-10.89 -8.14 10.89 5.86 10.89 -5.86 -10.89 -5.86 -10.89 5.86zm10.89 10.76 13.56 -6.66 0.88 1.8 -14.44 7.09 -14.44 -7.09 0.88 -1.8 13.56 6.66zm0 5.13 13.56 -6.66 0.88 1.8 -14.44 7.09 -14.44 -7.09 0.88 -1.8 13.56 6.66z" />
+</vector>

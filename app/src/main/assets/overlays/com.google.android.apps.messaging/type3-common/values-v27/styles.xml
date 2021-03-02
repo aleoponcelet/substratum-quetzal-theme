@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="BugleBaseTheme" parent="@*com.google.android.apps.messaging:style/Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:navigationBarColor">@android:color/background_dark</item></style>
+  <style name="BugleBaseToolbarTheme" parent="@*com.google.android.apps.messaging:style/Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:navigationBarColor">@android:color/background_dark</item></style>
+  <style name="BugleCameraActivityTheme" parent="@*com.google.android.apps.messaging:style/BugleDarkNavBarTheme" />
+  <style name="BuglePhotoViewTheme" parent="@*com.google.android.apps.messaging:style/PhotoViewTheme.Translucent">
+    <item name="android:navigationBarColor">@android:color/background_dark</item>
+    <item name="actionModeShareDrawable">@*com.google.android.apps.messaging:drawable/ic_share_light</item></style>
+  <style name="BuglePromoTheme" parent="@*com.google.android.apps.messaging:style/BugleDarkNavBarTheme" />
+  <style name="BugleDarkNavBarTheme" parent="@*com.google.android.apps.messaging:style/BugleTheme">
+    <item name="android:navigationBarColor">@android:color/background_dark</item></style>
+</resources>

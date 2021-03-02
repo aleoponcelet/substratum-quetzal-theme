@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.CompactMenu" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/transparent</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Menu" parent="@*com.google.android.gm:style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@*com.google.android.gm:dimen/abc_text_size_menu_material</item>
+        <item name="android:textColor">@*com.google.android.gm:color/text_color_black</item>
+        <item name="android:textColorHighlight">@*android:color/ripple_material_dark</item>
+        <item name="android:textColorHint">@*android:color/ripple_material_dark</item>
+        <item name="android:textColorLink">@*android:color/white</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListPopupWindow" parent="">
+        <item name="android:dropDownSelector">@*com.google.android.gm:drawable/list_pressed_holo</item>
+        <item name="android:popupBackground">@*com.google.android.gm:drawable/abc_popup_background_mtrl_mult</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="ComposeBodyView" parent="@*com.google.android.gm:style/ComposeEditTextView">
+        <item name="android:textColor">@*com.google.android.gm:color/compose_user_text</item>
+        <item name="android:textColorHint">@*com.google.android.gm:color/compose_label_hint</item>
+        <item name="android:inputType">textLongMessage|textAutoCorrect|textCapSentences|textMultiLine</item>
+        <item name="android:imeOptions">actionDone|flagNoEnterAction|flagNoFullscreen</item>
+    </style>
+    <style name="DefaultDividerStyle">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@*com.google.android.gm:dimen/divider_height</item>
+    </style>
+    <style name="AbstractComposeArea">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:animateLayoutChanges">true</item>
+    </style>
+    <style name="AccountSetupDialogActivityTheme" parent="@*com.google.android.gm:style/Theme.AppCompat.Light.Dialog">
+        <item name="*com.google.android.gm:suwCardBackground">@*android:color/transparent</item>
+        <item name="*com.google.android.gm:colorPrimary">@*android:color/material_grey_850</item>
+        <item name="*com.google.android.gm:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="*com.google.android.gm:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+
+
+    <style name="FolderListItemStyle">
+        <item name="android:layout_marginLeft">@*com.google.android.gm:dimen/folder_list_item_text_start_margin</item>
+        <item name="android:layout_marginRight">@*com.google.android.gm:dimen/folder_list_item_end_margin</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="AccountsSwitcher.AccountDetailsAvatarStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:layout_width">@*com.google.android.gm:dimen/recent_account_avatar_size</item>
+        <item name="android:layout_height">@*com.google.android.gm:dimen/recent_account_avatar_size</item>
+    </style>
+    <style name="AccountsSwitcher.AccountDetailsStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:textColor">@*com.google.android.gm:color/account_text_color</item>
+        <item name="android:layout_marginLeft">@*com.google.android.gm:dimen/start_horiz_padding</item>
+    </style>
+    <style name="AccountsSwitcher.AvatarStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:layout_width">@*com.google.android.gm:dimen/selected_account_avatar_size</item>
+        <item name="android:layout_height">@*com.google.android.gm:dimen/selected_account_avatar_size</item>
+        <item name="android:layout_marginLeft">@*com.google.android.gm:dimen/start_horiz_padding</item>
+        <item name="android:layout_marginTop">@*com.google.android.gm:dimen/avatar_margin_top</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="AccountsSwitcher.RecentsOneStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:layout_width">@*com.google.android.gm:dimen/recent_account_avatar_size</item>
+        <item name="android:layout_height">@*com.google.android.gm:dimen/recent_account_avatar_size</item>
+        <item name="android:layout_marginLeft">@*com.google.android.gm:dimen/recents_start_horiz_padding</item>
+        <item name="android:layout_marginTop">@*com.google.android.gm:dimen/avatar_margin_top</item>
+        <item name="android:layout_marginRight">@*com.google.android.gm:dimen/recents_end_horiz_padding</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="AccountsSwitcher.RecentsTwoStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:layout_width">@*com.google.android.gm:dimen/recent_account_avatar_size</item>
+        <item name="android:layout_height">@*com.google.android.gm:dimen/recent_account_avatar_size</item>
+        <item name="android:layout_marginTop">@*com.google.android.gm:dimen/avatar_margin_top</item>
+        <item name="android:layout_toLeftOf">@*com.google.android.gm:id/avatar_recents_one</item>
+    </style>
+    <style name="AccountsSwitcher.ManageAccountsStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:paddingLeft">@*com.google.android.gm:dimen/start_horiz_padding</item>
+        <item name="android:paddingRight">@*com.google.android.gm:dimen/start_horiz_padding</item>
+    </style>
+    <style name="AccountsSwitcher.ManageAccountsFrameStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:layout_width">@*com.google.android.gm:dimen/recent_account_avatar_size</item>
+        <item name="android:layout_height">@*com.google.android.gm:dimen/recent_account_avatar_size</item>
+    </style>
+    <style name="AccountsSwitcher.ManageAccountsIconStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="AccountsSwitcher.ManageAccountsTextStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:textColor">@*com.google.android.gm:color/manage_accounts_text_color</item>
+        <item name="android:layout_marginLeft">@*com.google.android.gm:dimen/start_horiz_padding</item>
+    </style>
+    <style name="AccountsSwitcher.AccountTextStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:textColor">@*com.google.android.gm:color/add_accounts_text_color</item>
+        <item name="android:layout_marginLeft">@*com.google.android.gm:dimen/start_horiz_padding</item>
+    </style>
+    <style name="AccountsSwitcher.SelectedAccountStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:layout_marginLeft">@*com.google.android.gm:dimen/start_horiz_padding</item>
+    </style>
+    <style name="AccountsSwitcher.SignInTextStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:layout_marginLeft">@*com.google.android.gm:dimen/start_horiz_padding</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Material" />
+
+    <style name="WidgetTitle" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="WidgetSubtitle" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">#ff999999</item>
+        <item name="android:singleLine">true</item>
+    </style>    
+    <style name="ComposeButton">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff999999</item>
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="AbstractConversationSubjectStyle">
+        <item name="android:textSize">@*com.google.android.gm:dimen/conversation_header_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff555555</item>
+    </style>    
+    <style name="PlainActionBarStyle" parent="@*android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:displayOptions">none</item>
+    </style>
+    <style name="ComposeTheme" parent="@*com.google.android.gm:style/ColoredNavBarGeneralTheme">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:colorBackground">@*android:color/holo_purple</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:dropDownListViewStyle">@*com.google.android.gm:style/ComposeDropdownListViewStyle</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/transparent</item>
+    </style>
+    <style name="ComposeDropdownListViewStyle" parent="@*com.google.android.gm:style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0.0dip</item>
+    </style>
+    <style name="ComposeFieldLayout">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:colorForeground">@*android:color/white</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="RecipientComposeFieldLayout" parent="@*com.google.android.gm:style/ComposeFieldLayout">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:textColor">@*com.google.android.gm:color/light_gray</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">0.0dip</item>
+    </style>
+    <style name="RecipientEditTextViewBase" parent="@*android:attr/autoCompleteTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@*com.google.android.gm:dimen/chip_height</item>
+        <item name="android:popupBackground">@*android:color/holo_purple</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="ComposeEditTextView">
+        <item name="android:textColor">@*com.google.android.gm:color/compose_user_text</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="UnseenCount">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AbstractUndoTextStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="MinTimeAnimationStyle" parent="@*android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+    <style name="MinTimeProgressDialogStyle" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="OverflowButtonStyle" parent="@*android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@*com.google.android.gm:drawable/ic_overflow_24dp</item>
+    </style>
+    <style name="ActionBarStyle" parent="@*android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:background">@*android:color/transparent</item>
+    </style>
+    <style name="ActionBarWidgetTheme" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
+        <item name="android:dropDownListViewStyle">@*com.google.android.gm:style/ActionBarDividerlessListViewStyle</item>
+        <item name="android:popupMenuStyle">@*android:style/Widget.Material.ListPopupWindow</item>
+        <item name="android:textAppearanceLargePopupMenu">@*com.google.android.gm:style/ActionBarTextAppearanceLargeStyle</item>
+        <item name="android:textAppearanceSmallPopupMenu">@*com.google.android.gm:style/ActionBarTextAppearanceSmallStyle</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/transparent</item>
+    </style>
+    <style name="ActionBarDividerlessListViewStyle" parent="@*android:style/Widget.Material.ListView">
+        <item name="android:textColor">@*android:color/white</item>    
+        <item name="android:divider">@null</item>
+    </style>    
+    <style name="ActionBarTextAppearanceLargeStyle" parent="@*android:style/TextAppearance.Holo.Widget.PopupMenu.Large">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="ActionBarTextAppearanceSmallStyle" parent="@*android:style/TextAppearance.Holo.Widget.PopupMenu.Small">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="WaitFragmentTitle" parent="@*android:style/Widget.Material.TextView">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="CustomActionButton" parent="@*android:style/Widget.Material.ActionButton">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="Base.Widget.AppCompat.ListView.DropDown" parent="@*android:style/Widget.ListView" />
+
+
+    <style name="Base.Widget.AppCompat.Spinner" parent="@*android:style/Widget.Spinner" />
+
+    <style name="UnifiedEmailTheme.Appcompat" parent="@*com.google.android.gm:style/UnifiedEmailTheme.Appcompat">
+        <item name="*com.google.android.gm:actionModeBackground">@*com.google.android.gm:color/action_mode_background</item>
+        <item name="*com.google.android.gm:colorPrimary">@*android:color/material_grey_850</item>
+        <item name="*com.google.android.gm:colorPrimaryDark">@*android:color/material_grey_850</item>
+        <item name="*com.google.android.gm:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar" parent="@*com.google.android.gm:style/Base.Theme.AppCompat.Light">
+        <item name="*com.google.android.gm:colorPrimary">@*android:color/material_grey_850</item>
+        <item name="*com.google.android.gm:colorPrimaryDark">@*android:color/material_grey_850</item>
+    </style>
+    <style name="MessageHeaderIconStyle">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="MiniDrawerItemStyleBase" parent="@*com.google.android.gm:style/DrawerNavigationStyle">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@*android:color/holo_purple</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">56.0dip</item>
+        <item name="android:layout_height">56.0dip</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="MailActivityTheme" parent="@*com.google.android.gm:style/ColoredNavBarMailActivityTheme">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="*com.google.android.gm:drawerArrowStyle">@*com.google.android.gm:style/ActionBarDrawerArrowDrawableStyle</item>
+        <item name="*com.google.android.gm:windowActionModeOverlay">true</item>
+        <item name="*com.google.android.gm:actionBarPopupTheme">@*com.google.android.gm:style/ThemeOverlay.AppCompat.Light</item>
+        <item name="*com.google.android.gm:actionModeBackground">@*com.google.android.gm:color/action_mode_background</item>
+        <item name="*com.google.android.gm:popupMenuStyle">@*com.google.android.gm:style/MessageHeaderPopupStyle</item>
+        <item name="*com.google.android.gm:colorPrimary">@*com.google.android.gm:color/primary_color</item>
+        <item name="*com.google.android.gm:colorPrimaryDark">@*com.google.android.gm:color/primary_dark_color</item>
+        <item name="*com.google.android.gm:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="*com.google.android.gm:alertDialogTheme">@*com.google.android.gm:style/AlertDialogTheme</item>
+    </style>
+    <style name="MessageHeaderSmallStyle">
+        <item name="android:textSize">@*com.google.android.gm:dimen/message_header_small_text_size</item>
+        <item name="android:textColor">@*com.google.android.gm:color/conversation_view_text_color_link_blue</item>
+    </style>
+    <style name="MessageDetailsValueStyle" parent="@*com.google.android.gm:style/MessageHeaderSmallStyle">
+        <item name="android:textColor">@*com.google.android.gm:color/conversation_view_text_color_link_blue</item>
+        <item name="android:textColorLink">@*com.google.android.gm:color/conversation_view_text_color_link_blue</item>
+        <item name="android:autoLink">email</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@*com.google.android.gm:style/Platform.V21.AppCompat.Light" />
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorLink">@*android:color/white</item>
+        <item name="android:buttonBarStyle">?buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?buttonBarButtonStyle</item>
+        <item name="android:textColorLinkInverse">?android:colorAccent</item>
+        <item name="android:colorForeground">@*android:color/white</item>
+        <item name="android:colorBackground">@*android:color/holo_purple</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/transparent</item>
+    </style>
+    <style name="AccountsSwitcher.AccountDisplayNameStyle" parent="@*com.google.android.gm:style/AccountsSwitcher">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="AccountsSwitcher.SelectedAccountButtonStyle" parent="@*android:attr/borderlessButtonStyle">
+        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
+        <item name="android:layout_width">@*com.google.android.gm:dimen/expander_icon_width</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="ConversationListFadeBase" parent="@*android:style/Widget.Material.ListView" />
+    <style name="MinTimeProgressViewStyle" parent="@*android:style/Widget.Material.ProgressBar" />
+    <style name="MinTimeProgressDialogStyleBase" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="ActionBarOverflowButtonStyle" parent="@*android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="LabelSyncTheme" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="GmailTheme.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+        <item name="android:colorEdgeEffect">@*com.google.android.gm:color/edge_effect_color</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/transparent</item>
+    </style>
+    <style name="GmailTheme.NoActionBar.Fullscreen" parent="@*android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/transparent</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+        <item name="android:colorEdgeEffect">@*com.google.android.gm:color/edge_effect_color</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
+    <style name="UnifiedEmailTheme" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:listViewWhiteStyle">@*android:style/Widget.Material.ListView</item>
+        <item name="android:actionBarStyle">@*com.google.android.gm:style/ActionBarStyle</item>
+        <item name="android:actionModeBackground">@*com.google.android.gm:color/action_mode_background</item>
+        <item name="android:actionOverflowButtonStyle">@*com.google.android.gm:style/ActionBarOverflowButtonStyle</item>
+        <item name="android:actionBarWidgetTheme">@*com.google.android.gm:style/ActionBarWidgetTheme</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/transparent</item>
+    </style>
+    <style name="TextAppearance.SuwCardTitle" parent="@*android:style/TextAppearance.Material.Display1">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="SuwGlifCardBackground">
+        <item name="android:background">@*android:color/transparent</item>
+    </style>
+    <style name="GmailTheme.NoActionBar.WelcomeTour" parent="@*com.google.android.gm:style/GmailTheme.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.Solid" parent="@*com.google.android.gm:style/Base.Widget.AppCompat.ActionBar">
+        <item name="*com.google.android.gm:background">@*android:color/transparent</item>
+        <item name="*com.google.android.gm:backgroundStacked">@*android:color/transparent</item>
+        <item name="*com.google.android.gm:backgroundSplit">@*android:color/transparent</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.Solid" parent="@*com.google.android.gm:style/Base.Widget.AppCompat.Light.ActionBar">
+        <item name="*com.google.android.gm:background">@*android:color/transparent</item>
+        <item name="*com.google.android.gm:backgroundStacked">@*android:color/transparent</item>
+        <item name="*com.google.android.gm:backgroundSplit">@*android:color/transparent</item>
+    </style>
+    <style name="AbstractVacationResponderComposeArea">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:animateLayoutChanges">true</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView" parent="@*android:style/Widget.AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:dropDownSelector">?listChoiceBackgroundIndicator</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.EditText" parent="@*android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:background">@*android:color/transparent</item>
+    </style>
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material" />
+
+    <style name="bt_NotificationPrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+</resources>

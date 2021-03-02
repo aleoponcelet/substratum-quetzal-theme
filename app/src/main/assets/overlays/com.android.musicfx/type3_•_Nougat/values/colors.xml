@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<!-- Du version -->
+	<color name="primaryColor">@*android:color/primary_material_dark</color>
+    <color name="primaryColorDark">@*android:color/primary_dark_material_dark</color>
+    <color name="accentColor">@*android:color/accent_material_dark</color>
+	<color name="material_deep_teal_500">@*android:color/holo_red_dark</color>
+	
+	
+	<color name="mainBackgroundColor">@*android:color/background_material_dark</color>
+	<color name="eq_area_background">@*android:color/background_material_dark</color>
+	<color name="current_out_source">@*android:color/background_floating_material_dark</color>
+	
+	<color name="disabled">#ff303030</color>
+    <color name="textColor">@android:color/white</color>
+	
+	<color name="drawer_background_color">@*android:color/background_material_dark</color>
+	<color name="drawer_text_color">@android:color/white</color>
+	<color name="drawer_menu_icon_checked_color">@*android:color/accent_material_dark</color>
+    <color name="drawer_menu_icon_normal_color">@android:color/white</color>
+    <color name="drawer_menu_text_checked_color">@*android:color/accent_material_dark</color>
+    <color name="drawer_menu_text_normal_color">@android:color/white</color>
+	
+	<color name="spinner_bg_color">@*android:color/background_material_dark</color>
+	<color name="spinner_txt_area_color">@*android:color/background_material_dark</color>
+	<color name="spinner_reverb_list">@*android:color/background_material_dark</color>
+	
+	<color name="highlight_gallery_text">@*android:color/accent_material_dark</color>
+    <color name="lowlight_gallery_text">#bfffffff</color>
+	<color name="gallery_bg_color">@*android:color/background_floating_material_dark</color>
+	
+	<color name="visualizer_highlight">#26ffffff</color>
+    <color name="visualizer_lowlight">@*android:color/accent_material_dark</color>
+	
+	<color name="knobs_area_background">@*android:color/background_floating_material_dark</color>
+    <color name="knob_disabled">#ff323232</color>
+    <color name="knob_current_level">@*android:color/accent_material_dark</color>
+	
+	<!-- Rremix version -->
+	<color name="highlight">@*android:color/accent_material_dark</color>
+    <color name="lowlight">@*android:color/accent_material_dark</color>
+    <color name="PrimaryDark">@*android:color/primary_dark_material_dark</color>
+    <color name="grey">#bfffffff</color>
+    <color name="disabled_gallery">#ff303030</color>
+    <color name="disabled_knob">#ff323232</color>
+    <color name="actionbarcolor">@*android:color/primary_material_dark</color>
+    <color name="spinner_back_color">@*android:color/background_material_dark</color>
+    <color name="spinner_detail_back">@*android:color/background_material_dark</color>
+    <color name="spinner_detail_text">#bfffffff</color>
+	
+	
+	
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_item_thumbnail_default_bg">#ff0c0f11</color>
+
+
+    <color name="photon_browser_toolbar_bg">#ff000000</color>
+    <color name="photon_browser_toolbar_bg_private">#ff0e1214</color>
+    <color name="status_bar_bg_color">#ff0b0e0f</color>
+    <color name="status_bar_bg_color_private">#ff0b0e0f</color>
+
+
+    <color name="background_floating_material_dark">#ff0c0f11</color>
+    <color name="background_floating_material_light">#ff0c0f11</color>
+    <color name="background_material_dark">#ff000000</color>
+    <color name="background_material_light">#ff000000</color>
+
+
+    <color name="action_bar_bg_color">#ff0c0f11</color>
+    <color name="about_page_header_grey">#ff0c0f11</color>
+    <color name="toolbar_grey">#ff0c0f11</color>
+    <color name="toolbar_grey_pressed">#20555555</color>
+    <color name="toolbar_menu_dark_grey">#ff0c0f11</color>
+    <color name="text_and_tabs_tray_grey">#ff0e1214</color>
+
+
+    <color name="url_bar_urltext">#aaffffff</color>
+    <color name="url_bar_domaintext">@android:color/white</color>
+    <color name="url_bar_urltext_private">#aaffffff</color>
+    <color name="toolbar_icon_grey">#aaffffff</color>
+    <color name="disabled_grey">#ffaaaaaa</color>
+    <color name="url_bar_domaintext_private">#ffffffff</color>
+    <color name="url_bar_blockedtext">#ffbb4040</color>
+    <color name="placeholder_active_grey">#ffffffff</color>
+    <color name="placeholder_grey">#aaffffff</color>
+    <color name="firstrun_pager_header">#ff000000</color>
+    <color name="design_snackbar_background_color">#ff000000</color>
+    <color name="row_background">#ff000000</color>
+
+
+    <color name="photon_tab_strip_item_checked">#ff000000</color>
+    <color name="photon_tab_strip_item_checked_pressed">#20555555</color>
+    <color name="photon_tab_strip_item_pressed">#20555555</color>
+    <color name="photon_tab_strip_item_private_checked">#ff000000</color>
+    <color name="photon_tab_strip_item_private_checked_pressed">#20555555</color>
+    <color name="photon_tab_strip_item_private_pressed">#20555555</color>
+    <color name="photon_search_suggestion_box">#ff000000</color>
+    <color name="photon_search_suggestion_box_pressed">#20555555</color>
+    <color name="photon_search_suggestion_box_private">#ff000000</color>
+    <color name="photon_search_suggestion_box_private_pressed">#20555555</color>
+    <color name="photon_content_bg">#ff000000</color>
+    <color name="photon_content_bg_pressed">#20555555</color>
+    <color name="photon_content_bg_private">#ff000000</color>
+    <color name="photon_content_bg_private_pressed">#20555555</color>
+
+
+    <color name="activity_stream_subtitle">#aaffffff</color>
+    <color name="activity_stream_icon">#aaffffff</color>
+    <color name="photon_text_main">@android:color/white</color>
+    <color name="photon_icon">#ffffffff</color>
+    <color name="photon_icon_disabled">#66ffffff</color>
+    <color name="photon_toolbar_text_color">#ffffffff</color>
+    <color name="tab_strip_title_lwt_checked">#ffffffff</color>
+    <color name="tab_strip_title_lwt">#ffffffff</color>
+    <color name="url_bar_shadow_private">#ff000000</color>
+    <color name="tab_history_timeline_separator">#20000000</color>
+    <color name="tab_history_favicon_border">#20000000</color>
+    <color name="toolbar_divider_grey">#20000000</color>
+    <color name="photon_tabs_tray_bg">#ff0b0e0f</color> <!--statusbar elenco tab-->
+    <color name="photon_tab_strip_bg">#ff000000</color>
+    <color name="nav_button_bg_color">#ff000000</color>
+
+    <color name="nav_button_bg_color_disabled">#10000000</color>
+    <color name="nav_button_bg_color_focused">#1a000000</color>
+    <color name="nav_button_bg_color_pressed">#20555555</color>
+    <color name="nav_button_bg_color_private">#ff000000</color>
+    <color name="nav_button_bg_color_private_disabled">#10000000</color>
+    <color name="nav_button_bg_color_private_focused">#20000000</color>
+    <color name="nav_button_bg_color_private_pressed">#33000000</color>
+    <color name="nav_button_border_color">#ff000000</color>
+    <color name="nav_button_border_color_private">#ff000000</color>
+
+    <color name="action_bar_item_bg_color_pressed">#1fffffff</color>
+
+    <color name="tab_item_normal_bg">#ff000000</color>
+    <color name="tab_item_private_bg">#ff000000</color>
+    <color name="widget_button_pressed">#20555555</color>
+    <color name="textbox_background">#ff0c0f11</color>
+    <color name="textbox_background_disabled">#ff555555</color>
+    <color name="textbox_stroke">#00000000</color>
+    <color name="textbox_stroke_disabled">#00000000</color>
+</resources>

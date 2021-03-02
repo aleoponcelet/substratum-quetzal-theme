@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+		<color name="letter_tile_red_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_pink_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_purple_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_deep_purple_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_indigo_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_blue_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_light_blue_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_cyan_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_teal_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_green_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_light_green_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_orange_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_deep_orange_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_grey_color">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_red_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_pink_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_purple_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_deep_purple_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_indigo_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_blue_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_light_blue_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_cyan_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_teal_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_green_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_light_green_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_orange_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_deep_orange_color_dark">@*android:color/primary_material_dark</color>
+		<color name="letter_tile_grey_color_dark">@*android:color/primary_material_dark</color>
+</resources>

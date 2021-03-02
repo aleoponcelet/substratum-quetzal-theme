@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Headset"
+        android:pathData="m25.98 24.95h-1v-12h1c3.42 0 6 2.58 6 6c0 3.42 -2.58 6 -6 6zm1 -9.89v7.78c1.79 -0.41 3 -1.92 3 -3.89c0 -1.97 -1.21 -3.48 -3 -3.89zm-11 -13.11c-4.96 0 -9 4.04 -9 9.01h-2c0 -6.07 4.93 -11.01 11 -11.01c6.07 0 11 4.94 11 11.01h-2c0 -4.97 -4.04 -9.01 -9 -9.01zm-9 11v12h-1c-3.42 0 -6 -2.58 -6 -6c0 -3.42 2.58 -6 6 -6h1zm-2 2.11c-1.79 0.41 -3 1.92 -3 3.89c0 1.97 1.21 3.48 3 3.89v-7.78zm14.94 10.9c1.65 0 3 1.35 3 3c0 1.65 -1.35 3 -3 3c-1.65 0 -3 -1.35 -3 -3c0 -1.65 1.35 -3 3 -3zm0 4c0.55 0 1 -0.45 1 -1c0 -0.55 -0.45 -1 -1 -1c-0.55 0 -1 0.45 -1 1c0 0.55 0.45 1 1 1zm8.06 -3.01h2c0 1.71 -1.29 3 -3 3h-4v-2h4c0.5 0 1 -0.31 1 -1z" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="48.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.musicfx.seekbar.SeekBar android:id="@*com.android.musicfx:id/EQBandSeekBar" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_marginStart="@*com.android.musicfx:dimen/eq_slider_margin" android:layout_marginEnd="@*com.android.musicfx:dimen/eq_slider_margin" style="@*android:style/Widget.Holo.SeekBar" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@*com.android.musicfx:id/EQBandTextView" android:layout_width="fill_parent" android:layout_height="@*com.android.musicfx:dimen/eq_text_height" android:alpha="0.54" />
+</LinearLayout>

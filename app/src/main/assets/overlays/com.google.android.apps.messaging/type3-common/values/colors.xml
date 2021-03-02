@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <color name="primary_color">@*android:color/accent_material_dark</color>
+  <color name="primary_material_dark">@*android:color/accent_material_dark</color>
+  <color name="primary_material_light">@*android:color/accent_material_dark</color>
+  <color name="primary_dark_material_dark">@*android:color/accent_material_dark</color>
+  <color name="primary_dark_material_light">@*android:color/accent_material_dark</color>
+
+  <color name="action_bar_title_text_color">#ffffffff</color>
+  <color name="action_bar_background_color">@*android:color/background_dark</color>
+  <color name="action_bar_background_color_dark">@*android:color/background_dark</color>
+  <color name="contextual_action_bar_background_color">@*android:color/accent_material_dark</color>
+
+  <color name="accent_material_light">@*android:color/accent_material_dark</color>
+  <color name="accent_material_dark">@*android:color/accent_material_dark</color>
+
+  <color name="google_gray">#fff1f1f1</color>
+
+  <color name="text_suggestion_normal">#ffeaeaea</color>
+  <color name="text_suggestion_highlight">#ffeaeaea</color>
+  <color name="text_place_address">#ffeaeaea</color>
+  <color name="text_place_name">#ffeaeaea</color>
+  <color name="text_dark_gray">#ffeaeaea</color>
+  <color name="text_light_gray">#ffeaeaea</color>
+
+  <color name="top_contact_list_text_primary">#ffffffff</color>
+  <color name="material_blue_grey_900">#ffffffff</color>
+  <color name="google_blue_grey_900">#ffffffff</color>
+
+  <color name="autocomplete_divider_color">#ffcccccc</color>
+
+  <color name="solid_black">#ff000000</color>
+  <color name="photo_status_bar_black">#d9000000</color>
+  <color name="photo_crop_dim_color">#cceaeaea</color>
+  <color name="photo_crop_highlight_color">#ffffffff</color>
+
+  <color name="chips_dropdown_background_activated">@android:color/background_dark</color>
+
+  <color name="chips_dropdown_background_pressed">@android:color/background_dark</color>
+  <color name="chip_background">@android:color/background_dark</color>
+  <color name="chip_background_invalid">@android:color/background_dark</color>
+  <color name="chips_dropdown_text_default">@android:color/white</color>
+  <color name="chips_dropdown_text_activated">@android:color/white</color>
+  <color name="chips_dropdown_text_highlighted">@*android:color/accent_material_dark</color>
+
+  <color name="background_material_dark">@android:color/background_dark</color>
+  <color name="background_material_light">@android:color/background_dark</color>
+  <color name="background_floating_material_dark">@*android:color/accent_material_dark</color>
+  <color name="background_floating_material_light">@*android:color/accent_material_dark</color>
+
+  <color name="button_material_dark">@*android:color/accent_material_dark</color>
+  <color name="button_material_light">@*android:color/accent_material_dark</color>
+
+  <color name="highlighted_text_material_dark">@*android:color/accent_material_dark</color>
+  <color name="highlighted_text_material_light">@*android:color/accent_material_dark</color>
+  <color name="link_text_material_dark">#ffeaeaea</color>
+  <color name="link_text_material_light">#ffeaeaea</color>
+  <color name="primary_text_default_material_light">#ffffffff</color>
+  <color name="secondary_text_default_material_light">#ffffffff</color>
+  <color name="primary_text_default_material_dark">#ffffffff</color>
+  <color name="secondary_text_default_material_dark">#b3ffffff</color>
+  <color name="primary_text_disabled_material_light">#ffffffff</color>
+  <color name="secondary_text_disabled_material_light">#ffffffff</color>
+  <color name="primary_text_disabled_material_dark">#4dffffff</color>
+  <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+
+  <color name="archived_conversation_action_bar_background_color">@android:color/background_dark</color>
+  <color name="archived_conversation_action_bar_background_color_dark">@android:color/background_dark</color>
+
+  <color name="conversation_list_item_read">#ffeaeaea</color>
+  <color name="conversation_list_item_unread">@*android:color/accent_material_dark</color>
+  <color name="conversation_list_error">#fff05a24</color>
+  <color name="conversation_list_name">@*android:color/accent_material_dark</color>
+  <color name="conversation_list_details">#ffeaeaea</color>
+  <color name="conversation_compose_divider_start">#44000000</color>
+  <color name="conversation_background">@android:color/background_dark</color>
+  <color name="conversation_edge_effect">#ff9d9d9d</color>
+
+  <color name="background_item_transparent">@android:color/transparent</color>
+  <color name="background_item_activated">#670099cc</color>
+  <color name="background_item_selected">#cc0099cc</color>
+  <color name="background_item_pressed">#6733b5e5</color>
+
+  <color name="subject_editor_bubble">#ffffffff</color>
+
+  <color name="message_text_color_incoming">#ffffffff</color>
+  <color name="message_text_color_incoming_download_failed">#ff6a6a6a</color>
+  <color name="message_text_color_outgoing">#ffffffff</color>
+  <color name="message_bubble_color_outgoing">#ff777a7b</color>
+  <color name="message_text">#ff000000</color>
+  <color name="message_title_text">#ffffffff</color>
+  <color name="message_download_failed_status_text">#ffffffff</color>
+  <color name="message_info_text">#99ffffff</color>
+  <color name="message_info_text_incoming_download_failed">#FFD2D2D2</color>
+  <color name="message_download_failed_timestamp_text">@*android:color/accent_material_light</color>
+  <color name="message_failed_timestamp_text">#99d32f2f</color>
+  <color name="message_action_status_text">#ffffffff</color>
+  <color name="message_action_info_text">#99ffffff</color>
+  <color name="message_action_timestamp_text">#ffffffff</color>
+
+  <color name="color_filter_base_color">#ffff0000</color>
+
+  <color name="google_blue_grey_800">#FFD2D2D2</color>
+  <color name="material_blue_grey_800">#FFD2D2D2</color>
+
+  <color name="contact_avatar_default_background">@*android:color/accent_material_dark</color>
+  <color name="contact_avatar_pressed_color">#ddeaeaea</color>
+  <color name="contact_list_text_primary">#ffeaeaea</color>
+  <color name="contact_list_text_secondary">@*android:color/accent_material_dark</color>
+  <color name="contact_picker_search_background">@*android:color/background_dark</color>
+  <color name="contact_picker_tab_pressed">#ddffffff</color>
+  <color name="contact_picker_tab_underline">@android:color/white</color>
+  <color name="contact_list_alphabet_header">@*android:color/accent_material_dark</color>
+  <color name="contact_picker_background">@android:color/background_dark</color>
+
+  <color name="compose_send_text_color">#ffffffff</color>
+  <color name="compose_contact_text">@android:color/white</color>
+  <color name="compose_contact_faint_text">#a0ffffff</color>
+  <color name="compose_contact_divider">#44000000</color>
+  <color name="compose_message_send_color">@*android:color/accent_material_dark</color>
+  <color name="compose_message_send_color_pressed">#ff999999</color>
+  <color name="compose_message_background_color">@*android:color/background_dark</color>
+  <color name="compose_message_top_border_color">@android:color/background_dark</color>
+
+  <color name="chips_background_color">#331f1f1f</color>
+  <color name="chips_text_color">@android:color/white</color>
+
+  <color name="gallery_image_default_background">@android:color/background_dark</color>
+  <color name="gallery_image_pressed">#6733b5e5</color>
+
+  <color name="letter_tile_default_primary_color">#ff607d8b</color>
+  <color name="letter_tile_default_secondary_color">#ff455a64</color>
+  <color name="letter_tile_font_color">#ffffffff</color>
+
+  <color name="notification_sender_text">#ffffffff</color>
+  <color name="notification_secondary_text">#ffffffff</color>
+  <color name="notification_tertiary_text">#ffffffff</color>
+  <color name="notification_accent_color">@*android:color/accent_material_dark</color>
+  <color name="notification_warning_color">#ffff0000</color>
+  <color name="notification_subject_color">#99aaaaaa</color>
+
+  <color name="participant_list_text_primary">@android:color/white</color>
+  <color name="participant_list_text_secondary">@android:color/white</color>
+
+  <color name="people_and_options_header_text">@android:color/white</color>
+  <color name="people_and_options_list_divider">#ffcccccc</color>
+
+  <color name="fab_color">@*android:color/accent_material_dark</color>
+  <color name="fab_pressed_color">@*android:color/accent_material_dark</color>
+
+  <color name="message_text_counter_color">@*android:color/accent_material_dark</color>
+  <color name="mms_indicator_color">@*android:color/accent_material_light</color>
+  <color name="list_empty_text">#ff6d6d6d</color>
+  <color name="low_storage_action_item_color">#ff000000</color>
+  <color name="unblock_item_text_color">@*android:color/accent_material_dark</color>
+  <color name="open_conversation_animation_background_shadow">#40000000</color>
+  <color name="compose_notification_bar_background">@*android:color/accent_material_dark</color>
+
+  <color name="text_highlight_color">@*android:color/accent_material_dark</color>
+
+  <color name="search_view_text_cursor">#b0787878</color>
+
+  <color name="button_bar_action_button_text_color">@android:color/white</color>
+  <color name="button_bar_cancel_button_text_color">@android:color/white</color>
+
+  <color name="settings_list_text_primary">@android:color/white</color>
+  <color name="settings_list_text_secondary">@android:color/white</color>
+
+  <color name="group_mms_setting_text_color">@android:color/white</color>
+  <color name="settings_item_title_text_primary">@android:color/white</color>
+  <color name="contact_picker_button_text_color">@android:color/white</color>
+  <color name="widget_text_color">#ff424242</color>
+
+  <color name="search_view_accent_color">#b0787878</color>
+
+  <color name="attachment_chooser_audio_background">@android:color/background_dark</color>
+  <color name="attachment_chooser_vcard_background">@android:color/background_dark</color>
+
+  <color name="google_blue_grey_600">#ffffff</color>
+  <color name="google_blue_grey_400">#ffffff</color>
+
+</resources>

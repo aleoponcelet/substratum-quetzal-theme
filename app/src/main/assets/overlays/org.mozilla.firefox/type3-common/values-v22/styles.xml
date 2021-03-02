@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:windowBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">#ff0b0e0f</item>
+        <item name="android:colorPrimaryDark">#ff0b0e0f</item>
+        <item name="android:colorPrimary">#ff0e1214</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Gecko.App" parent="@*org.mozilla.firefox:style/GeckoAppBase">
+        <item name="android:colorBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:windowBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:gridViewStyle">@*org.mozilla.firefox:style/Widget.GridView</item>
+        <item name="android:spinnerStyle">@*org.mozilla.firefox:style/Widget.Spinner</item>
+        <item name="*org.mozilla.firefox:geckoMenuListViewStyle">@*org.mozilla.firefox:style/Widget.GeckoMenuListView</item>
+        <item name="*org.mozilla.firefox:menuItemActionBarStyle">@*org.mozilla.firefox:style/Widget.MenuItemActionBar</item>
+        <item name="*org.mozilla.firefox:menuItemActionModeStyle">@*org.mozilla.firefox:style/GeckoActionBar.Button</item>
+        <item name="*org.mozilla.firefox:bookmarksListViewStyle">@*org.mozilla.firefox:style/Widget.BookmarksListView</item>
+        <item name="*org.mozilla.firefox:topSitesGridItemViewStyle">@*org.mozilla.firefox:style/Widget.TopSitesGridItemView</item>
+        <item name="*org.mozilla.firefox:topSitesGridViewStyle">@*org.mozilla.firefox:style/Widget.TopSitesGridView</item>
+        <item name="*org.mozilla.firefox:topSitesThumbnailViewStyle">@*org.mozilla.firefox:style/Widget.TopSitesThumbnailView</item>
+        <item name="*org.mozilla.firefox:homeListViewStyle">@*org.mozilla.firefox:style/Widget.HomeListView</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:colorPrimaryDark">#ff0b0e0f</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing LatinIME's Styles-->
+
+<resources>
+    <style name="platformActivityTheme" parent="@android:style/Theme.DeviceDefault" />
+    <style name="platformSettingsTheme" parent="@android:style/Theme.DeviceDefault" >
+		<item name="android:windowBackground">@*android:color/background_dark</item>
+		<item name="android:colorSecondary">@*android:color/legacy_control_normal</item>
+        <item name="android:colorBackground">@*android:color/background_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+		<item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+		<item name="android:navigationBarColor">@android:color/transparent</item>
+	</style>
+    <style name="platformDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog" />
+</resources>

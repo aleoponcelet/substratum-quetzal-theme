@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<color name="primary">@*android:color/accent_material_dark</color>
+    <color name="primary_dark">@*android:color/accent_material_dark</color>
+	<color name="accent">@*android:color/accent_material_dark</color>
+	<color name="accent_material_dark">@*android:color/accent_material_dark</color>
+    <color name="accent_material_light">@*android:color/accent_material_dark</color>
+	<color name="green500">@*android:color/accent_material_dark</color>
+	<!-- Dark theme -->
+	<color name="dh_primary">@*android:color/primary_material_dark</color>
+    <color name="dh_primary_dark">@*android:color/primary_dark_material_dark</color>
+	<color name="dh_accent">@*android:color/accent_material_dark</color>
+	<color name="background_floating_material_light">@*android:color/holo_purple</color>
+	
+	<!-- Main bg background -->
+	<color name="material_grey_850">@*android:color/background_material_dark</color>
+<color name="accentFallback">@*android:color/accent_material_light</color>
+<color name="icon_grey">#ffffffff</color>
+<color name="red500">#995458</color>
+<color name="grey500">@*android:color/primary_dark_material_dark</color>
+<color name="blue500">@*android:color/accent_material_light</color>
+<color name="yellow500">@*android:color/accent_material_light</color>
+
+<color name="dark_secondary_text">#b3ffffff</color>
+
+<color name="su_request_background">@*android:color/holo_purple</color>
+</resources>

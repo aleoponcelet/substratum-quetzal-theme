@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_shadow">#000000</color>
+    <color name="bg_flat_color">#ffe0e0e0</color>
+    <color name="bg_flat_color_gradient">#fff5f5f5</color>
+    <color name="bg_flat_color_dark">#ff424242</color>
+    <color name="bg_flat_color_dark_gradient">#ff757575</color>
+    <color name="button_bg_flat_color">#ff303030</color>
+    <color name="button_bg_flat_color_gradient">#ff424242</color>
+    <color name="ripple_material_light">@*android:color/ripple_material_dark</color>
+    <color name="ripple_material_dark">@*android:color/ripple_material_dark</color>
+    <color name="fake_window_shade_color">#40424242</color>
+    <color name="rambar_left_color">@*android:color/accent_material_dark</color>
+    <color name="rambar_middle_color">@*android:color/accent_material_dark</color>
+    <color name="rambar_right_color">#ff888888</color>
+    <color name="default_drag_handle_color">@*android:color/accent_material_dark</color>
+    <color name="material_blue_grey_900">#ff263238</color>
+    <color name="material_grey_50">#fffafafa</color>
+    <color name="material_grey_100">#fff5f5f5</color>
+    <color name="material_grey_300">#ffe0e0e0</color>
+    <color name="material_grey_600">#ff757575</color>
+    <color name="material_grey_800">@*android:color/material_grey_800</color>
+    <color name="material_grey_850">@*android:color/material_grey_850</color>
+    <color name="colorAccent">@*android:color/accent_material_dark</color>
+    <color name="colorPrimary">#00000000</color>
+    <color name="colorPrimaryDark">#00000000</color>
+    <color name="ic_setting_icon_color">#FFFFFFFF</color>
+    <color name="ic_wallpaper_icon_color">#FFFFFFFF</color>
+    <color name="ic_widget_icon_color">#FFFFFFFF</color>
+    <color name="cling_scrim_background">#80000000</color>
+    <color name="launcher_shortcut_color">#C0FFFFFF</color>
+    <color name="launcher_shortcut_color_pressed">#80FFFFFF</color>
+    <color name="launcher_navigaton_bar">#66000000</color>
+    <color name="docked_task_bg_color">#ff757575</color>
+</resources>

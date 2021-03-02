@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.recyclerview.BetterRecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:id="@*com.facebook.orca:id/thread_list_recycler_view"
+    android:backgroundTint="@null"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:clipToPadding="false"/>

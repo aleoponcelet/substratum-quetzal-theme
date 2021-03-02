@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:background="@*com.google.android.inputmethod.latin:color/base_material_dark_theme">
+    <android.support.v7.widget.CardView
+        style="@*com.google.android.inputmethod.latin:style/HeaderInner.SearchBar.Small">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                      android:background="#ff424242" android:gravity="center_vertical"
+                      android:orientation="horizontal">
+            <FrameLayout style="@*com.google.android.inputmethod.latin:style/GBoardIconHolder">
+                <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView
+                    android:id="@*com.google.android.inputmethod.latin:id/key_pos_header_search"
+                    style="@*com.google.android.inputmethod.latin:style/GBoardIcon"/>
+            </FrameLayout>
+            <com.google.android.apps.inputmethod.libs.search.widget.CardViewerHeaderQueryView
+                android:id="@*com.google.android.inputmethod.latin:id/search_query_header"
+                style="@*com.google.android.inputmethod.latin:style/SearchResultQueryTextView"
+                query_layout="@*com.google.android.inputmethod.latin:layout/softkey_query_candidate"/>
+            <FrameLayout style="@*com.google.android.inputmethod.latin:style/ThreePartRowFrame.End">
+                <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView
+                    android:id="@*com.google.android.inputmethod.latin:id/key_pos_header_cancel_input"
+                    style="@*com.google.android.inputmethod.latin:style/HeaderClearIcon"
+                    android:layout_width="@*com.google.android.inputmethod.latin:dimen/header_icon_size"
+                    android:layout_height="@*com.google.android.inputmethod.latin:dimen/header_icon_size"/>
+            </FrameLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

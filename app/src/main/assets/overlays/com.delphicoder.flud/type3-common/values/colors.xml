@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="material_grey_850">@*android:color/holo_purple</color>
+    <color name="piece_gap_color_dark">@*android:color/holo_purple</color>
+    <color name="torrent_status_window_background_color_dark">@*android:color/holo_purple</color>
+
+    <color name="tab_background_dark">@*android:color/material_grey_800</color>
+    <color name="tab_background_status_tablet_dark">@*android:color/material_grey_800</color>
+
+</resources>

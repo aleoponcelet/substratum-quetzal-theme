@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Camera" parent="android:style/Theme.Material">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:actionBarStyle">@style/Camera.ActionBar</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
+    <style name="Camera.ActionBar" parent="android:style/Theme.Material">
+        <item name="android:displayOptions">useLogo|showHome|homeAsUp</item>
+        <item name="android:background">@*android:color/background_material_dark</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:backgroundStacked">@null</item>
+    </style>
+    <style name="Theme.CameraSettings" parent="@android:style/Theme.Material">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_light</item>
+        <item name="android:statusBarColor">@*android:color/primary_dark_material_dark</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
+</resources>

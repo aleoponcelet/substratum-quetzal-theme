@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="toshl_appbar_blue">@*android:color/background_dark</color>
+	<color name="toshl_appbar_blue_dark">@*android:color/background_dark</color>
+	<color name="toshl_appbar_green">@*android:color/background_dark</color>
+	<color name="toshl_appbar_green_dark">@*android:color/background_dark</color>
+	<color name="toshl_appbar_grey">@*android:color/background_dark</color>
+	<color name="toshl_appbar_grey_dark">@*android:color/background_dark</color>
+	<color name="toshl_appbar_red">@*android:color/background_dark</color>
+	<color name="toshl_appbar_red_dark">@*android:color/background_dark</color>
+	<color name="toshl_bank_primary_color">@*android:color/background_dark</color>
+	<color name="toshl_dark_black">@*android:color/background_dark</color>
+	<color name="toshl_bg_budget_details">@*android:color/background_dark</color>
+	<color name="toshl_bg_creamy_light">@*android:color/background_dark</color>
+	<color name="toshl_bg_creamy">@*android:color/background_dark</color>
+	<color name="border">@*android:color/background_dark</color>
+	<color name="background_material_dark">@*android:color/background_dark</color>
+	<color name="background_material_light">@*android:color/background_dark</color>
+	<color name="toshl_grey_light_90">@*android:color/background_dark</color>
+	<color name="toshl_grey_light_80">@*android:color/background_dark</color>
+	<color name="toshl_grey_light_70">@*android:color/background_dark</color>
+
+	<color name="toshl_bg_creamy_dark">@*android:color/holo_purple</color>
+	<color name="toshl_bg_creamy_dark_anim">@*android:color/holo_purple</color>
+	<color name="toshl_bg_section_header">@*android:color/holo_purple</color>
+
+	<color name="toshl_grey_ab">#ff808080</color>
+	<color name="toshl_grey_3">#ff808080</color>
+	<color name="toshl_grey_dark_10">#ff808080</color>
+	<color name="toshl_grey_dark_10_disabled">#40808080</color>
+
+	<color name="common_google_signin_btn_text_dark_disabled">#ffffffff</color>
+	<color name="common_google_signin_btn_text_dark_focused">#ffffffff</color>
+	<color name="abc_search_url_text_normal">#ffffffff</color>
+	<color name="abc_search_url_text_pressed">#ffffffff</color>
+	<color name="abc_search_url_text_selected">#ffffffff</color>
+	<color name="dialog_text_disabled">#ffffffff</color>
+	<color name="toshl_text_dark_background">#ffffffff</color>
+</resources>

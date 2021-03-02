@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@*android:color/transparent"
+    android:tintMode="src_atop"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="Volume"
+        android:pathData="m21.62 25.41v-1.88c4.14 0 7.5 -3.38 7.5 -7.52c0 -4.15 -3.36 -7.52 -7.5 -7.52v-1.88c5.17 0 9.38 4.22 9.38 9.41c0 5.19 -4.21 9.41 -9.38 9.41zm-10.77 -9.54 -0.96 -1.61 4.69 -2.82 0.96 1.61 -4.69 2.82zm-1.85 4.04 8.87 5.66v-19.15l-8.87 5.66l-1.01 -1.59l11.75 -7.5v26l-11.75 -7.5l1.01 -1.59zm-8 -9.55h5.62v11.29h-5.62v-11.29zm1.87 9.41h1.87v-7.52h-1.87v7.52zm24.37 -3.76c0 3.11 -2.52 5.64 -5.62 5.64v-1.88c2.07 0 3.75 -1.69 3.75 -3.76c0 -2.07 -1.68 -3.76 -3.75 -3.76v-1.88c3.1 0 5.62 2.53 5.62 5.64zm-3.75 0c0 1.04 -0.84 1.88 -1.88 1.88v-3.76c1.03 0 1.88 0.84 1.88 1.88z" />
+</vector>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_bar_blue_background">@*android:color/primary_material_dark</color>
+
+    <color name="bg_color">@*android:color/primary_material_dark</color>
+
+	<color name="facebook_blue_twenty_percent_opacity">#332e2e2e</color>
+	<color name="fbui_facebook_blue">@*android:color/primary_material_dark</color>
+	<color name="fbui_facebook_blue_f0">@*android:color/primary_material_dark</color>
+    <color name="fbui_light_blue">@*android:color/primary_material_dark</color>
+    <color name="blue_20a">@*android:color/primary_dark_material_dark</color> <!--status bar-->
+    <color name="fbui_blue_90">@*android:color/primary_material_dark</color>
+    <color name="fbui_blue_50">@*android:color/primary_material_dark</color>
+    <color name="fbui_blueblack_10">@*android:color/primary_material_dark</color>
+	<color name="black">@*android:color/background_material_dark</color>
+	<color name="fbui_black">@*android:color/background_material_dark</color>
+    <color name="fbui_accent_blue">@*android:color/accent_material_light</color>
+    <color name="fb_blue">@*android:color/primary_material_dark</color>
+    <color name="fbui_text_link">@*android:color/accent_material_light</color>
+    <color name="fbui_bluegrey_10">#ffe3e3e3</color>
+    <color name="rap_dark_blue">@*android:color/background_material_dark</color>
+    <color name="rap_blue">@*android:color/background_material_dark</color>
+    <color name="blue_tab_default">@*android:color/background_material_dark</color>
+    <color name="blue_tab_selected">@*android:color/background_material_dark</color>
+    <color name="blue_tab_pressed">@*android:color/background_material_dark</color>
+    <color name="publisher_text_color_blue">@*android:color/accent_material_light</color>
+    <color name="feed_story_bright_blue_like_text_color">@*android:color/accent_material_light</color>
+    <color name="active_blue">@*android:color/accent_material_light</color>
+    <color name="feed_story_blue_text_color">@*android:color/accent_material_light</color>
+
+    <color name="harrison_button_color">@*android:color/background_material_dark</color>
+    <color name="facebookaccent_material_light">@*android:color/background_material_dark</color>
+    <color name="highlighted_text_facebookholo_dark">@*android:color/accent_material_light</color>
+    <color name="highlighted_text_facebookholo_light">@*android:color/accent_material_light</color>
+    <color name="link_text_facebookholo_dark">@*android:color/accent_material_light</color>
+    <color name="link_text_facebookholo_light">@*android:color/accent_material_light</color>
+
+    <color name="star_rating_description_text_color">@*android:color/accent_material_light</color>
+    <color name="view_state_unseen_color">@*android:color/accent_material_light</color>
+
+    <color name="rating_histogram_bar_color">@*android:color/accent_material_light</color>
+    <color name="album_selector_text_color">@*android:color/accent_material_light</color>
+
+    <color name="link_share_description_grey_me">@*android:color/accent_material_light</color>
+    <color name="default_banner_background">@*android:color/background_material_dark</color>
+
+    <color name="graph_search_match_words_background">@*android:color/accent_material_light</color>
+
+    <color name="destructive_red">@*android:color/accent_material_light</color>
+
+    <color name="flyout_blue_text_color">@*android:color/accent_material_light</color>
+
+    <color name="divebar_contact_background">@*android:color/background_material_dark</color>
+    <color name="divebar_background">@*android:color/background_material_dark</color>
+    <color name="divebar_section_background">@*android:color/background_material_dark</color>
+
+</resources>

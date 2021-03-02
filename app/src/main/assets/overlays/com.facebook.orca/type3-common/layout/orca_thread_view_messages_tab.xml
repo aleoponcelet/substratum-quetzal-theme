@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.OverlayLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fb="http://schemas.android.com/apk/com.facebook.orca"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@*android:color/material_grey_800"
+
+    >
+
+    <com.facebook.widget.AdvancedVerticalLinearLayout
+        android:id="@*com.facebook.orca:id/update_list_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        fb:spaceSavingThreshold="350.0dip">
+
+        <View
+            android:id="@*com.facebook.orca:id/create_dummy_focus_elt"
+            android:layout_width="0.0px"
+            android:layout_height="0.0px"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <View
+            android:id="@*com.facebook.orca:id/banner_notification_placeholder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.ViewStubCompat
+            android:id="@*com.facebook.orca:id/qp_header_banner_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inflatedId="@*com.facebook.orca:id/qp_header_banner"
+            android:layout="@*com.facebook.orca:layout/orca_qp_banner_stub" />
+
+        <android.support.v7.widget.ViewStubCompat
+            android:id="@*com.facebook.orca:id/montage_status_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@*com.facebook.orca:layout/orca_thread_view_montage_status_banner" />
+
+        <android.support.v7.widget.ViewStubCompat
+            android:id="@*com.facebook.orca:id/games_thread_view_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.facebook.orca:dimen/orca_games_thread_view_banner_height"
+            android:layout="@*com.facebook.orca:layout/orca_games_thread_view_banner" />
+
+        <FrameLayout
+            android:id="@*com.facebook.orca:id/message_list_container"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:background="@*android:color/material_grey_800"
+            android:backgroundTint="@*android:color/material_grey_800"
+            >
+
+            <ViewStub
+                android:id="@*com.facebook.orca:id/message_list_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <com.facebook.widget.listview.EmptyListViewItem
+                android:id="@*com.facebook.orca:id/threadview_updates_empty_item"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="12.0dip" />
+
+            <com.facebook.widget.listview.EmptyListViewItem
+                android:id="@*com.facebook.orca:id/loading_empty_item"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="12.0dip" />
+
+            <View
+                android:id="@*com.facebook.orca:id/messages_list_shadow_top"
+                android:layout_width="fill_parent"
+                android:layout_height="@*com.facebook.orca:dimen/chat_list_shadows_height"
+                android:layout_gravity="top"
+                android:background="#10000000"
+                android:visibility="visible" />
+
+            <View
+                android:id="@*com.facebook.orca:id/messages_list_shadow_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="@*com.facebook.orca:dimen/chat_list_shadows_height"
+                android:layout_gravity="bottom"
+                android:background="#10000000"
+                />
+
+            <com.facebook.common.pillstub.PillViewStub
+                android:id="@*com.facebook.orca:id/messages_list_unread_pill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="6.0dip"
+                fb:pill_layout="@*com.facebook.orca:layout/pill_white" />
+
+            <com.facebook.resources.ui.FbFrameLayout
+                android:id="@*com.facebook.orca:id/null_state_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <android.support.v7.widget.ViewStubCompat
+                android:id="@*com.facebook.orca:id/lightweight_action_anim_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout="@*com.facebook.orca:layout/orca_lightweight_action_anim_view" />
+
+            <android.support.v7.widget.ViewStubCompat
+                android:id="@*com.facebook.orca:id/more_drawer_container_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout="@*com.facebook.orca:layout/more_drawer_container_stub" />
+
+            <android.support.v7.widget.ViewStubCompat
+                android:id="@*com.facebook.orca:id/educational_text_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout="@*com.facebook.orca:layout/orca_composer_bar_educational_text" />
+        </FrameLayout>
+
+        <fragment
+            android:id="@*com.facebook.orca:id/messages_compose"
+            android:name="com.facebook.messaging.composer.ComposeFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            fb:layout_alwaysOverlapIfOverflow="true" />
+
+        <android.support.v7.widget.ViewStubCompat
+            android:id="@*com.facebook.orca:id/message_requests_actions_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center|left"
+            android:layout="@*com.facebook.orca:layout/orca_message_requests_actions"
+            android:minHeight="@*com.facebook.orca:dimen/orca_thread_bottom_action_height" />
+
+        <android.support.v7.widget.ViewStubCompat
+            android:id="@*com.facebook.orca:id/sms_spam_actions_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout="@*com.facebook.orca:layout/sms_spam_threadview_actions"
+            android:minHeight="@*com.facebook.orca:dimen/orca_thread_bottom_action_height" />
+
+        <android.support.v7.widget.ViewStubCompat
+            android:id="@*com.facebook.orca:id/orca_block_composer_bar_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout="@*com.facebook.orca:layout/orca_block_composer_view_stub" />
+
+        <android.support.v7.widget.ViewStubCompat
+            android:id="@*com.facebook.orca:id/null_state_action_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout="@*com.facebook.orca:layout/orca_null_state_call_to_action" />
+    </com.facebook.widget.AdvancedVerticalLinearLayout>
+
+    <LinearLayout
+        android:id="@*com.facebook.orca:id/container_above_composer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        fb:layout_anchorAlignment="aboveAnchor"
+        fb:layout_anchoredTo="@*com.facebook.orca:id/messages_compose"
+        fb:layout_isOverlay="true">
+
+        <android.support.v7.widget.ViewStubCompat
+            android:id="@*com.facebook.orca:id/new_message_anchor_stub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4.0dip"
+            android:inflatedId="@*com.facebook.orca:id/new_message_anchor"
+            android:layout="@*com.facebook.orca:layout/orca_new_message_anchor_stub" />
+
+        <android.support.v7.widget.ViewStubCompat
+            android:id="@*com.facebook.orca:id/m_bar_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@*com.facebook.orca:layout/m_bar" />
+
+        <android.support.v7.widget.ViewStubCompat
+            android:id="@*com.facebook.orca:id/payments_bar_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.facebook.orca:dimen/omni_m_container_height" />
+    </LinearLayout>
+
+    <android.support.v7.widget.ViewStubCompat
+        android:id="@*com.facebook.orca:id/qp_composer_banner_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@*com.facebook.orca:id/qp_composer_banner"
+        android:layout="@*com.facebook.orca:layout/orca_qp_banner_stub"
+        fb:layout_anchorAlignment="aboveAnchor|alignWithRightOfAnchor"
+        fb:layout_anchoredTo="@*com.facebook.orca:id/messages_compose"
+        fb:layout_isOverlay="true" />
+
+    <android.support.v7.widget.ViewStubCompat
+        android:id="@*com.facebook.orca:id/qp_composer_banner_pointer_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@*com.facebook.orca:id/qp_composer_banner_pointer"
+        android:layout="@*com.facebook.orca:layout/composer_promo_banner_pointer_stub"
+        fb:layout_anchorAlignment="alignWithTopOfAnchor|alignLeft"
+        fb:layout_anchoredTo="@*com.facebook.orca:id/messages_compose"
+        fb:layout_isOverlay="true" />
+
+    <android.support.v7.widget.ViewStubCompat
+        android:id="@*com.facebook.orca:id/mfs_account_creation_popover_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inflatedId="@*com.facebook.orca:id/mfs_popover_fragment_container"
+        android:layout="@*com.facebook.orca:layout/mfs_popover_fragment_container_stub"
+        fb:layout_anchorAlignment="alignWithBottomOfAnchor"
+        fb:layout_anchoredTo="@*com.facebook.orca:id/messages_compose"
+        fb:layout_isOverlay="true" />
+
+    <android.support.v7.widget.ViewStubCompat
+        android:id="@*com.facebook.orca:id/omnim_mini_app_container_view_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inflatedId="@*com.facebook.orca:id/omnim_mini_app_container"
+        android:layout="@*com.facebook.orca:layout/omni_m_mini_app_container"
+        fb:layout_anchorAlignment="aboveAnchor"
+        fb:layout_anchoredTo="@*com.facebook.orca:id/messages_compose"
+        fb:layout_isOverlay="true" />
+
+    <LinearLayout
+        android:id="@*com.facebook.orca:id/extension_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        fb:layout_anchorAlignment="aboveAnchor"
+        fb:layout_anchoredTo="@*com.facebook.orca:id/messages_compose"
+        fb:layout_isOverlay="true" />
+
+    <com.facebook.react.ReactRootView
+        android:id="@*com.facebook.orca:id/marketplace_react_root_view_placeholder"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.0" />
+</com.facebook.widget.OverlayLayout>

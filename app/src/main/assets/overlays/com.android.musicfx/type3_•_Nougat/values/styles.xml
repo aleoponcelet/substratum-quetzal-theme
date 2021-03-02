@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EqTheme" parent="@android:style/Theme.Material">
+        <!-- <item name="android:actionBarStyle">@*com.android.musicfx:style/CustomActionBar</item>
+        <item name="android:colorPrimary">@*com.android.musicfx:color/highlight</item>
+        <item name="android:colorPrimaryDark">@*com.android.musicfx:color/PrimaryDark</item>
+        <item name="android:colorAccent">@*com.android.musicfx:color/highlight</item> -->
+		<item name="android:backgroundTint">@*android:color/background_material_dark</item>
+    </style>
+
+</resources>

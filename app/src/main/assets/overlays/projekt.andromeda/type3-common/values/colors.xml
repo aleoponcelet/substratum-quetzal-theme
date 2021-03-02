@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_connected">@*android:color/accent_material_dark</color>
+    <color name="cardview_dark_background">@*android:color/background_dark</color>
+    <color name="material_grey_800">@*android:color/background_dark</color>
+    <color name="notification_material_background_media_default_color">@*android:color/background_dark</color>
+</resources>

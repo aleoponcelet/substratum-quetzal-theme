@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@*mega.privacy.android.app:dimen/abc_button_inset_horizontal_material" android:insetRight="@*mega.privacy.android.app:dimen/abc_button_inset_horizontal_material" android:insetTop="@*mega.privacy.android.app:dimen/abc_button_inset_vertical_material" android:insetBottom="@*mega.privacy.android.app:dimen/abc_button_inset_vertical_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@*mega.privacy.android.app:dimen/abc_control_corner_material" />
+        <solid android:color="@*android:color/background_dark" />
+        <padding android:left="@*mega.privacy.android.app:dimen/abc_button_padding_horizontal_material" android:top="@*mega.privacy.android.app:dimen/abc_button_padding_vertical_material" android:right="@*mega.privacy.android.app:dimen/abc_button_padding_horizontal_material" android:bottom="@*mega.privacy.android.app:dimen/abc_button_padding_vertical_material" />
+    </shape>
+</inset>

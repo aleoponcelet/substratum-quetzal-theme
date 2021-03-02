@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="waveform_ratio_bottom">1</integer>
+    <integer name="waveform_ratio_top">2</integer>
+    <integer name="collection_preview_thumbnail_count">3</integer>
+    <integer name="ak_default_grid_columns">1</integer>
+    <integer name="collection_grid_span_count">2</integer>
+    <integer name="grids_num_columns">1</integer>
+    <integer name="timestamp_animate_percentage">50</integer>
+    <integer name="user_profile_card_grid_span_count">1</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="frame_20fps">50</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="miniplayer_play_toggle_disabled_alpha">179</integer>
+    <integer name="mr_controller_volume_group_list_animation_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_fade_in_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_fade_out_duration_ms">200</integer>
+</resources>

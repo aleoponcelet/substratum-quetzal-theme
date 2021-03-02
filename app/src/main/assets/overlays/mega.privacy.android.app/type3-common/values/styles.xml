@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material.Wallpaper">	
+        <item name="android:colorBackground">@*android:color/resize_shadow_end_color</item>
+		<item name="android:windowBackground">@*android:color/resize_shadow_end_color</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>		
+        <item name="android:navigationBarColor">@*android:color/holo_red_light</item>
+    </style>
+	<style name="Platform.AppCompat" parent="@*android:style/Theme.Material.Wallpaper">	
+        <item name="android:colorBackground">@*android:color/resize_shadow_end_color</item>
+		<item name="android:windowBackground">@*android:color/resize_shadow_end_color</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>		
+        <item name="android:navigationBarColor">@*android:color/holo_red_light</item>
+    </style>
+</resources>

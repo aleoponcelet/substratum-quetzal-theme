@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="artwork_overlay">#99000000</color>
+    <color name="play_queue_background">@*android:color/material_grey_800</color>
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault.Settings.Dark">
+		<item name="android:windowBackground">@*android:color/background_dark</item>
+		<item name="android:colorBackground">@*android:color/background_dark</item>
+		<item name="android:colorAccent">@*android:color/accent_material_dark</item>
+		<item name="android:listDivider">@*android:color/transparent</item>
+		<item name="android:colorSecondary">#0cb3d1e3</item>
+		<item name="android:colorPrimary">@*android:color/transparent</item>
+		<item name="android:colorPrimaryDark">@*android:color/transparent</item>
+		<item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
+		<item name="android:colorEdgeEffect">@*android:color/highlighted_text_dark</item>
+		<item name="android:colorControlHighlight">@*android:color/highlighted_text_dark</item>
+		<item name="android:statusBarColor">@*android:color/background_dark</item>
+		<item name="android:navigationBarColor">@android:color/background_dark</item>
+	</style>
+	<style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@android:style/Theme.Material" >
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowShowWallpaper">true</item>
+	</style>
+	<style name="Platform.AppCompat.Light" parent="@*android:style/Theme.DeviceDefault.Settings.Dark" />
+	<style name="FallbackHome" parent="@*android:style/Theme.DeviceDefault" />
+	<style name="PreferenceFragmentListSinglePane" parent="@*android:style/PreferenceFragmentList">
+		<item name="android:scrollbarStyle">outsideOverlay</item>
+		<item name="android:background">@*android:color/transparent</item>
+		<item name="*com.android.settings:colorControlHighlight">@*android:color/highlighted_text_dark</item>
+	</style>
+	<style name="Theme.DateTimeSettingsSetupWizard" parent="@*android:style/Theme.Material.NoActionBar" />
+	<style name="Theme.SettingsLicenseActivity" parent="@*android:style/Theme.Material.Panel" />
+	<style name="Theme.AppPicker" parent="@*android:style/Theme.Material.Dialog" />
+	<style name="Theme.AlertDialog" parent="@android:style/Theme.Material.Dialog.Alert"/>
+	<style name="Theme.SettingsDialog" parent="@android:style/Theme.Material.Dialog.NoActionBar" />
+	<style name="Theme.SettingsAlertDialog" parent="@android:style/Theme.Material.Dialog.Alert" />
+	<style name="Theme.DialogWhenLarge" parent="@*android:style/Theme.DeviceDefault.Settings.Dark">
+		<item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
+		<item name="*com.android.settings:preferenceBackgroundColor">@*android:color/transparent</item>
+		<item name="android:windowBackground">@*android:color/background_dark</item>
+		<item name="android:colorForeground">@android:color/transparent</item>
+		<item name="android:colorBackground">@*android:color/background_dark</item>
+		<item name="android:colorAccent">@*android:color/accent_material_dark</item>
+		<item name="android:colorPrimary">@android:color/transparent</item>
+		<item name="android:colorPrimaryDark">@android:color/transparent</item>
+		<item name="android:statusBarColor">@android:color/transparent</item>
+		<item name="android:navigationBarColor">@*android:color/background_dark</item>
+	</style>
+	<style name="Theme.FingerprintEnroll" parent="@*com.android.settings:style/SuwThemeGlif.Light">
+		<item name="android:textAppearanceListItemSmall">@*android:style/TextAppearance.Material.Body1</item>
+		<item name="*com.android.settings:suwDividerCondition">both</item>
+		<item name="*com.android.settings:suwListItemIconColor">@*android:color/accent_material_dark</item>
+		<item name="android:statusBarColor">@*android:color/transparent</item>
+		<item name="android:navigationBarColor">@*android:color/transparent</item>
+	</style>
+	<style name="SuwThemeGlif.Light" parent="@*com.android.settings:style/Theme.AppCompat.Light.NoActionBar">
+		<item name="android:listPreferredItemHeight">@*com.android.settings:dimen/suw_items_preferred_height</item>
+		<item name="android:textColorLink">@*android:color/white</item>
+		<item name="android:windowAnimationStyle">@*com.android.settings:style/Animation.SuwWindowAnimation</item>
+		<item name="android:windowDisablePreview">true</item>
+		<item name="android:windowSoftInputMode">adjustResize</item>
+		<item name="android:textAppearanceListItemSmall">?textAppearanceListItemSmall</item>
+		<item name="android:listPreferredItemPaddingStart">?suwMarginSides</item>
+		<item name="android:listPreferredItemPaddingEnd">?suwMarginSides</item>
+		<item name="android:statusBarColor">@*android:color/transparent</item>
+		<item name="android:navigationBarColor">@*android:color/transparent</item>
+		<item name="android:indeterminateTint">?*android:colorControlActivated</item>
+		<item name="android:indeterminateTintMode">src_in</item>
+		<item name="*com.android.settings:suwMarginSides">@*com.android.settings:dimen/suw_glif_margin_sides</item>
+		<item name="*com.android.settings:suwListItemIconColor">@*android:color/accent_material_dark</item>
+		<item name="*com.android.settings:suwItemDescriptionStyle">@*com.android.settings:style/SuwItemContainer.Description.Glif</item>
+		<item name="*com.android.settings:listPreferredItemPaddingLeft">?suwMarginSides</item>
+		<item name="*com.android.settings:listPreferredItemPaddingRight">?suwMarginSides</item>
+		<item name="*com.android.settings:textAppearanceListItem">@*com.android.settings:style/TextAppearance.SuwGlifItemTitle</item>
+		<item name="*com.android.settings:textAppearanceListItemSmall">@*com.android.settings:style/TextAppearance.SuwGlifItemSummary</item>
+		<item name="*com.android.settings:colorPrimary">@*android:color/transparent</item>
+		<item name="*com.android.settings:colorAccent">@*android:color/accent_material_dark</item>
+	</style>
+	<style name="FingerprintHeaderStyle" parent="@*android:style/TextAppearance.Material.Subhead">
+		<item name="android:textColor">@*android:color/white</item>
+		<item name="android:paddingTop">16.0dip</item>
+		<item name="android:lineSpacingMultiplier">1.2</item>
+	</style>
+	<style name="SetupWizardTheme.Light" parent="@*com.android.settings:style/SuwThemeGlif.Light">
+		<item name="android:windowBackground">@*android:color/background_dark</item>
+		<item name="android:alertDialogTheme">@*com.android.settings:style/ThemeOverlay.AlertDialog</item>
+		<item name="android:colorPrimary">@*android:color/transparent</item>
+		<item name="*com.android.settings:wifi_signal">@*com.android.settings:drawable/wifi_signal</item>
+		<item name="*com.android.settings:preferenceTheme">@*com.android.settings:style/PreferenceTheme.SetupWizard</item>
+		<item name="*com.android.settings:preferenceBackgroundColor">@*android:color/transparent</item>
+		<item name="*com.android.settings:fingerprint_layout_theme">@*com.android.settings:style/FingerprintLayoutTheme</item>
+		<item name="*com.android.settings:fingerprint_progress_bar_size">@*com.android.settings:dimen/setup_fingerprint_progress_bar_size</item>
+		<item name="*com.android.settings:fingerprint_ring_radius">@*com.android.settings:dimen/setup_fingerprint_ring_radius</item>
+		<item name="*com.android.settings:ic_menu_moreoverflow">@*android:drawable/ic_perm_group_device_alarms</item>
+		<item name="*com.android.settings:ic_wps">@*com.android.settings:drawable/ic_wps_dark</item>
+		<item name="*com.android.settings:setup_divider_color">@*com.android.settings:color/setup_divider_color_dark</item>
+		<item name="*com.android.settings:side_margin">0.0dip</item>
+		<item name="*com.android.settings:wifi_signal_color">@*com.android.settings:color/setup_wizard_wifi_color_dark</item>
+	</style>
+	<style name="SuwThemeMaterial.Light" parent="@*com.android.settings:style/Theme.AppCompat.Light.NoActionBar">
+		<item name="android:listPreferredItemHeight">@*com.android.settings:dimen/suw_items_preferred_height</item>
+		<item name="android:textColorLink">@*android:color/accent_material_dark</item>
+		<item name="android:windowAnimationStyle">@*com.android.settings:style/Animation.SuwWindowAnimation</item>
+		<item name="android:windowDisablePreview">true</item>
+		<item name="android:windowSoftInputMode">adjustResize</item>
+		<item name="android:textAppearanceListItemSmall">?textAppearanceListItemSmall</item>
+		<item name="android:statusBarColor">@*android:color/transparent</item>
+		<item name="android:navigationBarColor">@*android:color/transparent</item>
+		<item name="android:indeterminateTint">@*android:color/white</item>
+		<item name="android:indeterminateTintMode">src_in</item>
+		<item name="*com.android.settings:suwMarginSides">@*com.android.settings:dimen/suw_layout_margin_sides</item>
+		<item name="*com.android.settings:suwCardBackground">@*android:color/transparent</item>
+		<item name="*com.android.settings:suwListItemIconColor">@*com.android.settings:color/suw_list_item_icon_color_light</item>
+		<item name="*com.android.settings:suwNavBarTheme">@*com.android.settings:style/SuwNavBarThemeLight</item>
+		<item name="*com.android.settings:suwItemDescriptionStyle">@*com.android.settings:style/SuwItemContainer.Description</item>
+		<item name="*com.android.settings:listPreferredItemPaddingLeft">?suwMarginSides</item>
+		<item name="*com.android.settings:listPreferredItemPaddingRight">?suwMarginSides</item>
+		<item name="*com.android.settings:textAppearanceListItemSmall">@*com.android.settings:style/TextAppearance.SuwItemSummary</item>
+		<item name="*com.android.settings:colorAccent">@*android:color/white</item>
+	</style>
+	<style name="TextAppearance.SuwDescription" parent="@*com.android.settings:style/TextAppearance.AppCompat.Medium">
+		<item name="android:textSize">@*com.android.settings:dimen/suw_description_text_size</item>
+		<item name="android:textColor">@*android:color/white</item>
+	</style>
+	<style name="TextAppearance.FingerprintLink" parent="@*com.android.settings:style/TextAppearance.FingerprintMessage">
+		<item name="android:textColor">@*android:color/accent_material_dark</item>
+	</style>
+	<style name="Theme.ConfirmDeviceCredentialsDark" parent="@*android:style/Theme.DeviceDefault.Settings.Dark">
+		<item name="android:colorPrimary">@*android:color/transparent</item>
+		<item name="android:colorPrimaryDark">@*android:color/transparent</item>
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@*android:color/background_dark</item>
+	</style>
+	<style name="TextAppearance.CategoryTitle" parent="@*android:style/TextAppearance.Material.Small">
+		<item name="android:textSize">14.0sp</item>
+		<item name="android:textColor">#C3CBE6</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:letterSpacing">0.3</item>
+	</style>
+
+	<style name="TextAppearance.CategoryTitleText" parent="@android:style/TextAppearance.Material.Small">
+		<item name="android:textSize">14.0sp</item>
+		<item name="android:textColor">#C3CBE6</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textAllCaps">false</item>
+		<item name="android:letterSpacing">0.3</item>
+	</style>
+
+	<style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+		<item name="android:background">@*android:color/transparent</item>
+		<item name="android:elevation">0.0dp</item>
+	</style>
+
+	<style name="TextAppearance.TileTitle" parent="@android:style/TextAppearance.Material.Medium">
+		<item name="android:textSize">14.5sp</item>
+		<item name="android:textColor">#ffffffff</item>
+	</style>
+</resources>

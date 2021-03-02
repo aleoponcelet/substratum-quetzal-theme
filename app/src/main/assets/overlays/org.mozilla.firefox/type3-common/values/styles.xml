@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="BrowserToolbar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@*org.mozilla.firefox:dimen/browser_toolbar_height</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+
+    <style name="Theme.Design.Light" parent="@*org.mozilla.firefox:style/Theme.AppCompat">
+        <item name="*org.mozilla.firefox:textColorError">@*org.mozilla.firefox:color/design_textinput_error_color_light</item>
+    </style>
+    <style name="Theme.Design.Light.BottomSheetDialog" parent="@*org.mozilla.firefox:style/Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@*org.mozilla.firefox:style/Animation.Design.BottomSheetDialog</item>
+        <item name="*org.mozilla.firefox:bottomSheetStyle">@*org.mozilla.firefox:style/Widget.Design.BottomSheet.Modal</item>
+    </style>
+    <style name="Theme.Design.Light.NoActionBar" parent="@*org.mozilla.firefox:style/Theme.Design">
+        <item name="*org.mozilla.firefox:windowActionBar">false</item>
+        <item name="*org.mozilla.firefox:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog" parent="@*org.mozilla.firefox:style/Base.Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.Light.Dialog.Alert" parent="@*org.mozilla.firefox:style/Base.Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.Light.Dialog.MinWidth" parent="@*org.mozilla.firefox:style/Base.Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.Light.DialogWhenLarge" parent="@*org.mozilla.firefox:style/Base.Theme.AppCompat.DialogWhenLarge" />
+    <style name="GeckoDialogBase" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#ff0c0f11</item>
+        <item name="android:backgroundTint">#ff0c0f11</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="AlertDialog.AppCompat.Light" parent="@*org.mozilla.firefox:style/Base.AlertDialog.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@*org.mozilla.firefox:style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@*org.mozilla.firefox:style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@*org.mozilla.firefox:style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="@*org.mozilla.firefox:style/Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@*org.mozilla.firefox:style/Base.V7.Theme.AppCompat.Dialog" />
+
+
+    <style name="Widget.Home.ActionButton" parent="@*org.mozilla.firefox:style/Widget.Home">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*org.mozilla.firefox:drawable/home_history_clear_button_bg</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:paddingStart">10.0dip</item>
+        <item name="android:paddingEnd">10.0dip</item>
+    </style>
+    <style name="TabsLayout">
+        <item name="*org.mozilla.firefox:tabs">tabs_private</item>
+        <item name="android:background">#ff000000</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:windowBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">#ff0b0e0f</item>
+        <item name="android:colorPrimaryDark">#ff0b0e0f</item>
+        <item name="android:colorPrimary">#ff0e1214</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

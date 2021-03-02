@@ -1,0 +1,11 @@
+<resources>
+
+    <color name="dark_mode_icon_color_dual_tone_background">#4dffffff</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">@*android:color/accent_material_dark</color>
+    <color name="dark_mode_icon_color_single_tone">@*android:color/accent_material_dark</color>
+
+    <color name="light_mode_icon_color_dual_tone_background">#4dffffff</color>
+    <color name="light_mode_icon_color_dual_tone_fill">@*android:color/accent_material_light</color>
+    <color name="light_mode_icon_color_single_tone">@*android:color/accent_material_light</color>
+
+</resources>

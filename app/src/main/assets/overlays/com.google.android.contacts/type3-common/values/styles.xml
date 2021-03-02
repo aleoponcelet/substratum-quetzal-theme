@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NonPhoneDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
+	
+    <style name="ContactsAlertDialogTheme" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@*android:color/holo_blue_light</item>
+    </style>
+	
+	<style name="Base.V7.Widget.AppCompat.Toolbar" parent="@*android:style/Widget">
+        <item name="android:minHeight">56dip</item>
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
+	
+    <style name="PeopleTheme" parent="@*android:style/Theme.Material">
+        <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_light</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_light</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="seekbar_track_background_height_material">1.5dip</dimen>
+    <dimen name="seekbar_track_progress_height_material">1.5dip</dimen>
+    <dimen name="progress_bar_height_material">1.5dip</dimen>
+
+
+    <dimen name="text_edit_floating_toolbar_elevation">0.0dip</dimen>
+    <dimen name="action_bar_elevation_material">0.0dp</dimen>
+    <dimen name="button_elevation_material">0.0dip</dimen>
+    <dimen name="notification_text_margin_top">0.0dip</dimen>
+
+</resources>

@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="32dp"
+android:height="32dp"
+android:viewportWidth="32"
+android:viewportHeight="32">
+<path
+    android:fillAlpha="0.4" 
+        android:fillColor="@*android:color/accent_material_light"
+    android:name="Linked"
+    android:pathData="m28.53 15.4 -3.59 3.59 -1.33 -1.33 3.59 -3.59c2.56 -2.56 2.56 -6.73 0 -9.28c-2.56 -2.56 -6.72 -2.56 -9.28 0l-3.59 3.59c-2.56 2.56 -2.56 6.72 0 9.28l-1.33 1.33c-3.29 -3.29 -3.29 -8.65 0 -11.94l3.59 -3.59c3.29 -3.29 8.64 -3.29 11.94 0c3.29 3.29 3.29 8.64 0 11.94zm-14.45 11.8 3.59 -3.59c2.56 -2.56 2.56 -6.72 0 -9.28l1.33 -1.33c3.29 3.29 3.29 8.65 0 11.94l-3.59 3.59c-1.65 1.65 -3.81 2.47 -5.97 2.47c-2.16 0 -4.32 -0.82 -5.97 -2.47c-3.29 -3.29 -3.29 -8.65 0 -11.94l3.59 -3.59l1.33 1.33l-3.59 3.59c-2.56 2.56 -2.56 6.72 0 9.28c2.56 2.56 6.72 2.56 9.28 0z" />
+</vector>

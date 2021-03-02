@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:auto="http://schemas.android.com/apk/com.facebook.orca"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:background="#ff424242"
+       android:backgroundTint="#ff424242">
+    <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@*com.facebook.orca:id/results_list"
+                                                         android:layout_width="fill_parent"
+                                                         android:layout_height="@*com.facebook.orca:dimen/horizontal_tiles_unit_height"
+                                                         android:layout_gravity="center_vertical"
+                                                         android:background="#ff424242"
+                                                         android:backgroundTint="#ff424242"/>
+</merge>

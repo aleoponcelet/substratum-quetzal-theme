@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Hourglass"
+        android:pathData="m8 28v-4.5h16v4.5h-16zm14.55 -3h-13.09v1.5h13.09v-1.5zm-8.73 -15c0 1.24 0.98 2.25 2.18 2.25v1.5c-2 0 -3.64 -1.68 -3.64 -3.75h1.45zm2.18 9.75c-1.2 0 -2.18 1.01 -2.18 2.25h-1.45c0 -2.07 1.63 -3.75 3.64 -3.75v1.5zm-6.55 -9.75h1.45c0 2.89 2.28 5.25 5.09 5.25c2.81 0 5.09 -2.36 5.09 -5.25h1.45c0 2.61 -1.45 4.88 -3.56 6c2.11 1.12 3.56 3.39 3.56 6h-1.45c0 -2.89 -2.28 -5.25 -5.09 -5.25c-2.81 0 -5.09 2.36 -5.09 5.25h-1.45c0 -2.61 1.45 -4.88 3.56 -6c-2.11 -1.12 -3.56 -3.39 -3.56 -6zm-1.45 -6h16v4.5h-16v-4.5zm1.45 3h13.09v-1.5h-13.09v1.5z" />
+</vector>

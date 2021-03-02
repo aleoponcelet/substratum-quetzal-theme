@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+    <path
+        android:fillAlpha="0.8"
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Printer"
+        android:pathData="m32.75 45.25v6.25h-6.25v-6.25h6.25zm62.5 50v-6.25h12.5v-50h-87.5v50h12.5v6.25h-18.75v-62.5h100v62.5h-18.75zm-12.51 -75h-37.5v6.25h-6.25v-12.5h50v12.5h-6.25v-6.25zm-37.49 31.25h-6.25v-6.25h6.25v6.25zm6.25 31.25h28.13v6.25h-28.13v-6.25zm28.13 18.75h-28.13v-6.25h28.13v6.25zm-34.38 6.25h37.5v-31.25h6.25v37.5h-50v-37.5h6.25v31.25z" />
+</vector>

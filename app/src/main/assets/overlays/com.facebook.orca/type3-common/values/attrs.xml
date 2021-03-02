@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <attr name="actionBarPopupTheme" format="reference" />
+  <attr name="actionBarTheme" format="reference" />
+  <attr name="homeAsUpIndicator" format="reference" />
+</resources>

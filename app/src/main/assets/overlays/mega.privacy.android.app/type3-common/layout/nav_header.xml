@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@*mega.privacy.android.app:id/navigation_drawer_account_view" android:background="#ff000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="100.0dip" android:foreground="?*selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rounded="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@*mega.privacy.android.app:id/navigation_drawer_account_section" android:paddingLeft="16.0dip" android:paddingTop="44.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@*mega.privacy.android.app:id/navigation_drawer_user_account_relative_layout_profile_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <mega.privacy.android.app.components.RoundedImageView android:id="@*mega.privacy.android.app:id/navigation_drawer_user_account_picture_profile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" rounded:border_width="0.0dip" rounded:corner_radius="30.0dip" />
+            <TextView android:gravity="center" android:id="@*mega.privacy.android.app:id/navigation_drawer_user_account_picture_profile_textview" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@*mega.privacy.android.app:id/navigation_drawer_account_information" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@*mega.privacy.android.app:id/navigation_drawer_user_account_relative_layout_profile_avatar" android:layout_alignParentTop="true">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@*mega.privacy.android.app:id/navigation_drawer_account_information_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User Name" android:singleLine="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@*mega.privacy.android.app:id/navigation_drawer_account_information_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="email@domain.com" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

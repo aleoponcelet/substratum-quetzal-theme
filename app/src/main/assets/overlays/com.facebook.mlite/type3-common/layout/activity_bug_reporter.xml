@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@*com.facebook.mlite:color/background_material_dark"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@*com.facebook.mlite:id/my_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:background="@*com.facebook.mlite:drawable/appbar_border">
+
+        <ImageButton
+            android:id="@*com.facebook.mlite:id/send_button"
+            android:layout_width="56.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="end"
+            android:layout_weight="0.0"
+            android:adjustViewBounds="true"
+            android:background="@*com.facebook.mlite:drawable/grey_button_selector"
+            android:contentDescription="@*com.facebook.mlite:string/send_button_content_description"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:scaleType="fitCenter"
+            android:src="@*com.facebook.mlite:drawable/ic_send"
+            android:tint="@*com.facebook.mlite:color/messenger_blue" />
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@*com.facebook.mlite:id/report_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16.0dip"
+        android:hint="@*com.facebook.mlite:string/bug_report_hint"
+        android:inputType="textAutoCorrect|textCapSentences|textMultiLine" />
+</LinearLayout>

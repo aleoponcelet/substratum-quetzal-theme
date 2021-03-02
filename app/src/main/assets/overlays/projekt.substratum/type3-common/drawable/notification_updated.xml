@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="33dp"
+    android:height="33dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Star"
+        android:pathData="m17.96 14.25 -1.93 -6.96 1.69 -0.47 1.57 5.67h10.71v1.76h-12.04zm-15.96 0v-1.76h9.62l3.56 -9.99l1.65 0.6l-3.97 11.16h-10.85zm3.01 0.97 6.54 3.2 -2.6 7.02 7.06 -4.22 7.06 4.22 -2.6 -7.02 6.54 -3.2 0.76 1.58 -5.1 2.5 3.79 10.2 -10.44 -6.23 -10.44 6.23 3.79 -10.2 -5.1 -2.5 0.76 -1.58z" />
+</vector>

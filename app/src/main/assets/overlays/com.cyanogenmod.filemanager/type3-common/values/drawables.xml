@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <item type="drawable" name="background_drawable">@*android:color/background_material_dark</item>
+	<item type="drawable" name="bg_header">@*android:color/primary_material_dark</item>
+    <item type="drawable" name="bg_material_selectionbar">@*android:color/primary_material_dark</item>
+    <item type="drawable" name="bg_material_titlebar">@*android:color/primary_material_dark</item>
+    <item type="drawable" name="bg_material_statusbar">@*android:color/primary_dark_material_dark</item>
+    <item type="drawable" name="divider_vertical_bright_opaque">@*android:color/background_material_dark</item>
+    <item type="drawable" name="progress_secondary_material_light1">@*android:color/accent_material_light</item>
+    <item type="drawable" name="progress_primary_material_light1">@*android:color/accent_material_light</item>	
+    <item type="drawable" name="divider_horizontal_bright_opaque">@*android:color/background_material_dark</item>
+    <item type="drawable" name="statusbar_drawable">@*android:color/primary_dark_material_dark</item>
+</resources>

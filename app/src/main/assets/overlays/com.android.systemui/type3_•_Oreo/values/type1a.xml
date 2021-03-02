@@ -1,0 +1,7 @@
+<resources>
+    <!-- Clock -->
+    <color name="clock_white">#ffffffff</color>
+    <color name="clock_gray">#ffffffff</color>
+    <!-- Default clock parameters -->
+
+</resources>

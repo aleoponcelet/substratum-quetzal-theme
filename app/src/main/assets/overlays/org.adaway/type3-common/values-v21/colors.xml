@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="pressed_adaway">@*android:color/accent_material_light</color>
+    <color name="accent">@*android:color/accent_material_light</color>
+    <color name="primary">@*android:color/primary_material_dark</color>
+    <color name="primary_dark">@*android:color/primary_dark_material_dark</color>
+  
+</resources>

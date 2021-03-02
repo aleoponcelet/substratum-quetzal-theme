@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.FbFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                         xmlns:app="http://schemas.android.com/apk/com.facebook.orca"
+                                         android:background="@null"
+                                         android:backgroundTint="@null"
+                                         android:layout_width="fill_parent"
+                                         android:layout_height="wrap_content">
+    <com.facebook.messaging.composer.ComposerActionBar android:id="@*com.facebook.orca:id/composer_action_bar"
+                                                       android:background="@null"
+                                                       android:backgroundTint="@null"
+                                                       android:layout_width="wrap_content"
+                                                       android:layout_height="fill_parent"
+                                                       android:layout_gravity="start|bottom|center"/>
+    <LinearLayout android:id="@*com.facebook.orca:id/editor_text_input_view" android:layout_width="fill_parent"
+                  android:backgroundTint="@null"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="end|center"
+                  android:layout_marginBottom="@*com.facebook.orca:dimen/orca_composer_bar_margin_vertical" android:layout_marginEnd="@*com.facebook.orca:dimen/orca_composer_bar_margin_horizontal"
+                  android:layout_marginRight="@*com.facebook.orca:dimen/orca_composer_bar_margin_horizontal"
+                  android:layout_marginTop="@*com.facebook.orca:dimen/orca_composer_bar_margin_vertical"
+                  android:background="@*com.facebook.orca:drawable/orca_composer_bar_input_border"
+                  android:minHeight="@*com.facebook.orca:dimen/orca_composer_bar_text_input_min_height"
+                  android:orientation="horizontal">
+        <com.facebook.messaging.composer.ComposerActionButton
+            android:background="@null"
+            android:backgroundTint="@null"
+            android:id="@*com.facebook.orca:id/composer_ephemeral_action_button"
+            style="@*com.facebook.orca:style/Widget.Messenger.ComposerActionButton.TextFieldButton"
+            android:contentDescription="@*com.facebook.orca:string/composer_bar_accessibility_label_ephemeral"
+            android:src="@*com.facebook.orca:drawable/ephemeral_timer_icon"/>
+        <com.facebook.widget.text.BetterTextView android:id="@*com.facebook.orca:id/composer_dual_sim_button"
+                                                 android:backgroundTint="@null"
+                                                 style="@*com.facebook.orca:style/Widget.Messenger.ComposerActionButton.TextFieldButton"
+                                                 android:background="@*com.facebook.orca:drawable/composer_dual_sim_button_background"
+                                                 android:gravity="center"
+                                                 android:textColor="@android:color/white"
+                                                 android:textSize="@*com.facebook.orca:dimen/dual_sim_button_text_size"
+                                                 android:textStyle="bold"/>
+        <com.facebook.messaging.composer.ExpandingBackgroundEditText
+            android:background="@null"
+            android:backgroundTint="@null"
+            android:id="@*com.facebook.orca:id/text_input_bar"
+            style="@*com.facebook.orca:style/Widget.Messenger.ComposerEditText" android:layout_width="0.0dip"
+            android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:hint="@*com.facebook.orca:string/orca_composer_bar_hint"
+            android:imeOptions="actionDone|flagNoEnterAction" android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="@*com.facebook.orca:integer/orca_one_line_composer_edit_text_max_length"
+            android:maxLines="@*com.facebook.orca:integer/orca_one_line_composer_edit_text_collapsed_max_lines"
+            android:paddingBottom="@*com.facebook.orca:dimen/orca_composer_bar_text_input_padding_vertical"
+            android:paddingTop="@*com.facebook.orca:dimen/orca_composer_bar_text_input_padding_vertical" android:textColor="@*com.facebook.orca:color/black_alpha_87"
+            android:textColorHint="@*com.facebook.orca:color/black_alpha_38" android:textSize="@*com.facebook.orca:dimen/orca_composer_bar_text_input_text_size"
+            app:fbFontFamily="roboto" app:fbFontWeight="regular"/>
+        <com.facebook.messaging.composer.ComposerActionButton
+            android:background="@null"
+            android:backgroundTint="@null"
+            android:id="@*com.facebook.orca:id/composer_emoji_action_button"
+            style="@*com.facebook.orca:style/Widget.Messenger.ComposerActionButton.TextFieldButton"
+            android:contentDescription="@*com.facebook.orca:string/composer_bar_accessibility_label_emoji"
+            android:src="@*com.facebook.orca:drawable/fbui_face_very_happy_solid_l"/>
+    </LinearLayout>
+</com.facebook.resources.ui.FbFrameLayout>

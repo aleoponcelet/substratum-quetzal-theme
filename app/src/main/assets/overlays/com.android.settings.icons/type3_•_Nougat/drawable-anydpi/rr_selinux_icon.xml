@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Column"
+        android:pathData="m25.07 7c-0.55 0 -1 0.45 -1 1h-2c0 -1.65 1.35 -3 3 -3v2zm-19 1h-2c0 -1.65 1.35 -3 3 -3v2c-0.55 0 -1 0.45 -1 1zm18.93 7c-3.86 0 -7 -3.14 -7 -7h2c0 2.76 2.24 5 5 5c2.76 0 5 -2.24 5 -5c0 -2.76 -2.24 -5 -5 -5h-18c-2.76 0 -5 2.24 -5 5c0 2.76 2.24 5 5 5c2.76 0 5 -2.24 5 -5h2c0 3.86 -3.14 7 -7 7c-3.86 0 -7 -3.14 -7 -7c0 -3.86 3.14 -7 7 -7h18c3.86 0 7 3.14 7 7c0 3.86 -3.14 7 -7 7zm-17 16h-2v-14h2v14zm6 -18h4v2h-4v-2zm0 18h-2v-14h2v14zm6 0h-2v-14h2v14zm6 0h-2v-14h2v14z" />
+</vector>

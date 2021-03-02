@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary GRAU -->
+    <color name="cat_grayscale_15">@*android:color/material_blue_grey_900</color>
+
+    <!-- Akzent GRÜN -->
+    <color name="cat_accessory_focused">@*android:color/accent_material_light</color>
+    <color name="cat_accessory_focused_disable">@*android:color/accent_material_light</color>
+    <color name="cat_accessory_green_default">@*android:color/accent_material_light</color>
+    <color name="cat_accessory_green_focused">@*android:color/accent_material_light</color>
+    <color name="cat_button_border_checked">@*android:color/accent_material_light</color>
+    <color name="cat_button_info_border_focused">@*android:color/accent_material_light</color>
+    <color name="solar_green">@*android:color/accent_material_light</color>
+    <color name="solar_text_primary_active">@*android:color/accent_material_light</color>
+    <color name="solar_text_primary_muted_active">@*android:color/accent_material_light</color>
+    <color name="solar_green_dark">@*android:color/accent_material_light</color>
+    <color name="solar_green_light">@*android:color/accent_material_light</color>
+
+
+    <color name="cat_light_green">@*android:color/accent_material_light</color>
+    <color name="cat_light_green_20">@*android:color/accent_material_light</color>
+    <color name="cat_light_green_40">@*android:color/accent_material_light</color>
+    <color name="cat_light_green_5">@*android:color/accent_material_light</color>
+    <color name="cat_medium_green">@*android:color/accent_material_light</color>
+    <color name="cat_medium_green_40">@*android:color/accent_material_light</color>
+    <color name="collection_overlay_electric_seafoam">@*android:color/accent_material_light</color>
+    <color name="glue_green">@*android:color/accent_material_light</color>
+    <color name="glue_green_dark">@*android:color/accent_material_light</color>
+    <color name="glue_green_light">@*android:color/accent_material_light</color>
+    <color name="cat_dark_green">@*android:color/accent_material_light</color>
+    <color name="cat_dark_green_40">@*android:color/accent_material_light</color>
+
+    <!-- Fondo -->
+    <color name="cardview_dark_background">@*android:color/material_blue_grey_900</color>
+    <color name="intercom_grey_800">@*android:color/material_blue_grey_900</color>
+    <color name="material_grey_900">@*android:color/material_blue_grey_900</color>
+    <color name="txt_dialog_text">@*android:color/material_blue_grey_900</color>
+    <color name="data_saver_dark">@*android:color/background_dark</color>
+    <color name="cat_grayscale_12">@*android:color/material_blue_grey_900</color>
+    <color name="bg_filter">@*android:color/material_blue_grey_900</color>
+    <color name="data_saver_dark_20">@*android:color/material_blue_grey_900</color>
+    <color name="free_tier_data_saver_dark">@*android:color/background_dark</color>
+    <color name="solar_gray_7">@*android:color/background_dark</color>
+    <color name="glue_gray_7">@*android:color/background_dark</color>
+    <color name="glue_gray_background">@*android:color/background_dark</color>
+
+</resources>

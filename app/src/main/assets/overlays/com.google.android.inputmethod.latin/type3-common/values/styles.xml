@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardViewerQueryText">
+        <item name="android:textSize">@*com.google.android.inputmethod.latin:dimen/search_box_font_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:id">@*com.google.android.inputmethod.latin:id/card_viewer_query_text</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="CardViewerQueryText.Emoji" parent="@*com.google.android.inputmethod.latin:style/CardViewerQueryText">
+        <item name="android:hint">@*com.google.android.inputmethod.latin:string/emoji_search_results_hint</item>
+        <item name="android:textColorHint">#77ffffff</item>
+    </style>
+    <style name="SearchResultQueryTextView">
+        <item name="android:textSize">@*com.google.android.inputmethod.latin:dimen/search_box_font_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">#77ffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+
+
+
+
+<style name="GBoardEditText">
+    <item name="android:textSize">@*com.google.android.inputmethod.latin:dimen/search_box_font_size</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textColorHint">#77ffffff</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:background">#ff424242</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:maxLines">1</item>
+    <item name="android:imeOptions">actionSearch</item>
+</style>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*org.mozilla.firefox:id/tracking_protection_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:id="@*org.mozilla.firefox:id/tracking_protection_inner_container"
+        android:layout_width="@*org.mozilla.firefox:dimen/overlay_prompt_container_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="#ff0c0f11"
+        android:orientation="vertical"
+        android:paddingBottom="40.0dip">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:fadeScrollbars="false"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20.0dip"
+                    android:layout_marginTop="40.0dip"
+                    android:src="@*org.mozilla.firefox:drawable/tracking_protection_toolbar_illustration" />
+
+                <TextView
+                    android:id="@*org.mozilla.firefox:id/title"
+                    android:layout_width="@*org.mozilla.firefox:dimen/overlay_prompt_content_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:text="@*org.mozilla.firefox:string/tracking_protection_prompt_title"
+                    android:textColor="@*org.mozilla.firefox:color/text_and_tabs_tray_grey"
+                    android:textSize="20.0sp" />
+
+                <TextView
+                    android:id="@*org.mozilla.firefox:id/text"
+                    android:layout_width="@*org.mozilla.firefox:dimen/overlay_prompt_content_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.25"
+                    android:paddingTop="20.0dip"
+                    android:text="@*org.mozilla.firefox:string/tracking_protection_prompt_text"
+                    android:textColor="@*org.mozilla.firefox:color/placeholder_grey"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:id="@*org.mozilla.firefox:id/link_text"
+                    android:layout_width="@*org.mozilla.firefox:dimen/overlay_prompt_content_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingBottom="30.0dip"
+                    android:paddingTop="20.0dip"
+                    android:text="@*org.mozilla.firefox:string/tracking_protection_prompt_tip_text"
+                    android:textColor="@*org.mozilla.firefox:color/link_blue"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@*org.mozilla.firefox:id/ok_button"
+            style="@*org.mozilla.firefox:style/Widget.BaseButton"
+            android:layout_width="fill_parent"
+            android:layout_height="52.0dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="32.0dip"
+            android:layout_marginRight="32.0dip"
+            android:background="@*org.mozilla.firefox:drawable/button_background_action_photon_round"
+            android:text="@*org.mozilla.firefox:string/tracking_protection_prompt_action_button"
+            android:textColor="@android:color/white"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+</merge>

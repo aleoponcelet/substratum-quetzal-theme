@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+	android:width="16dp"
+	android:height="32dp"
+	android:viewportWidth="16"
+	android:viewportHeight="32">
+	<path
+		android:fillColor="@*android:color/accent_material_light"
+		android:name="Man Figure"
+		android:pathData="m14.002 21.056 -0.477 -8.574 -3.176 -2.723 1.301 -1.518 3.824 3.277 0.523 9.426 -1.996 0.111zm-6.002 -13.056c-2.206 0 -4 -1.794 -4 -4c0 -2.206 1.794 -4 4 -4c2.206 0 4 1.794 4 4c0 2.206 -1.794 4 -4 4zm0 -6c-1.103 0 -2 0.897 -2 2c0 1.103 0.897 2 2 2c1.103 0 2 -0.898 2 -2c0 -1.102 -0.897 -2 -2 -2zm-2.349 7.759 -3.176 2.723 -0.476 8.574 -1.997 -0.111 0.524 -9.426 3.824 -3.277 1.302 1.518zm0.349 11.241 0.904 9h2.19l0.91 -9.1l-0.005 -5.9h2v6l-1.095 11h-5.81l-1.09 -10.9l-0.005 -6.1h2v6z" />
+</vector>

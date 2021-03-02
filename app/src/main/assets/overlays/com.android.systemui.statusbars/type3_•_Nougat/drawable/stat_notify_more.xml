@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="35"
+    android:viewportHeight="35">
+    <path
+        android:fillColor="#fff"
+        android:name="Tag"
+        android:pathData="m12.19 8.19 -9.29 9.29 9.31 9.31 -1.43 1.43 -10.74 -10.74 10.71 -10.71 1.43 1.43zm2.15 0.3 -0 -2.02 20.16 -0.54 -0.02 23.12 -20.12 -0.53 -0 -2.02 18.09 0.53 0.03 -19.07 -18.14 0.54z" />
+</vector>

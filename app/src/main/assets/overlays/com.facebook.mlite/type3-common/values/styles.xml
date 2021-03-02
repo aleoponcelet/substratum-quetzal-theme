@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@*com.facebook.mlite:style/Theme.AppCompat">
+        <item name="android:windowBackground">@*com.facebook.mlite:color/background_material_dark</item>
+        <item name="android:colorBackgroundFloating">@*com.facebook.mlite:color/background_floating_material_dark</item>
+        <item name="android:itemBackground">@*com.facebook.mlite:color/background_material_dark</item>
+        <item name="android:colorBackground">@*com.facebook.mlite:color/background_material_dark</item>
+        <item name="android:statusBarColor">@*android:color/material_grey_800</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_grey_800</item>
+        <item name="android:colorPrimary">@*android:color/material_grey_800</item>
+        <item name="*com.facebook.mlite:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="*com.facebook.mlite:preferenceTheme">@*com.facebook.mlite:style/PreferenceThemeOverlay.MLite</item>
+        <item name="*com.facebook.mlite:windowActionBar">false</item>
+        <item name="*com.facebook.mlite:windowNoTitle">true</item>
+    </style>
+</resources>

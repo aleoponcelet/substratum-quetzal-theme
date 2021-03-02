@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<!-- Accent -->
+<color name="accent_material_dark">#9a85ed</color><!--Main accent-->
+<color name="accent_material_light">#9a85ed</color><!-- Sec accent-->
+<color name="highlighted_text_dark">#809a85ed</color><!--Text selection-->
+<color name="holo_blue_bright">#ff9a85ed</color>
+<color name="lighter_gray">#9a85ed</color>
+    <!-- Color oscuro-->
+    <color name="holo_red_dark">#473E6E</color>
+    <!-- Color oscuro 2 -->
+    <color name="holo_orange_light">#409a85ed</color>
+
+</resources>

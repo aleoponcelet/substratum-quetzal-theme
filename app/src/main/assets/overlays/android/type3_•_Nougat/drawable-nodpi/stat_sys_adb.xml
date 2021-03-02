@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="19dp"
+    android:height="19dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffffff"
+        android:name="Anchor"
+        android:pathData="m16 27c-7.72 0 -14 -5.38 -14 -12v-1h4v2h-1.94c0.6 5.05 5.73 9 11.94 9c6.21 0 11.34 -3.95 11.94 -9h-1.94v-2h4v1c0 6.62 -6.28 12 -14 12zm1 -17.1v13.1h-2v-13.1c-2.28 -0.46 -4 -2.48 -4 -4.9c0 -2.76 2.24 -5 5 -5c2.76 0 5 2.24 5 5c0 2.41 -1.72 4.43 -4 4.9zm-1 -7.9c-1.65 0 -3 1.35 -3 3c0 1.65 1.35 3 3 3c1.65 0 3 -1.35 3 -3c0 -1.65 -1.35 -3 -3 -3zm0 28c0.55 0 1 -0.45 1 -1h2c0 1.65 -1.35 3 -3 3c-1.65 0 -3 -1.35 -3 -3h2c0 0.55 0.45 1 1 1z" />
+</vector>

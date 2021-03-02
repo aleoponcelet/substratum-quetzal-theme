@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Base" parent="@*com.thirdframestudios.android.expensoor:style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@*com.thirdframestudios.android.expensoor:style/ToshlListView</item>
+        <item name="android:radioButtonStyle">@*com.thirdframestudios.android.expensoor:style/ToshlRadioButton</item>
+        <item name="android:spinnerStyle">@*com.thirdframestudios.android.expensoor:style/ToshlSpinner.Underlined</item>
+        <item name="android:divider">@*com.thirdframestudios.android.expensoor:drawable/line_red</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:textAppearanceListItemSmall">@*com.thirdframestudios.android.expensoor:style/ToshlTextStyle.DialogListItem</item>
+        <item name="number_picker">@*com.thirdframestudios.android.expensoor:drawable/rect_red</item>
+        <item name="radio_button">@*com.thirdframestudios.android.expensoor:drawable/radio_button</item>
+        <item name="selector_dialog_list_item">@*com.thirdframestudios.android.expensoor:color/selector_dialog_list_item</item>
+        <item name="selector_form_value">@*com.thirdframestudios.android.expensoor:color/selector_form_value</item>
+        <item name="selector_horizontal_list_item">@*com.thirdframestudios.android.expensoor:color/selector_horizontal_list_item</item>
+        <item name="selector_radio_button">@*com.thirdframestudios.android.expensoor:color/selector_radio_button</item>
+        <item name="selector_radio_button_text_item">@*com.thirdframestudios.android.expensoor:color/selector_radio_button_text_item</item>
+        <item name="windowActionBar">false</item>
+        <item name="buttonBarButtonStyle">@*com.thirdframestudios.android.expensoor:style/DialogButtonStyle</item>
+        <item name="colorPrimary">@*com.thirdframestudios.android.expensoor:color/toshl_grey_ab</item>
+        <item name="colorPrimaryDark">@*com.thirdframestudios.android.expensoor:color/toshl_grey_ab</item>
+        <item name="colorAccent">@*com.thirdframestudios.android.expensoor:color/toshl_red</item>
+        <item name="colorControlActivated">@*com.thirdframestudios.android.expensoor:color/toshl_red</item>
+        <item name="colorControlHighlight">@*com.thirdframestudios.android.expensoor:color/toshl_highlight_dark</item>
+        <item name="buttonStyle">@*com.thirdframestudios.android.expensoor:style/ToshlButton.Red</item>
+        <item name="editTextStyle">@*com.thirdframestudios.android.expensoor:style/ToshlEditText</item>
+    </style>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="fill_horizontal|center" android:orientation="horizontal" android:id="@*mega.privacy.android.app:id/cell_photosync_layout" android:background="@*android:color/legacy_primary_dark" android:backgroundTint="@*android:color/legacy_primary_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="left" android:id="@*mega.privacy.android.app:id/cell_photosync_grid_month_layout" android:background="@*android:color/legacy_primary_dark" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@*mega.privacy.android.app:color/mail_my_account" android:id="@*mega.privacy.android.app:id/cell_photosync_grid_month_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:singleLine="false" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

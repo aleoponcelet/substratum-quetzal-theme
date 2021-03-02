@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0.0dip"
+    android:layout_height="0.0dip"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@*org.mozilla.firefox:id/title_highlights"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:layout_weight="1.0"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@*org.mozilla.firefox:id/title_link"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:paddingEnd="5.0dip"
+        android:paddingLeft="0.0dip"
+        android:paddingRight="5.0dip"
+        android:paddingStart="0.0dip"
+        android:textAllCaps="true"
+        android:textAppearance="@*org.mozilla.firefox:style/TextAppearance.Link"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@*org.mozilla.firefox:id/arrow_link"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginEnd="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:layout_marginRight="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:importantForAccessibility="no"
+        android:visibility="gone" />
+</LinearLayout>

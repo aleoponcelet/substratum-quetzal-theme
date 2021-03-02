@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gecko="http://schemas.android.com/apk/org.mozilla.firefox"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@*org.mozilla.firefox:color/state_pressed_toolbar_grey_pressed"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@*org.mozilla.firefox:id/tab_history_timeline_combo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@*org.mozilla.firefox:dimen/tab_history_combo_margin_end"
+        android:layout_marginLeft="@*org.mozilla.firefox:dimen/tab_history_combo_margin_start"
+        android:layout_marginRight="@*org.mozilla.firefox:dimen/tab_history_combo_margin_end"
+        android:layout_marginStart="@*org.mozilla.firefox:dimen/tab_history_combo_margin_start"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@*org.mozilla.firefox:id/tab_history_timeline_top"
+            android:layout_width="@*org.mozilla.firefox:dimen/tab_history_timeline_width"
+            android:layout_height="@*org.mozilla.firefox:dimen/tab_history_timeline_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@*org.mozilla.firefox:color/tab_history_timeline_separator" />
+
+        <org.mozilla.gecko.widget.FaviconView
+            android:id="@*org.mozilla.firefox:id/tab_history_icon"
+            android:layout_width="@*org.mozilla.firefox:dimen/tab_history_favicon_bg"
+            android:layout_height="@*org.mozilla.firefox:dimen/tab_history_favicon_bg"
+            android:background="@*org.mozilla.firefox:drawable/tab_history_icon_state"
+            android:padding="@*org.mozilla.firefox:dimen/tab_history_favicon_padding"
+            android:scaleType="centerInside"
+            gecko:dominantBorderEnabled="false"
+            gecko:overrideScaleType="false" />
+
+        <ImageView
+            android:id="@*org.mozilla.firefox:id/tab_history_timeline_bottom"
+            android:layout_width="@*org.mozilla.firefox:dimen/tab_history_timeline_width"
+            android:layout_height="@*org.mozilla.firefox:dimen/tab_history_timeline_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@*org.mozilla.firefox:color/tab_history_timeline_separator" />
+    </LinearLayout>
+
+    <org.mozilla.gecko.widget.FadedSingleColorTextView
+        android:id="@*org.mozilla.firefox:id/tab_history_title"
+        style="@*org.mozilla.firefox:style/Widget.TwoLinePageRow.Title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@null"
+        android:paddingEnd="@*org.mozilla.firefox:dimen/tab_history_title_margin_end"
+        android:paddingRight="@*org.mozilla.firefox:dimen/tab_history_title_margin_end"
+        android:text="@*org.mozilla.firefox:id/tab_history_title"
+        android:textColor="@android:color/white"
+        android:textSize="@*org.mozilla.firefox:dimen/tab_history_title_text_size"
+        gecko:fadeWidth="@*org.mozilla.firefox:dimen/tab_history_title_fading_width" />
+</LinearLayout>

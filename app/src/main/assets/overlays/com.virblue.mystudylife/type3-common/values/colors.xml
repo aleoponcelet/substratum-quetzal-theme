@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+	<color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
+	<color name="primary_material_dark">@*android:color/primary_material_dark</color>
+	<color name="primary_material_light">@*android:color/primary_material_dark</color>
+	<color name="primary_text_default_material_light">#ffffffff</color>
+	<color name="primary_text_disabled_material_light">#ffffffff</color>
+
+	<color name="cardview_dark_background">@*android:color/holo_gray_bright</color>
+	<color name="cardview_light_background">@*android:color/holo_gray_bright</color>
+	<color name="cardview_shadow_end_color">#03000000</color>
+	<color name="cardview_shadow_start_color">#37000000</color>
+
+	<color name="tab_selected">@*android:color/accent_material_dark</color>
+	<color name="accent_dark_opacity_75">@*android:color/accent_material_dark</color>
+	<color name="accent_material_dark">@*android:color/accent_material_dark</color>
+	<color name="accent_material_light">@*android:color/accent_material_dark</color>
+	<color name="mdtp_accent_color">@*android:color/accent_material_dark</color>
+	<color name="mdtp_accent_color_dark">@*android:color/accent_material_dark</color>
+	<color name="mdtp_accent_color_focused">@*android:color/accent_material_dark</color>
+	<color name="accent_dark">@*android:color/accent_material_dark</color>
+	<color name="accent">@*android:color/accent_material_dark</color>
+	<color name="accent_mid">@*android:color/accent_material_dark</color>
+	<color name="accent_light">@*android:color/accent_material_dark</color>
+	<color name="accent_lightest">@*android:color/accent_material_dark</color>
+	<color name="accent_opacity_75">@*android:color/accent_material_dark</color>
+</resources>

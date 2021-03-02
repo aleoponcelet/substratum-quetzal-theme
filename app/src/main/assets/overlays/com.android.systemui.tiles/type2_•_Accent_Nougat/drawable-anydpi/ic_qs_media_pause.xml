@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Play"
+        android:pathData="m16 32c-8.82 0 -16 -7.18 -16 -16c0 -8.82 7.18 -16 16 -16c8.82 0 16 7.18 16 16c0 8.82 -7.18 16 -16 16zm0 -30c-7.72 0 -14 6.28 -14 14c0 7.72 6.28 14 14 14c7.72 0 14 -6.28 14 -14c0 -7.72 -6.28 -14 -14 -14zm1 9h2v10h-2v-10zm-4 0h2v10h-2v-10z" />
+</vector>

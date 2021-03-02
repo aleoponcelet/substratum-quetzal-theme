@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="colorPrimary">@*android:color/primary_material_dark</color>
+    <color name="colorPrimaryDark">@*android:color/primary_dark_material_dark</color>
+    <color name="colorAccent">@*android:color/accent_material_dark</color>
+
+    <color name="accent_material_dark">@*android:color/accent_material_dark</color>
+    <color name="accent_material_light">@*android:color/accent_material_dark</color>
+	
+	<color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
+    <color name="mdtp_accent_color">@*android:color/accent_material_dark</color>
+	<color name="material_grey_600">@*android:color/accent_material_dark</color>
+    
+    <color name="primary_tinted_text_color">@*android:color/accent_material_dark</color>
+
+</resources>

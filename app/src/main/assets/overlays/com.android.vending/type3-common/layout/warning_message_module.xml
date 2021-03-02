@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailsmodules.modules.warningmessage.view.LegacyWarningMessageModuleView android:orientation="horizontal" android:id="@*com.android.vending:id/warning_message_module" android:backgroundTint="@*android:color/keyguard_avatar_frame_shadow_color" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.play.image.FifeImageView android:layout_gravity="center_vertical" android:id="@*com.android.vending:id/warning_message_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" />
+    <TextView android:layout_gravity="center_vertical" android:id="@*com.android.vending:id/warning_message" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@*com.android.vending:style/WarningMessageText" />
+</com.google.android.finsky.detailsmodules.modules.warningmessage.view.LegacyWarningMessageModuleView>

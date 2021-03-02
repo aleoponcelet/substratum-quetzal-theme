@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ViewStub
+        android:id="@*org.mozilla.firefox:id/home_empty_view_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout="@*org.mozilla.firefox:layout/home_empty_panel" />
+
+    <org.mozilla.gecko.home.BookmarksListView
+        android:id="@*org.mozilla.firefox:id/bookmarks_list"
+        android:background="#ff000000"
+        android:backgroundTint="#ff000000"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

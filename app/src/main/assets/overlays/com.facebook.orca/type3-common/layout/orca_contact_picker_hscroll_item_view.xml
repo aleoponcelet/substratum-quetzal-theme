@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+    <com.facebook.widget.tiles.ThreadTileView android:id="@*com.facebook.orca:id/contact_picker_hscroll_item_tile_view"
+                                              style="@*com.facebook.orca:style/Widget.Messenger.Material.UserTile.ContactPicker.Big"
+                                              android:layout_gravity="center_horizontal"
+                                              android:layout_marginBottom="8.0dip"
+                                              android:layout_marginTop="8.0dip"/>
+    <com.facebook.resources.ui.FbTextView android:id="@*com.facebook.orca:id/contact_picker_hscroll_item_name"
+                                          android:layout_width="@*com.facebook.orca:dimen/contact_picker_hscroll_item_text_width"
+                                          android:layout_height="wrap_content" android:ellipsize="end"
+                                          android:gravity="center|top"
+                                          android:singleLine="true"
+                                          android:textColor="@android:color/white"
+                                          android:textSize="12.0sp"/>
+</merge>

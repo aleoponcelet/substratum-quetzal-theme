@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="key_background_lxx_dark">@*android:color/background_dark</color>
+	<color name="key_background_pressed_lxx_dark">@*android:color/background_dark</color>
+
+	<color name="grammarly_green">@*android:color/accent_material_dark</color>
+	<color name="grammarly_green_zero_alpha">@*android:color/accent_material_dark</color>
+</resources>

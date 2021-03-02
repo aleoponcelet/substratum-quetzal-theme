@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Umbrella"
+        android:pathData="m2 19v-1c0 -7.72 6.28 -14 14 -14c7.72 0 14 6.28 14 14v1h-28zm14 -13c-6.28 0 -11.45 4.85 -11.96 11h23.92c-0.51 -6.15 -5.68 -11 -11.96 -11zm0 2v2c-3.38 0 -6.42 2.15 -7.55 5.34l-1.89 -0.67c1.41 -3.99 5.2 -6.67 9.43 -6.67zm-1 -8h2v2h-2v-2zm-1 30c0.55 0 1 -0.45 1 -1v-8h2v8c0 1.65 -1.35 3 -3 3c-1.65 0 -3 -1.35 -3 -3h2c0 0.55 0.45 1 1 1z" />
+</vector>

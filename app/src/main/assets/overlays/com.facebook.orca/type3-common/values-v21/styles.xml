@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Medium" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="*com.facebook.orca:actualImageScaleType">fitCenter</item>
+        <item name="*com.facebook.orca:failureImage">@*com.facebook.orca:color/orca_image_placeholder_color</item>
+        <item name="*com.facebook.orca:placeholderImage">@*com.facebook.orca:color/grey10</item>
+        <item name="*com.facebook.orca:placeholderImageScaleType">fitCenter</item>
+        <item name="*com.facebook.orca:roundAsCircle">true</item>
+    </style>
+
+
+    <style name="Base.TextAppearance.AppCompat.Caption" parent="@android:style/TextAppearance.Material.Caption">
+        <item name="*com.facebook.orca:columnWidthCompat">@*com.facebook.orca:dimen/pinned_groups_card_width</item>
+        <item name="*com.facebook.orca:minNumColumns">2</item>
+        <item name="*com.facebook.orca:alignment">center</item>
+        <item name="*com.facebook.orca:textColor">#aaffffff</item>
+
+
+        <item name="*com.facebook.orca:enableTranscriptModeWorkaround">true</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Menu" parent="@android:style/TextAppearance.Material.Menu">
+        <item name="*com.facebook.orca:textColor">@android:color/white</item>
+        <item name="*com.facebook.orca:activeNowBadge">@*com.facebook.orca:drawable/active_now_user_badge_borderless</item>
+        <item name="*com.facebook.orca:asCircle">true</item>
+        <item name="*com.facebook.orca:badgeBackgroundColor">@android:color/white</item>
+        <item name="*com.facebook.orca:bigImageWidthPercent">0.5</item>
+        <item name="*com.facebook.orca:threadTileSize">66.0dip</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="*com.facebook.orca:alignment">center</item>
+        <item name="*com.facebook.orca:maxScaledTextSize">11</item>
+        <item name="*com.facebook.orca:minScaledTextSize">11</item>
+        <item name="*com.facebook.orca:textSize">11.0sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">11.0sp</item>
+        <item name="*com.facebook.orca:textColor">#aaffffff</item>
+        <item name="*com.facebook.orca:asCircle">true</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title" parent="@android:style/TextAppearance.Material.Title">
+        <item name="*com.facebook.orca:badgeBackgroundColor">@android:color/white</item>
+        <item name="*com.facebook.orca:bigImageWidthPercent">0.5</item>
+        <item name="*com.facebook.orca:facebookBadge">@*com.facebook.orca:drawable/msgr_ic_facebook_user_badge_material_borderless</item>
+        <item name="*com.facebook.orca:messengerBadge">@*com.facebook.orca:drawable/msgr_ic_messenger_user_badge_material_borderless</item>
+        <item name="*com.facebook.orca:threadTileSize">40.0dip</item>
+        <item name="*com.facebook.orca:tincanBadge">@*com.facebook.orca:drawable/msgr_rsc_e2e_badge_material_borderless</item>
+        <item name="*com.facebook.orca:alignment">normal</item>
+        <item name="*com.facebook.orca:textColor">@android:color/white</item>
+        <item name="*com.facebook.orca:asCircle">true</item>
+    </style>
+    <style name="Base.Theme.Messenger.Material" parent="@*com.facebook.orca:style/Theme.AppCompat.Light">
+        <item name="*com.facebook.orca:selectableItemBackgroundBorderless">@*com.facebook.orca:drawable/msgr_ripple_light_borderless</item>
+        <item name="*com.facebook.orca:selectableItemBackgroundDark">@*com.facebook.orca:drawable/msgr_ripple_dark</item>
+        <item name="*com.facebook.orca:selectableItemBackgroundDarkBorderless">@*com.facebook.orca:drawable/msgr_ripple_dark_borderless</item>
+        <item name="android:backgroundTint">@*com.facebook.orca:color/msgr_material_gray</item>
+        <item name="android:colorBackground">@*com.facebook.orca:color/msgr_material_gray</item>
+        <item name="android:colorEdgeEffect">@*com.facebook.orca:color/msgr_material_edge_effect</item>
+        <item name="android:fastScrollOverlayPosition">aboveThumb</item>
+        <item name="android:fastScrollPreviewBackgroundRight">@*com.facebook.orca:drawable/msgr_material_contact_fast_scroll_overlay</item>
+        <item name="android:fastScrollTextColor">#ffffffff</item>
+        <item name="android:fastScrollThumbDrawable">@*com.facebook.orca:drawable/msgr_material_contact_fast_scroll_thumb</item>
+        <item name="android:fastScrollTrackDrawable">@android:color/transparent</item>
+        <item name="android:selectableItemBackground">@*com.facebook.orca:drawable/msgr_ripple_light</item>
+        <item name="android:statusBarColor">@*com.facebook.orca:color/msgr_material_status_bar</item>
+        <item name="android:windowBackground">@*com.facebook.orca:color/msgr_material_gray</item>
+    </style>
+    <style name="Platform.AppCompat" parent="@android:style/Theme.Material">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

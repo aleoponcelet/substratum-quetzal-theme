@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ccl_prefs_caption_color_values">
+        <item>\@*android:color/accent_material_light</item>
+        <item>\@*android:color/accent_material_light</item>
+        <item>\@*android:color/accent_material_light</item>
+        <item>\@*android:color/accent_material_light</item>
+        <item>\@*android:color/accent_material_light</item>
+        <item>\@*android:color/accent_material_light</item>
+        <item>\@*android:color/accent_material_light</item>
+        <item>\@*android:color/accent_material_light</item>
+    </string-array>
+</resources>

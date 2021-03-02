@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@*android:color/accent_material_dark"
+        android:name="Closed Lock"
+        android:pathData="m12 24c-4.963 0 -9 -4.037 -9 -9v-4.5h18v4.5c0 4.963 -4.037 9 -9 9zm7.5 -12h-15v3c0 4.136 3.364 7.5 7.5 7.5c4.136 0 7.5 -3.364 7.5 -7.5v-3zm-7.5 8.25c-1.234 0 -2.24 -0.999 -2.25 -2.231v-1.519c0 -1.241 1.009 -2.25 2.25 -2.25c1.241 0 2.25 1.009 2.25 2.25v1.519c-0.01 1.232 -1.016 2.231 -2.25 2.231zm0.75 -3.75c0 -0.413 -0.337 -0.75 -0.75 -0.75c-0.413 0 -0.75 0.337 -0.75 0.75v1.5c0 0.413 0.337 0.75 0.75 0.75c0.413 0 0.75 -0.337 0.75 -0.75v-1.5zm3.75 -10.736c0 -2.351 -2.019 -4.264 -4.5 -4.264c-2.481 0 -4.5 1.913 -4.5 4.264v3.236h-1.5v-3.236c0 -3.178 2.692 -5.764 6 -5.764c3.308 0 6 2.586 6 5.764v3.236h-1.5v-3.236z" />
+</vector>

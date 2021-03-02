@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@*com.facebook.orca:id/recycler_view"
+                                                         android:layout_width="fill_parent"
+                                                         android:layout_height="wrap_content"
+                                                         android:layout_gravity="center_vertical"
+                                                         android:background="#ff0c0f11"
+                                                         android:backgroundTint="#ff0c0f11"
+                                                         android:clipChildren="false"
+                                                         android:clipToPadding="false"
+                                                         android:paddingBottom="@*com.facebook.orca:dimen/msgr_montage_inbox_unit_vertical_padding"
+                                                         android:paddingTop="@*com.facebook.orca:dimen/msgr_montage_inbox_unit_vertical_padding"/>
+</merge>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- New playstore update -->
+	<color name="flat_card_cluster_light_background">@*android:color/holo_purple</color>
+	<color name="flat_card_cluster_header_title_text_color">#ffffffff</color>
+	<color name="flat_card_cluster_header_title_text_color_black">#ffffffff</color>
+	<color name="flat_overflow_menu_fill_color">#33ffffff</color>
+	<color name="flat_overflow_menu_fill_color_dark">#8affffff</color>
+	<color name="flat_card_stroke_color">@*android:color/holo_purple</color> <!--separator-->
+
+	<color name="play_main_background">@*android:color/background_material_dark</color>
+	<color name="play_card_light_background">@*android:color/holo_purple</color>
+	<color name="material_grey_50">@*android:color/background_dark</color> <!--Changes small dialogs bg color-->
+	<color name="play_icon_default">#FFD2D2D2</color>
+
+	<color name="play_fg_primary">#ffffffff</color>
+	<color name="play_fg_secondary">#ffbfbfbf</color>
+	<color name="play_fg_secondary_half_transparent">#70bfbfbf</color>
+	<color name="play_search_plate_navigation_button_color">#ffbfbfbf</color> <!--Menu color-->
+	<color name="play_flat_card_index_color">#64ffffff</color>
+	<color name="primary_text_default_material_light">#deffffff</color>
+	<color name="primary_text_disabled_material_light">#39ffffff</color>
+	<color name="secondary_text_default_material_light">#8affffff</color>
+	<color name="secondary_text_disabled_material_light">#24ffffff</color>
+
+	<color name="play_ripple_light">#20ffffff</color>
+	<color name="ripple_material_light">#1fffffff</color>
+
+	<color name="play_drawer_separator">@*android:color/background_dark</color>
+	<color name="play_search_suggestion_divider_background">@*android:color/background_dark</color>
+	<color name="play_translucent_separator_line">#26ffffff</color>
+	<color name="play_cards_separator_color">@*android:color/background_dark</color>
+	<color name="play_reason_separator">#19ffffff</color>
+	<color name="play_uninstall_wizard_separator">@*android:color/background_dark</color>
+	<color name="account_separator">#1fffffff</color>
+
+	<color name="play_white">@*android:color/holo_purple</color>
+	<color name="white">@*android:color/holo_purple</color>
+	<color name="review_question_bg">@*android:color/background_dark</color>
+	<color name="play_disabled_grey">#ff555555</color>
+	<color name="play_uninstall_wizard_positive_button_disabled_text_color">#61ffffff</color>
+
+	<color name="status_bar_multi">@*android:color/background_material_dark</color> <!--Splashscreen statusbar-->
+	<color name="play_multi_primary">@*android:color/accent_material_dark</color>
+	<color name="play_multi_recents">@*android:color/primary_dark_material_dark</color>
+	<color name="detail_primary_text">@*android:color/accent_material_dark</color>
+	<color name="fingerprint_success_color">@*android:color/accent_material_dark</color>
+	<color name="highlighted_text_material_light">@*android:color/accent_material_dark</color>
+	<color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
+	<color name="content_filter_v3_primary_color">@*android:color/accent_material_dark</color>
+
+	<color name="background_floating_material_light">@*android:color/holo_purple</color>
+
+	<!--<color name="play_header_list_tab_underline_color">@*android:color/background_material_dark</color>-->
+	<color name="play_installed_apps_toggle_switch_track_off">#26ffffff</color>
+
+	<color name="whatsnew_apps_v2">@*android:color/holo_purple</color>
+
+	<color name="play_fg_tertiary">@*android:color/accent_material_dark</color> <!--Search highlight text color-->
+
+<color name="friend_review_card_read_full_review_color">@*android:color/accent_material_dark</color>
+<color name="primary_dark_material_light">@*android:color/accent_material_dark</color>
+<color name="play_apps_primary">@*android:color/accent_material_dark</color>
+
+<color name="accent_material_dark">@*android:color/accent_material_dark</color>
+<color name="accent_material_light">@*android:color/accent_material_dark</color>
+<color name="play_apps_primary_v2">@*android:color/accent_material_dark</color>
+<color name="play_apps_secondary_v2">@*android:color/accent_material_dark</color>
+<color name="jpkr_vertical_secondary">@*android:color/accent_material_dark</color>
+	<color name="play_card_ad_badge_color_v2">@*android:color/accent_material_dark</color>
+	<color name="transparent_action_button_fill_color">@*android:color/accent_material_dark</color>
+	<color name="play_apps_light">@*android:color/accent_material_dark</color>
+	<color name="play_apps_primary_disabled">@*android:color/accent_material_dark</color>
+
+
+<color name="play_drawer_mini_profile_background">@*android:color/accent_material_dark</color>
+<color name="status_bar_apps">@*android:color/accent_material_dark</color>
+<color name="status_bar_overlay">#40000000</color>
+<color name="restore_notification">@*android:color/accent_material_dark</color>
+<color name="play_content_filter_toolbar_background">@*android:color/accent_material_dark</color>
+<color name="play_credit_primary">@*android:color/accent_material_dark</color>
+<color name="play_family_primary_disabled">@*android:color/accent_material_dark</color>
+<color name="play_icon_selected">@*android:color/accent_material_dark</color>
+<!--secondary colors -->
+<color name="play_apps_secondary">@*android:color/accent_material_dark</color>
+<color name="play_multi_secondary">@*android:color/accent_material_dark</color>
+<color name="play_newsstand_secondary">@*android:color/accent_material_dark</color>
+<color name="play_books_secondary">@*android:color/accent_material_dark</color>
+<color name="play_movies_secondary">@*android:color/accent_material_dark</color>
+
+<color name="play_movies_primary">@*android:color/accent_material_dark</color>
+<color name="play_books_primary">@*android:color/accent_material_dark</color>
+<color name="play_newsstand_primary">@*android:color/accent_material_dark</color>
+<color name="play_newsstand_recents">@*android:color/accent_material_dark</color>
+<color name="onboard_store_bg_color">@*android:color/accent_material_dark</color>
+<color name="play_books_recents">@*android:color/accent_material_dark</color>
+<color name="status_bar_books">@*android:color/accent_material_dark</color>
+<color name="play_movies_recents">@*android:color/accent_material_dark</color>
+<color name="status_bar_movies">@*android:color/accent_material_dark</color>
+<color name="my_account_error_byline">@*android:color/accent_material_dark</color>
+
+<color name="play_music_light">@*android:color/accent_material_dark</color>
+<color name="play_music_primary">@*android:color/accent_material_dark</color>
+<color name="play_music_recents">@*android:color/accent_material_dark</color>
+<color name="play_music_secondary">@*android:color/accent_material_dark</color>
+
+    <color name="play_books_primary_v2">@*android:color/accent_material_dark</color>
+    <color name="play_books_secondary_v2">@*android:color/accent_material_dark</color>
+    <color name="play_developer_primary_v2">@*android:color/accent_material_dark</color>
+    <color name="play_developer_secondary_v2">@*android:color/accent_material_dark</color>
+    <color name="play_movies_primary_v2">@*android:color/accent_material_dark</color>
+    <color name="play_movies_secondary_v2">@*android:color/accent_material_dark</color>
+    <color name="play_music_primary_v2">@*android:color/accent_material_dark</color>
+    <color name="play_music_secondary_v2">@*android:color/accent_material_dark</color>
+    <color name="play_newsstand_primary_v2">@*android:color/accent_material_dark</color>
+    <color name="play_newsstand_secondary_v2">@*android:color/accent_material_dark</color>
+    <color name="status_bar_apps_v2">@*android:color/accent_material_dark</color>
+    <color name="status_bar_books_v2">@*android:color/accent_material_dark</color>
+    <color name="status_bar_movies_v2">@*android:color/accent_material_dark</color>
+    <color name="status_bar_music_v2">@*android:color/accent_material_dark</color>
+    <color name="status_bar_newsstand_v2">@*android:color/accent_material_dark</color>
+	<color name="whatsnew_apps">@*android:color/background_dark</color>
+	<color name="whatsnew_books">@*android:color/background_dark</color>
+	<color name="whatsnew_movies">@*android:color/background_dark</color>
+	<color name="whatsnew_music">@*android:color/background_dark</color>
+	<color name="whatsnew_newsstand">@*android:color/background_dark</color>
+</resources>

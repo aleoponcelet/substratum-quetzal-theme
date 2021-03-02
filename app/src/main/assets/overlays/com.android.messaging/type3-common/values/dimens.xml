@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_elevation_material">0.0dip</dimen>
+    <dimen name="action_bar_elevation">0.0dip</dimen>
+    <dimen name="fab_elevation">0.0dip</dimen>
+    <dimen name="fab_elevation_pressed">0.0dip</dimen>
+    <dimen name="explode_animation_highlight_elevation">0.0dip</dimen>
+</resources>

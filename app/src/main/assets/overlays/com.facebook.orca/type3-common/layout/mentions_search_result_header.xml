@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:backgroundTint="#ff0c0f11"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+    <com.facebook.resources.ui.FbTextView android:id="@*com.facebook.orca:id/mentions_trigger_search_result_header" android:layout_width="0.0dip"
+                                          android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                                          android:layout_weight="1.0"
+                                          android:ellipsize="end"
+                                          android:gravity="start|center"
+                                          android:maxLines="1"
+                                          android:minHeight="@*com.facebook.orca:dimen/mentions_search_item_header_min_height"
+                                          android:paddingBottom="@*com.facebook.orca:dimen/mentions_search_item_padding_vertical"
+                                          android:paddingLeft="@*com.facebook.orca:dimen/mentions_search_item_padding_horizontal"
+                                          android:paddingRight="@*com.facebook.orca:dimen/mentions_search_item_padding_horizontal"
+                                          android:paddingTop="@*com.facebook.orca:dimen/mentions_search_item_padding_vertical"
+                                          android:textColor="#aaffffff" android:textSize="14.0sp"/>
+    <com.facebook.resources.ui.FbImageButton android:id="@*com.facebook.orca:id/mentions_trigger_close_button"
+                                             android:layout_width="wrap_content"
+                                             android:layout_height="fill_parent"
+                                             android:alpha="0.54"
+                                             android:background="?android:selectableItemBackground"
+                                             android:paddingLeft="@*com.facebook.orca:dimen/mentions_search_item_padding_horizontal"
+                                             android:paddingRight="@*com.facebook.orca:dimen/mentions_search_item_padding_horizontal"
+                                             android:src="@*com.facebook.orca:drawable/msgr_ic_close"/>
+</com.facebook.widget.CustomLinearLayout>

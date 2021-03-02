@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textAppearance" format="reference" />
+    <attr name="thumb" format="reference" />
+    <attr name="mirrorForRtl" format="boolean" />
+    <attr name="maxHeight" format="dimension" />
+    <attr name="minHeight" format="dimension" />
+    <attr name="indeterminateOnly" format="boolean" />
+    <attr name="isIndicator" format="boolean" />
+    <attr name="backgroundColor" format="integer" />
+    <attr name="kwrrkColor" format="integer" />
+    <attr name="fillColor" format="integer" />
+    <attr name="singleToneColor" format="integer" />
+</resources>

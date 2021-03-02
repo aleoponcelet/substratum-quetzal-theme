@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="Widget.Container" parent="@*com.soundcloud.android:style/Widget">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@*android:drawable/dialog_holo_dark_frame</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+    </style>	
+</resources>

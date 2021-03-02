@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="action_mode_light_background_color">@*android:color/background_dark</color>
+	<color name="about_bg">@*android:color/background_dark</color>
+	<color name="background_gray_d">@*android:color/transparent</color>
+	<color name="background_white_d">@*android:color/transparent</color>
+
+	<color name="join_button_color">@*android:color/holo_purple</color>
+	<color name="gray_424345">@*android:color/holo_purple</color>
+	<color name="background_black_2f3132">@*android:color/holo_purple</color>
+
+	<color name="background_black_2c2e30">@*android:color/background_dark</color>
+	<color name="primary_material_dark">@*android:color/background_dark</color>
+	<color name="primary_material_light">@*android:color/background_dark</color>
+
+
+	<color name="background_gray_2c">@*android:color/background_dark</color>
+	<color name="black_2c2e">@*android:color/background_dark</color>
+	<color name="color_383b3e">@*android:color/holo_purple</color>
+	<color name="color_282828">@*android:color/holo_purple</color>
+
+	<color name="accent_dark">@*android:color/accent_material_dark</color>
+	<color name="accent_material_dark">@*android:color/accent_material_dark</color>
+	<color name="accent_material_light">@*android:color/accent_material_dark</color>
+</resources>

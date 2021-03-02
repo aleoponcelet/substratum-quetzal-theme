@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 15.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 15.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 23.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Path"
+            android:pathData="m18.72 3 -2.72 2.38 -2.71 -2.38h-2.84l5.55 4.87l5.57 -4.87l-2.85 0z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 8.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m13.19 31.07v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 12.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m22.94 29 0.46 -0.23 0.11 0.23" />
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m8.49 29 0.1 -0.22 0.45 0.22" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 15.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 15.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 15.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 23.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Path"
+            android:pathData="m18.72 3 -2.72 2.38 -2.71 -2.38h-2.84l5.55 4.87l5.57 -4.87l-2.85 0z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 8.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m13.19 31.07v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 12.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m22.94 29 0.46 -0.23 0.11 0.23" />
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m8.49 29 0.1 -0.22 0.45 0.22" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 15.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 15.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 15.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 23.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Path"
+            android:pathData="m18.72 3 -2.72 2.38 -2.71 -2.38h-2.84l5.55 4.87l5.57 -4.87l-2.85 0z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 8.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m13.19 31.07v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 12.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m22.94 29 0.46 -0.23 0.11 0.23" />
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m8.49 29 0.1 -0.22 0.45 0.22" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 15.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+    </vector></item><!---->
+<!----><item android:duration="50" >
+    <vector
+        android:width="22dp"
+        android:height="22dp"
+        android:viewportWidth="32"
+        android:viewportHeight="32">
+        <path
+            android:fillColor="#fff"
+            android:name="Diamond ring"
+            android:pathData="m7.38 15.3 1.21 -2.52 1.69 0.81 -0.6 1.23 6.31 5.55 6.34 -5.54 -0.61 -1.23 1.68 -0.84 1.26 2.52 -8.66 7.58 -8.62 -7.58zm5.81 -0.23v-1.87h5.63v1.87h-5.63zm-3.75 -5.62h13.13v1.88h-13.13v-1.88z" />
+        <path
+            android:fillColor="#fff"
+            android:name="Tennis ball"
+            android:pathData="m16 31c-8.27 0 -15 -6.73 -15 -15c0 -8.27 6.73 -15 15 -15c8.27 0 15 6.73 15 15c0 8.27 -6.73 15 -15 15zm0 -28.13c-7.24 0 -13.13 5.89 -13.13 13.13c0 7.24 5.89 13.13 13.13 13.13c7.24 0 13.13 -5.89 13.13 -13.13c0 -7.24 -5.89 -13.13 -13.13 -13.13z" />
+    </vector></item><!---->
+</animation-list>

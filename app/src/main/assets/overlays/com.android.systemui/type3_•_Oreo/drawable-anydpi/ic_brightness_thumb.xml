@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="38dp"
+    android:height="38dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+
+        android:fillColor="#ffffff"
+        android:name="Pool"
+        android:pathData="m16 22.87c-3.79 0 -6.88 -3.08 -6.88 -6.88c0 -3.79 3.08 -6.88 6.88 -6.88c3.79 0 6.87 3.08 6.87 6.88c0 3.79 -3.08 6.88 -6.87 6.88zm0 -12.38c-3.03 0 -5.5 2.47 -5.5 5.5c0 3.03 2.47 5.5 5.5 5.5c3.03 0 5.5 -2.47 5.5 -5.5c0 -3.03 -2.47 -5.5 -5.5 -5.5z" />
+    <path
+        android:fillColor="#BFffffff"
+        android:name="Ellipse"
+        android:pathData="m11 16c0 -2.76 2.24 -5 5 -5c2.76 0 5 2.24 5 5c0 2.76 -2.24 5 -5 5c-2.76 0 -5 -2.24 -5 -5z" />
+</vector>

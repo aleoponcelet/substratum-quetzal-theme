@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Crown"
+        android:pathData="m-0 29.98v-2h32v2h-32zm24.14 -10.71 -8.14 -13.52 -7.98 13.49 -1.72 -1.02 9.69 -16.38 9.86 16.39 -1.71 1.03zm-24.14 -14.43 8.5 6.15 -1.17 1.62 -5.33 -3.85v15.23h28v-15.23l-5.33 3.85l-1.17 -1.62l8.5 -6.15v21.14h-32v-21.14z" />
+</vector>

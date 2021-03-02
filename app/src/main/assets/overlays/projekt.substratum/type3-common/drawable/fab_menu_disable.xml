@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Mute"
+        android:pathData="m20.69 19.28 -1.41 1.41 -3.29 -3.29 -3.29 3.29 -1.41 -1.41 3.29 -3.29 -3.29 -3.29 1.41 -1.41 3.29 3.29 3.29 -3.29 1.41 1.41 -3.29 3.29 3.29 3.29z" />
+    <path
+        android:fillColor="#fff"
+        android:name="Play"
+        android:pathData="m16.02 32c-8.82 0 -16 -7.18 -16 -16c0 -8.82 7.18 -16 16 -16c8.82 0 16 7.18 16 16c0 8.82 -7.18 16 -16 16zm0 -30c-7.72 0 -14 6.28 -14 14c0 7.72 6.28 14 14 14c7.72 0 14 -6.28 14 -14c0 -7.72 -6.28 -14 -14 -14z" />
+</vector>

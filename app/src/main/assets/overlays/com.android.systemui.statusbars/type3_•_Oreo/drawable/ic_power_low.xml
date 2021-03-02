@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#fff"
+        android:name="Battey Low"
+        android:pathData="m15.111 3h-1.556c0 -0.827 -0.698 -1.5 -1.556 -1.5c-0.858 0 -1.556 0.673 -1.556 1.5h-1.556c0 -1.655 1.396 -3 3.111 -3c1.715 0 3.111 1.345 3.111 3zm2.333 15v-12h-10.889v12h-1.556v-13.5h14v13.5h-1.556zm-12.444 6v-4.5h14v4.5h-14zm12.444 -1.5v-1.5h-10.889v1.5h10.889z" />
+    <path
+        android:fillColor="#fff"
+        android:name="Info"
+        android:pathData="m11.482 7.5h1.037v5h-1.037v-5zm2.074 7.5c0 0.827 -0.698 1.5 -1.556 1.5c-0.858 0 -1.556 -0.673 -1.556 -1.5c0 -0.827 0.698 -1.5 1.556 -1.5c0.858 0 1.556 0.673 1.556 1.5zm-1.556 -0.5c-0.286 0 -0.519 0.224 -0.519 0.5c0 0.276 0.233 0.5 0.519 0.5c0.286 0 0.519 -0.224 0.519 -0.5c0 -0.276 -0.233 -0.5 -0.519 -0.5z" />
+</vector>

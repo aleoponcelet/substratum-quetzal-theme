@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme" parent="@*android:style/Theme.Material.Wallpaper">
+        <item name="android:navigationBarColor">@*android:color/background_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
+        <item name="android:colorPrimary">@*com.instagram.android:color/grey_9</item>
+        <item name="android:colorAccent">@*com.instagram.android:color/blue_5</item>
+        <item name="android:statusBarColor">@*android:color/background_dark</item>
+        <item name="android:colorEdgeEffect">@*com.instagram.android:color/grey_3</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="*com.instagram.android:backgroundColorPrimaryDark">@*android:color/background_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_dark"
+        android:name="Exit Full Screen"
+        android:pathData="m24.44 31v-1.88h4.69v-4.69h1.88v6.57h-6.56zm4.69 -14.08h1.88v5.63h-1.88v-5.63zm-3.75 -3.75v1.88h-8.44v-8.45h1.88v5.24l10.59 -10.6l1.33 1.33l-10.59 10.6h5.24zm-2.81 17.83h-5.63v-1.88h5.63v1.88zm-13.12 -30h5.62v1.88h-5.62v-1.88zm-6.56 6.57h-1.88v-6.57h6.56v1.88h-4.69v4.69zm0 7.51h-1.88v-5.63h1.88v5.63zm3.75 3.72v-1.88h8.44v8.44h-1.88v-5.24l-10.59 10.6l-1.33 -1.33l10.59 -10.6h-5.24z" />
+</vector>

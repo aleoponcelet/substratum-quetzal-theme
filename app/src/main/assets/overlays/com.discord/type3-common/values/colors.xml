@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_dark_grey_2_alpha_10">@*android:color/primary_dark_material_dark</color>
+    <color name="theme_dark_grey_2">@*android:color/primary_material_dark</color>
+    <color name="theme_grey_channels">@*android:color/primary_material_dark</color>
+    <color name="theme_grey_account">@*android:color/holo_gray_bright</color>
+    <color name="theme_grey_guilds">@*android:color/background_material_dark</color>
+    <color name="theme_purple_brand">@*android:color/accent_material_dark</color>
+    <color name="auth_light">@*android:color/accent_material_dark</color>
+    <color name="theme_purple_brand_alpha_10">@*android:color/background_material_dark</color>
+    <color name="theme_purple_brand_dark">@*android:color/background_material_dark</color>
+
+    <color name="primary_600">@*android:color/holo_purple</color>
+    <color name="primary_600_alpha_30">@*android:color/background_dark</color>
+    <color name="primary_600_alpha_60">@*android:color/background_dark</color>
+    <color name="primary_600_alpha_90">@*android:color/background_dark</color>
+    <color name="primary_630">@*android:color/background_dark</color>
+    <color name="primary_630_alpha_30">@*android:color/background_dark</color>
+    <color name="primary_630_alpha_60">@*android:color/background_dark</color>
+    <color name="primary_630_alpha_90">@*android:color/background_dark</color>
+</resources>

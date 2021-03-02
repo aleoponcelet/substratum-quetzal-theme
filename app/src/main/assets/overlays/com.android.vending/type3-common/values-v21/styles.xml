@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Drawer header name text color -->
+    <style name="PlayDrawerProfileNameText" parent="@*com.android.vending:style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+	<!-- Drawer selected page bg color -->
+	<style name="PlayDrawerSelectedText" parent="@*com.android.vending:style/PlayDrawerBaseText">
+        <item name="android:background">@*android:color/holo_purple</item>
+    </style>
+
+    <!--Values-v21 only, dialogs and text colors-->
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+</resources>

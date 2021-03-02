@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.mozilla.gecko.home.HomePager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*org.mozilla.firefox:id/home_pager"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff000000">
+
+    <org.mozilla.gecko.home.TabMenuStrip
+        android:layout_width="fill_parent"
+        android:layout_height="@*org.mozilla.firefox:dimen/tabs_strip_height"
+        android:layout_gravity="top"
+        android:background="@*org.mozilla.firefox:color/about_page_header_grey"
+        style="@*org.mozilla.firefox:style/Base.TextAppearance.AppCompat" />
+</org.mozilla.gecko.home.HomePager>

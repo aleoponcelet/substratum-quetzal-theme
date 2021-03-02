@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">@*android:color/background_dark</color>
+	<color name="accent_material_dark">@*android:color/accent_material_dark</color>
+	<color name="accent_material_light">@*android:color/accent_material_dark</color>
+	<color name="actionbar">@*android:color/holo_purple</color>
+	<color name="actionbar_dark">@*android:color/holo_purple</color>
+	<color name="card_background">@*android:color/holo_purple</color>
+	<color name="screen_four">@*android:color/holo_purple</color>
+	<color name="blueapptheme_color">@*android:color/accent_material_dark</color>
+	<color name="blueapptheme_color_pressed">@*android:color/accent_material_dark</color>
+	<color name="dash_cpu">@*android:color/accent_material_dark</color>
+	<color name="dashboard_green">@*android:color/accent_material_dark</color>
+	<color name="dashboard_yellow">@*android:color/accent_material_dark</color>
+	<color name="dashboard_red">@*android:color/accent_material_dark</color>
+</resources>

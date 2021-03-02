@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Storage box"
+        android:pathData="m-0 14v-12h32v12h-32zm30 -10h-28v8h28v-8zm-6 12v6h-16v-6h2v4h12v-4h2zm-19 12h22v-13h2v15h-26v-15h2v13z" />
+</vector>

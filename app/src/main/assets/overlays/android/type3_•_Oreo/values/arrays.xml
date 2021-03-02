@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sim_colors">
+        <item>@*android:color/background_dark</item>
+        <item>@*android:color/accent_material_dark</item>
+        <item>@*android:color/Indigo_700</item>
+        <item>@*android:color/Purple_700</item>
+        <item>@*android:color/Pink_700</item>
+        <item>@*android:color/Red_700</item>
+    </array>
+</resources>

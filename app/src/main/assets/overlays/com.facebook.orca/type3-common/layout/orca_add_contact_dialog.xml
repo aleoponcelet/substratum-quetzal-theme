@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout
+        android:id="@*com.facebook.orca:id/add_contact_input_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:minWidth="400.0dip">
+        <com.facebook.resources.ui.FbEditText android:id="@*com.facebook.orca:id/phone_number_input"
+                                              android:layout_width="fill_parent"
+                                              android:layout_height="wrap_content"
+                                              android:layout_alignParentTop="true" android:layout_marginLeft="25.0dip"
+                                              android:layout_marginRight="25.0dip"
+                                              android:layout_marginTop="50.0dip"
+                                              android:background="@*com.facebook.orca:drawable/orca_neue_edit_text"
+                                              android:ellipsize="end"
+                                              android:gravity="center"
+                                              android:hint="@*com.facebook.orca:string/add_contact_dialog_phone_number_hint"
+                                              android:inputType="phone"
+                                              android:textColor="@android:color/white"
+                                              android:textColorHint="@*com.facebook.orca:color/orca_neue_text_grey"
+                                              android:textSize="28.0sp"/>
+        <View android:id="@*com.facebook.orca:id/spacer" android:layout_width="fill_parent"
+              android:layout_height="0.0dip"
+              android:layout_below="@*com.facebook.orca:id/phone_number_input"
+              android:layout_marginBottom="75.0dip"/>
+        <com.facebook.resources.ui.FbTextView android:id="@*com.facebook.orca:id/phone_number_input_description"
+                                              android:layout_width="fill_parent"
+                                              android:layout_height="wrap_content"
+                                              android:layout_below="@*com.facebook.orca:id/phone_number_input"
+                                              android:layout_marginLeft="25.0dip"
+                                              android:layout_marginRight="25.0dip"
+                                              android:layout_marginTop="8.0dip"
+                                              android:gravity="center"
+                                              android:maxLines="3"
+                                              android:text="@*com.facebook.orca:string/add_contact_dialog_input_description"
+                                              android:textColor="@*com.facebook.orca:color/orca_neue_text_grey"
+                                              android:textSize="12.0sp"/>
+        <com.facebook.resources.ui.FbButton android:id="@*com.facebook.orca:id/confirm_okay_button"
+                                            style="@*com.facebook.orca:style/Widget.Messenger.Neue.Button.PanelBottom"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@*com.facebook.orca:id/spacer"
+                                            android:enabled="false"
+                                            android:text="@*com.facebook.orca:string/add_contact_dialog_add_contact"/>
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+    <ProgressBar android:id="@*com.facebook.orca:id/add_contact_operation_progress"
+                 style="?android:attr/progressBarStyle"
+                 android:layout_width="50.0dip" android:layout_height="50.0dip"
+                 android:layout_gravity="center" android:visibility="invisible"/>
+</FrameLayout>

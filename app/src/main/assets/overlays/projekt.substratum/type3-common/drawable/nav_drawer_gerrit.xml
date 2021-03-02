@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Desktop Monitor"
+        android:pathData="m18.98 25v-2h11.02v-18h-28v18h11.08v2h-13.08v-22h32v22h-13.02zm-14.98 -18h24v14h-24v-14zm2 12h20v-10h-20v10zm9 3.93h2v2.07h-2v-2.07zm7.04 6.07h-12.07v-2h12.07v2z" />
+</vector>

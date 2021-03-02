@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="fp_enrollment_header_landscape">@*android:color/transparent</item>
+    <item type="drawable" name="oneplus_divider_color">@*android:color/transparent</item>
+</resources>

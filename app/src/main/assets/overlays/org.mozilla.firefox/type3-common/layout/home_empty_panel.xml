@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*org.mozilla.firefox:id/home_empty_view"
+    android:background="#ff000000"
+    android:backgroundTint="#ff000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="50.0dip"
+    android:paddingRight="50.0dip">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+
+    <ImageView
+        android:id="@*org.mozilla.firefox:id/home_empty_image"
+        android:layout_width="90.0dip"
+        android:layout_height="90.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:gravity="center|top"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@*org.mozilla.firefox:id/home_empty_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:textAppearance="@*org.mozilla.firefox:style/TextAppearance.EmptyMessage" />
+
+    <TextView
+        android:id="@*org.mozilla.firefox:id/home_empty_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:textAppearance="@*org.mozilla.firefox:style/TextAppearance.EmptyHint"
+        android:textColorLink="#ff0a84ff"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="2.0" />
+</LinearLayout>

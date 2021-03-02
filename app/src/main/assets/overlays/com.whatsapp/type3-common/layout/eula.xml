@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@*com.whatsapp:dimen/registration_margins" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@*com.whatsapp:string/eula_title" style="@*com.whatsapp:style/RegistrationTitle" />
+    <ImageView android:layout_gravity="center|top" android:layout_width="260.0dip" android:layout_height="0.0dip" android:src="@*com.whatsapp:drawable/ill_eula" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@*android:color/accent_material_light" android:textColorLink="@*android:color/accent_material_dark" android:gravity="center" android:layout_gravity="bottom" android:id="@*com.whatsapp:id/eula_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@*com.whatsapp:string/eula_terms_of_service" android:lineSpacingMultiplier="1.25" />
+    <Button android:gravity="center" android:layout_gravity="bottom|center" android:id="@*com.whatsapp:id/eula_accept" android:layout_width="280.0dip" android:layout_height="36.0dip" android:layout_marginTop="14.0dip" android:text="@*com.whatsapp:string/eula_agree" style="@*com.whatsapp:style/RegistrationButton" />
+</LinearLayout>

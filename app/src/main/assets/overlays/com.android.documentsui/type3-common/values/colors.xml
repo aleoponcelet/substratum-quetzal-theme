@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="material_grey_300">#ff323232</color>
+
+	<color name="primary_dark">@*android:color/primary_dark_material_dark</color>
+	<color name="primary">@*android:color/accent_material_dark</color>
+	<color name="material_blue_grey_900">@*android:color/accent_material_dark</color> <!-- actionbar -->
+	<color name="status_bar_color">@*android:color/primary_dark_material_dark</color> <!-- statusbar -->
+	<color name="material_blue_grey_950">@*android:color/primary_dark_material_dark</color> 
+	<color name="directory_background">@*android:color/background_material_dark</color> <!-- main bg -->
+	<color name="material_grey_50">@*android:color/holo_gray_bright</color>
+	<color name="item_doc_background">@*android:color/holo_gray_bright</color> <!-- card bg -->
+    <color name="item_doc_background_selected">@*android:color/accent_material_dark</color> <!-- card bg selected -->
+	
+	<color name="window_background">#ff151515</color>
+    <color name="drawer_background">#ff151515</color>
+	
+	<color name="ripple_material_light">#59ffffff</color>
+	
+	<color name="material_deep_teal_500">@*android:color/accent_material_dark</color> <!-- pressed item bottom actionbar line -->
+
+</resources>

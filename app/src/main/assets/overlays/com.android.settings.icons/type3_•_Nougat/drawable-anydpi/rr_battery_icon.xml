@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Battery Full"
+        android:pathData="m21 15.111v-1.556c0.827 0 1.5 -0.698 1.5 -1.556c0 -0.858 -0.673 -1.556 -1.5 -1.556v-1.556c1.655 0 3 1.396 3 3.111c0 1.715 -1.345 3.111 -3 3.111zm-6.014 0.988 -1.472 -0.298 1.477 -7.839 1.472 0.299 -1.477 7.838zm-3.75 0 -1.472 -0.298 1.477 -7.839 1.472 0.299 -1.477 7.838zm-3.75 0 -1.472 -0.298 1.477 -7.839 1.472 0.299 -1.477 7.838zm-1.486 1.346h12v-10.889h-12v-1.556h13.5v14h-13.5v-1.556zm-6 -12.444h4.5v14h-4.5v-14zm1.5 12.444h1.5v-10.889h-1.5v10.889z" />
+</vector>

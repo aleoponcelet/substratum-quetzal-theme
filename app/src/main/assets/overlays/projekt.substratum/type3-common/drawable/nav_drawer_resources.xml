@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="File Box"
+        android:pathData="m21.5 19.73c-0.44 2.65 -2.74 4.67 -5.5 4.67c-2.76 0 -5.05 -2.02 -5.5 -4.67h-9.5l2 -15.06l1.84 0.25l-1.72 12.94h9.16v0.93c0 2.06 1.67 3.73 3.72 3.73c2.05 0 3.72 -1.67 3.72 -3.73v-0.93h9.16l-1.72 -12.94l1.84 -0.25l2 15.06h-9.5zm-11.07 -14h4.65v1.87h-4.65v-1.87zm11.15 9.33h-11.15v-1.87h11.15v1.87zm-11.15 -5.6h11.15v1.87h-11.15v-1.87zm13.01 -5.6h-14.87v12.13h-1.86v-14h18.58v14h-1.86v-12.13zm-20.44 24.27h26.02v-6.53h1.86v8.4h-29.74v-8.4h1.86v6.53z" />
+</vector>

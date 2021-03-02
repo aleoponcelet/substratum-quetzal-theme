@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="Full Shopping Cart"
+        android:pathData="m27 5.3 -6 -1.5v3.72h-2v-2.61l-4 1.33v1.28h-2v-2.72l6 -2v-1.56l10 2.5v3.78h-2v-2.22zm-6 13.22v-5h2v5h-2zm-6 0v-5h2v5h-2zm13.8 -7h-15.76v-2h18.15l-2.36 13h-19.59l-5 -18h-3.24v-2h4.76l5 18h16.41l1.64 -9zm-16.8 13c1.65 0 3 1.35 3 3c0 1.65 -1.35 3 -3 3c-1.65 0 -3 -1.35 -3 -3c0 -1.65 1.35 -3 3 -3zm0 4c0.55 0 1 -0.45 1 -1c0 -0.55 -0.45 -1 -1 -1c-0.55 0 -1 0.45 -1 1c0 0.55 0.45 1 1 1zm13 -4c1.65 0 3 1.35 3 3c0 1.65 -1.35 3 -3 3c-1.65 0 -3 -1.35 -3 -3c0 -1.65 1.35 -3 3 -3zm0 4c0.55 0 1 -0.45 1 -1c0 -0.55 -0.45 -1 -1 -1c-0.55 0 -1 0.45 -1 1c0 0.55 0.45 1 1 1z" />
+</vector>

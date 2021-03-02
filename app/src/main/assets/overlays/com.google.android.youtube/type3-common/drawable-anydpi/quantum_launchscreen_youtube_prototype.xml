@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1200dp"
+    android:height="2134dp"
+    android:viewportWidth="1200"
+    android:viewportHeight="2134">
+    <path
+        android:fillColor="@*android:color/background_material_dark"
+        android:name="Rectangle"
+        android:pathData="m0 0h1200v2134h-1200v-2134z" />
+    <path
+        android:fillColor="@*android:color/accent_material_dark"
+        android:name="Media"
+        android:pathData="m365 1258v-382h470v382h-470zm440.6 -352.6h-411.2v323.2h411.2v-323.2zm-264.4 244.2v-165.1l165 82.5l-165 82.5zm29.4 -47.5 70 -35 -70 -35v70z" />
+</vector>

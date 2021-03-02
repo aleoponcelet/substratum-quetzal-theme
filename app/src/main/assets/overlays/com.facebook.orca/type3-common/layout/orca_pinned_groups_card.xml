@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fb="http://schemas.android.com/apk/com.facebook.orca">
+    <View android:layout_width="match_parent" android:layout_height="match_parent"
+          android:background="#ff424242" android:backgroundTint="#ff424242"
+    />
+    <ImageView android:id="@*com.facebook.orca:id/popup_menu_anchor"
+               android:layout_width="34.0dip"
+               android:layout_height="42.0dip" android:layout_alignParentRight="true"
+               android:layout_alignParentTop="true"
+               android:background="@*com.facebook.orca:drawable/orca_card_button_background"
+               android:contentDescription="@*com.facebook.orca:string/menu_more_options"
+               android:paddingBottom="10.0dip"
+               android:paddingLeft="10.0dip" android:scaleType="center"
+               android:src="@*com.facebook.orca:drawable/orca_action_overflow_button"/>
+    <com.facebook.widget.tiles.ThreadTileView
+        android:id="@*com.facebook.orca:id/pinned_groups_thread_tile_view"
+        style="@*com.facebook.orca:style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_width="66.0dip"
+        android:layout_height="66.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginTop="14.0dip"
+        fb:activeNowBadge="@*com.facebook.orca:drawable/active_now_user_badge_borderless"
+        fb:asCircle="true"
+        fb:badgeBackgroundColor="@android:color/white"
+        fb:bigImageWidthPercent="0.5"
+        fb:threadTileSize="66.0dip"/>
+    <ImageView android:id="@*com.facebook.orca:id/pinned_groups_thread_tile_shadow_mask"
+               android:layout_width="74.0dip"
+               android:layout_height="74.0dip" android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true" android:layout_marginTop="10.0dip"
+               android:scaleType="fitCenter"
+               android:src="@*com.facebook.orca:drawable/orca_groups_card_photo_overlay"/>
+    <com.facebook.messaging.ui.name.ThreadNameView
+        android:id="@*com.facebook.orca:id/pinned_groups_thread_name_view"
+        style="@*com.facebook.orca:style/Base.TextAppearance.AppCompat.Title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@*com.facebook.orca:id/pinned_groups_thread_tile_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        fb:alignment="center" fb:maxLines="2"
+        fb:maxScaledTextSize="16"
+        fb:minScaledTextSize="16"
+        fb:textColor="@*com.facebook.orca:color/black"/>
+    <com.facebook.resources.ui.FbTextView
+        android:id="@*com.facebook.orca:id/pinned_groups_subtitle_text_view"
+        style="@*com.facebook.orca:style/Base.TextAppearance.AppCompat.Subhead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@*com.facebook.orca:id/pinned_groups_thread_name_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#66ffffff"
+        android:textSize="11.0sp"/>
+    <com.facebook.messaging.ui.name.ThreadNameView
+        android:id="@*com.facebook.orca:id/pinned_groups_members_name_view"
+        style="@*com.facebook.orca:style/Base.TextAppearance.AppCompat.Subhead"
+        android:layout_width="fill_parent"
+        android:layout_height="64.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="8.0dip"
+        fb:alignment="center" fb:maxLines="2"
+        fb:maxScaledTextSize="11"
+        fb:minScaledTextSize="11"
+        fb:nameOption="useParticipantsNamesOnly"
+        fb:textColor="#66ffffff"/>
+    <com.facebook.resources.ui.FbTextView
+        android:id="@*com.facebook.orca:id/pinned_groups_snippet_view"
+        style="@*com.facebook.orca:style/Base.TextAppearance.AppCompat.Subhead"
+        android:layout_width="fill_parent"
+        android:layout_height="64.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:maxLines="2"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="8.0dip"
+        android:textColor="#66ffffff"
+        android:textSize="11.0sp"
+        android:visibility="gone"/>
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip"
+          android:layout_above="@*com.facebook.orca:id/pinned_groups_members_name_view"
+          android:layout_marginLeft="8.0dip"
+          android:layout_marginRight="8.0dip"
+          android:background="@*android:color/material_grey_800"/>
+</merge>

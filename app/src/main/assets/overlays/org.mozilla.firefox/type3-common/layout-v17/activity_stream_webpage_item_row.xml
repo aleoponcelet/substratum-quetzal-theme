@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gecko="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@*org.mozilla.firefox:color/photon_browser_toolbar_bg"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@*org.mozilla.firefox:id/icon_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <org.mozilla.gecko.activitystream.homepanel.stream.StreamOverridablePageIconLayout
+            android:id="@*org.mozilla.firefox:id/page_icon"
+            android:layout_width="@*org.mozilla.firefox:dimen/favicon_bg"
+            android:layout_height="@*org.mozilla.firefox:dimen/favicon_bg"
+            android:layout_marginBottom="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+            android:layout_marginLeft="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+            android:layout_marginStart="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+            android:layout_marginTop="@*org.mozilla.firefox:dimen/activity_stream_base_margin" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@*org.mozilla.firefox:id/menu"
+        android:layout_width="32.0dip"
+        android:layout_height="48.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="end|center|top"
+        android:contentDescription="@*org.mozilla.firefox:string/menu"
+        android:paddingBottom="16.0dip"
+        android:paddingTop="16.0dip" />
+
+    <TextView
+        android:id="@*org.mozilla.firefox:id/page_domain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@*org.mozilla.firefox:id/icon_wrapper"
+        android:layout_toLeftOf="@*org.mozilla.firefox:id/menu"
+        android:layout_toRightOf="@*org.mozilla.firefox:id/icon_wrapper"
+        android:layout_toStartOf="@*org.mozilla.firefox:id/menu"
+        android:gravity="start"
+        android:paddingEnd="0.0dip"
+        android:paddingLeft="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:paddingRight="0.0dip"
+        android:paddingStart="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:paddingTop="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:textAlignment="viewStart"
+        android:textColor="@*org.mozilla.firefox:color/activity_stream_subtitle"
+        android:textSize="12.0sp" />
+
+    <TextView
+        android:id="@*org.mozilla.firefox:id/page_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@*org.mozilla.firefox:id/page_domain"
+        android:layout_toEndOf="@*org.mozilla.firefox:id/icon_wrapper"
+        android:layout_toLeftOf="@*org.mozilla.firefox:id/menu"
+        android:layout_toRightOf="@*org.mozilla.firefox:id/icon_wrapper"
+        android:layout_toStartOf="@*org.mozilla.firefox:id/menu"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="3"
+        android:paddingEnd="0.0dip"
+        android:paddingLeft="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:paddingRight="0.0dip"
+        android:paddingStart="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffffff"
+        android:textSize="14.0sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@*org.mozilla.firefox:id/page_title"
+        android:layout_toEndOf="@*org.mozilla.firefox:id/icon_wrapper"
+        android:layout_toRightOf="@*org.mozilla.firefox:id/icon_wrapper"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:paddingEnd="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:paddingLeft="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:paddingRight="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:paddingStart="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+        android:paddingTop="4.0dip">
+
+        <ImageView
+            android:id="@*org.mozilla.firefox:id/page_source_icon"
+            android:layout_width="12.0dip"
+            android:layout_height="12.0dip" />
+
+        <TextView
+            android:id="@*org.mozilla.firefox:id/page_source"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:layout_marginRight="0.0dip"
+            android:layout_marginStart="2.0dip"
+            android:layout_weight="1.0"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            android:textColor="@*org.mozilla.firefox:color/activity_stream_subtitle"
+            android:textSize="12.0sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="auto_correct_color_lxx_dark">#ffffff</color>
+    <color name="auto_correct_color_lxx_light">@*android:color/background_material_dark</color>
+    <color name="emoji_tab_page_indicator_background_lxx_dark">@*android:color/holo_purple</color>
+    <color name="emoji_tab_page_indicator_background_lxx_light">@*android:color/material_deep_teal_700</color>
+    <color name="gesture_trail_color_lxx_dark">@*android:color/accent_material_dark</color>
+    <color name="gesture_trail_color_lxx_light">@*android:color/accent_material_dark</color>
+    <color name="highlight_color_lxx_dark">#ffffff</color>
+    <color name="highlight_color_lxx_light">@*android:color/background_material_dark</color>
+    <color name="key_background_lxx_dark">@*android:color/holo_purple</color>
+    <color name="key_background_lxx_light">#ffffff</color>
+    <color name="key_functional_text_color_lxx_dark">#ffffff</color>
+    <color name="key_functional_text_color_lxx_light">@*android:color/background_material_dark</color>
+    <color name="key_hint_letter_color_lxx_dark">#ffffff</color>
+    <color name="key_hint_letter_color_lxx_light">@*android:color/background_material_dark</color>
+    <color name="key_text_color_lxx_dark">#ffffff</color>
+    <color name="key_text_color_lxx_light">@*android:color/background_material_dark</color>
+    <color name="key_text_inactive_color_lxx_dark">#ffffff</color>
+    <color name="key_text_inactive_color_lxx_light">@*android:color/background_material_dark</color>
+    <color name="language_on_spacebar_text_color_lxx_dark">#ffffff</color>
+    <color name="language_on_spacebar_text_color_lxx_light">@*android:color/background_material_dark</color>
+    <color name="sliding_key_input_preview_color_lxx_dark">#ffffff</color>
+    <color name="sliding_key_input_preview_color_lxx_light">@*android:color/background_material_dark</color>
+    <color name="suggested_word_color_lxx_dark">#ffffff</color>
+    <color name="suggested_word_color_lxx_light">@*android:color/background_material_dark</color>
+    <color name="typed_word_color_lxx_dark">#ffffff</color>
+    <color name="typed_word_color_lxx_light">@*android:color/background_material_dark</color>
+</resources>

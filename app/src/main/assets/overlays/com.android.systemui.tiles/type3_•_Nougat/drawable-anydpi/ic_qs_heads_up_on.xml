@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#FFFFFF"
+        android:name="Messages Left"
+        android:pathData="m16 12.76h11.25v1.85h-11.25v-1.85zm0 3.72h7.52v1.85h-7.52v-1.85zm2.81 6.46v-1.85h10.31v-11.11h-15v12.96l1.13 -1.48l1.5 1.11l-4.5 5.93v-20.37h18.75v14.81h-12.19zm-14.09 -14.83h5.63v1.85h-5.63v-1.85zm5.65 5.57h-5.65v-1.85h5.65v1.85zm7.5 -8.34h-15v11.11h7.5v1.85h-9.38v-14.81h18.75v2.76h-1.88v-0.91z" />
+</vector>

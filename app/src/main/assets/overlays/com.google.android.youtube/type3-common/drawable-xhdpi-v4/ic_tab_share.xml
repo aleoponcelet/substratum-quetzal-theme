@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Export "
+        android:pathData="m32.15 9.24 -12.14 8.09v-4.31h-7v-2h7h2v2.58l6.53 -4.35l-6.53 -4.35v3.13h-2h-2.83c-7.07 0 -8.07 5.32 -8.17 5.96v3.04h-2l0.01 -3.23c0.01 -0.08 1.05 -7.77 10.16 -7.77h2.83v-4.87l12.14 8.09zm-30.14 19.78h25v-13.05h2v15.05h-29v-25h7v2h-5v21z" />
+</vector>

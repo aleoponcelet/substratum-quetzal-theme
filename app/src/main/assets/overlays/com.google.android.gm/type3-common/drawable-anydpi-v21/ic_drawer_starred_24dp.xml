@@ -1,0 +1,4 @@
+<vector android:height="20dp" android:viewportHeight="32"
+    android:viewportWidth="32" android:width="20dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fff" android:name="Star" android:pathData="m18.24 14.02 -2.2 -7.9 1.93 -0.54 1.8 6.44h12.24v2h-13.76zm-18.24 0v-2h10.99l4.07 -11.34l1.88 0.68l-4.54 12.66h-12.4zm3.44 1.1 7.47 3.63 -2.98 7.96 8.07 -4.79 8.07 4.79 -2.98 -7.96 7.47 -3.63 0.87 1.8 -5.83 2.83 4.33 11.57 -11.93 -7.08 -11.93 7.08 4.33 -11.57 -5.83 -2.83 0.87 -1.8z"/>
+</vector>

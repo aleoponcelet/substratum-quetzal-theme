@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Pencil"
+        android:pathData="m30.28 10.21 -0.71 0.71 -8.48 -8.49 0.71 -0.71c1.13 -1.13 2.64 -1.76 4.24 -1.76c1.6 0 3.11 0.62 4.24 1.76c2.34 2.34 2.34 6.15 0 8.49zm-1.41 -7.07c-1.27 -1.27 -3.36 -1.51 -4.86 -0.62l5.48 5.48c0.9 -1.53 0.7 -3.54 -0.62 -4.86zm-3.67 11.34 -6 -9.98 1.71 -1.03 6 9.98 -1.71 1.03zm-12.56 4.91 1.57 4.01 8.34 -8.29 1.41 1.42 -10.5 10.45 -2.36 -6.04 -6.04 -2.36 12.42 -12.53 1.42 1.41 -10.27 10.37 4.02 1.57zm-9.19 9.17 7.86 -2.07 0.51 1.93 -11.19 2.95 2.98 -11.17 1.93 0.52 -2.09 7.84z" />
+</vector>

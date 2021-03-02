@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="28dp"
+android:height="32dp"
+android:viewportWidth="28"
+android:viewportHeight="32">
+<path
+    android:fillColor="@*android:color/accent_material_light"
+    android:name="Music Note"
+    android:pathData="m22 29.958c-3.309 0 -6 -2.691 -6 -6c0 -3.309 2.691 -6 6 -6c1.542 0 2.936 0.601 4 1.561v-14.561h2v19c0 3.309 -2.691 6 -6 6zm0 -10c-2.206 0 -4 1.794 -4 4c0 2.206 1.794 4 4 4c2.206 0 4 -1.794 4 -4c0 -2.206 -1.794 -4 -4 -4zm-10 6c0 3.309 -2.691 6 -6 6c-3.309 0 -6 -2.691 -6 -6c0 -3.309 2.691 -6 6 -6c1.542 0 2.936 0.601 4 1.561v-14.234l16.601 -7.243l0.799 1.834l-15.399 6.718v17.365zm-6 -4c-2.206 0 -4 1.794 -4 4c0 2.206 1.794 4 4 4c2.206 0 4 -1.794 4 -4c0 -2.206 -1.794 -4 -4 -4z" />
+</vector>

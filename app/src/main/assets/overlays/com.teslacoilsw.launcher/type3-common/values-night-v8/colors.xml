@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="prime_text_color">#ffeaeaea</color>
+	<color name="backup_adapter_section_text_color">#ffeaeaea</color>
+ 
+    <color name="theme_color_accent">@*android:color/accent_material_dark</color>
+    <color name="theme_color_primary">@*android:color/primary_material_dark</color>
+    <color name="theme_color_primary_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="windowBackground">@*android:color/background_material_dark</color>
+	<color name="pill_menu_bg">@*android:color/background_material_dark</color>
+	<color name="cardIdleBackground">@*android:color/background_material_dark</color>
+	
+</resources>

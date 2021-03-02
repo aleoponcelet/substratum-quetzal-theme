@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    android:tint="@*android:color/accent_material_light">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Corkscrew"
+        android:pathData="m12.265 13.008 -1.742 -1.807 1.037 -1.114v-2.087h0.866v2.457l-0.681 0.733l1.755 1.821l-1.762 1.813l0.698 0.715l-0.009 2.461l-0.866 -0.004l0.008 -2.076l-1.068 -1.096l1.765 -1.816z" />
+</vector>
+

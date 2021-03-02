@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Fondo_opaco-->		  <color name="material_grey_800">#0b0513</color><!--Sec Window BG Old-->
+    <!--Fondo_rosa--> 		  <color name="material_blue_grey_800">#B30b0513</color><!--window BG trans-->
+    <!--Fondo_transparente--> <color name="material_blue_grey_900">#990b0513</color><!--window BG Old-->
+    <!--Sombra--> 			  <color name="holo_gray_bright">#99110B19</color>
+    <!--AUX--> 			      <color name="holo_green_dark">#ff110B19</color>
+</resources>

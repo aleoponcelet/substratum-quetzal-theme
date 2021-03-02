@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@*com.facebook.orca:id/tab_frame"
+              android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:addStatesFromChildren="true"
+              android:backgroundTint="@null"
+              android:orientation="horizontal">
+    <com.facebook.widget.text.BetterTextView
+        android:id="@*com.facebook.orca:id/start_tab"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent" android:layout_weight="1.0"
+        android:gravity="center"
+        android:textColor="@*com.facebook.orca:color/segmented_tab_bar_text_color"
+        android:textSize="@*com.facebook.orca:dimen/fbui_text_size_medium"/>
+    <com.facebook.widget.text.BetterTextView
+        android:id="@*com.facebook.orca:id/end_tab"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent" android:layout_weight="1.0"
+        android:gravity="center"
+        android:textColor="@*com.facebook.orca:color/segmented_tab_bar_text_color"
+        android:textSize="@*com.facebook.orca:dimen/fbui_text_size_medium"/>
+</LinearLayout>

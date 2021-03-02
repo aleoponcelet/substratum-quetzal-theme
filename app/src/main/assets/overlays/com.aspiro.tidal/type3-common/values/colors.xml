@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="accent_material_dark">@*android:color/accent_material_light</color>
+    <color name="accent_material_light">@*android:color/accent_material_light</color>
+    <color name="beyonce_blue">@*android:color/accent_material_light</color>
+    <color name="brand_color">@*android:color/accent_material_light</color>
+    <color name="brand_color_dark">@*android:color/accent_material_light</color>
+    <color name="brand_color_pressed">@*android:color/accent_material_light</color>
+    <color name="brand_color_ripple">@*android:color/accent_material_light</color>
+    <color name="material_deep_teal_500">@*android:color/accent_material_light</color>
+    <color name="gray_23">@*android:color/holo_gray_bright</color>
+    <color name="gray_23_70">@*android:color/holo_gray_bright</color>
+    <color name="gray_23_80">@*android:color/holo_gray_bright</color>
+    <color name="gray_1c">@*android:color/primary_material_dark</color>
+    <color name="gray_1c_50">@*android:color/primary_material_dark</color>
+    <color name="gray_1c_75">@*android:color/primary_material_dark</color>
+    <color name="gray_1a">@*android:color/primary_dark_material_dark</color>
+    <color name="black">@*android:color/primary_dark_material_dark</color>
+    <color name="black_00">@*android:color/primary_dark_material_dark</color>
+    <color name="tw__blue_default">@*android:color/accent_material_light</color>
+    <color name="tw__blue_pressed">@*android:color/accent_material_light</color>
+    <color name="tw__blue_pressed_light">@*android:color/accent_material_light</color>
+</resources>

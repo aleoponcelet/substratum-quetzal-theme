@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.facebook.mlite"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@*com.facebook.mlite:id/selected_contacts_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@*com.facebook.mlite:id/selected_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4.0dip"
+            android:layout_marginTop="4.0dip"
+            android:maxLines="1"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="8.0dip"
+            android:singleLine="true" />
+    </HorizontalScrollView>
+
+    <ViewStub
+        android:id="@*com.facebook.mlite:id/create_group_flow_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@*com.facebook.mlite:id/create_group_flow_layout"
+        android:layout="@*com.facebook.mlite:layout/create_group_flow_layout" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            style="@*com.facebook.mlite:style/Base.TextAppearance.AppCompat.Title"
+            app:elevation="0.0dip">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@*com.facebook.mlite:id/search_scrollable_toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@*com.facebook.mlite:style/Base.TextAppearance.AppCompat.Title"
+                app:contentInsetStart="8.0dip"
+                app:layout_scrollFlags="enterAlways|scroll">
+
+                <ViewStub
+                    android:id="@*com.facebook.mlite:id/contact_search_bar_stub"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8.0dip"
+                    android:inflatedId="@*com.facebook.mlite:id/contact_search_bar"
+                    android:layout="@*com.facebook.mlite:layout/search_bar_standalone" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@*com.facebook.mlite:id/rvContactList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            style="@*com.facebook.mlite:style/Base.TextAppearance.AppCompat.Title"
+            app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior" />
+
+        <FrameLayout
+            android:id="@*com.facebook.mlite:id/search_fragment_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:visibility="gone"
+            style="@*com.facebook.mlite:style/Base.TextAppearance.AppCompat.Title"
+            app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior" />
+    </android.support.design.widget.CoordinatorLayout>
+
+    <ViewStub
+        android:id="@*com.facebook.mlite:id/create_group_thread_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0"
+        android:inflatedId="@*com.facebook.mlite:id/create_group_thread_layout"
+        android:layout="@*com.facebook.mlite:layout/create_group_thread_layout" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.facebook.mlite:id/content_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@*com.facebook.mlite:color/background_material_dark"
+    android:fillViewport="true"
+    android:paddingLeft="@*com.facebook.mlite:dimen/login_side_padding"
+    android:paddingRight="@*com.facebook.mlite:dimen/login_side_padding"
+    android:theme="@*com.facebook.mlite:style/LoginTheme">
+
+    <LinearLayout
+        android:id="@*com.facebook.mlite:id/root_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@*com.facebook.mlite:layout/sso_confirmation_form" />
+
+        <include layout="@*com.facebook.mlite:layout/username_password_form" />
+
+        <include layout="@*com.facebook.mlite:layout/login_approval_form" />
+
+        <include layout="@*com.facebook.mlite:layout/partial_progress" />
+    </LinearLayout>
+</ScrollView>

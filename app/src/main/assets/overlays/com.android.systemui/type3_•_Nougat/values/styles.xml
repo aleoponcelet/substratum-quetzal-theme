@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.StatusBar.Expanded" parent="@style/Widget.RatingBar.Small.Radius" />
+
+    <style name="TextAppearance.StatusBar.Expanded.WeatherLocation" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#b2ffffff</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+    <style name="Widget.RatingBar.Small.Radius" parent="@style/Widget.RatingBar">
+    </style>
+    <style name="Widget.RatingBar" parent="@style/Widget">
+    </style>
+    <style name="Widget">
+        <item name="textAppearance">?textAppearance</item>
+    </style>
+    <style name="TextAppearance.QS.DetailHeader" parent="@style/TextAppearance">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">17.5sp</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <style name="TextAppearance" />
+    <style name="TextAppearance.Volume" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Volume.ZenDetail" parent="@style/TextAppearance.Volume">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.NotificationGuts" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Radio" parent="">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Header" parent="">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:alpha">0.38</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Button" parent="">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.MediaQueue" parent="">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="TextAppearance.MediaQueue.Subtitle" parent="">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:alpha">0.58</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="systemui_theme_remote_input" parent="@*android:style/Theme.Material">
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:backgroundTint">@*android:color/button_material_dark</item>
+        <item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
+    </style>
+
+    <!--<style name="systemui_theme" parent="@android:style/Theme.Material"/>-->
+    <!-- OmniJaws -->
+    <style name="TextAppearance.StatusBar.Expanded.Weather">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.Expanded.Weather.Detailed">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+    </style>
+
+    <style name="TextAppearance.Volume.Header">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+    </style>
+
+
+
+</resources>

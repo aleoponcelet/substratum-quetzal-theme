@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24">
+<path
+    android:fillColor="#ffffffff"
+    android:name="Battey Low"
+    android:pathData="m5.235 15.952 -1.288 -0.288 1.292 -7.559 1.288 0.288 -1.292 7.559zm3.316 0 -1.288 -0.288 1.292 -7.559 1.288 0.288 -1.292 7.559zm3.281 0 -1.288 -0.288 1.292 -7.559 1.288 0.288 -1.292 7.559zm3.281 0 -1.288 -0.288 1.292 -7.559 1.288 0.288 -1.292 7.559z" />
+</vector>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff000000"
+    android:backgroundTint="#ff000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@*org.mozilla.firefox:id/refresh_layout"
+        android:background="#ff000000"
+        android:backgroundTint="#ff000000"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.2">
+
+        <org.mozilla.gecko.home.CombinedHistoryRecyclerView
+            android:id="@*org.mozilla.firefox:id/combined_recycler_view"
+            android:background="#ff000000"
+            android:backgroundTint="#ff000000"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <include
+        android:id="@*org.mozilla.firefox:id/home_history_empty_view"
+        layout="@*org.mozilla.firefox:layout/home_empty_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="3.0"
+        android:visibility="gone" />
+
+    <include
+        android:id="@*org.mozilla.firefox:id/home_clients_empty_view"
+        layout="@*org.mozilla.firefox:layout/history_sync_setup"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="3.0"
+        android:visibility="gone" />
+
+    <include
+        android:id="@*org.mozilla.firefox:id/home_recent_tabs_empty_view"
+        layout="@*org.mozilla.firefox:layout/home_empty_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="3.0"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@*org.mozilla.firefox:id/history_panel_footer_button"
+        style="@*org.mozilla.firefox:style/Widget.Home.ActionButton"
+        android:layout_width="fill_parent"
+        android:backgroundTint="@null"
+        android:layout_height="48.0dip"
+        android:visibility="gone" />
+</LinearLayout>

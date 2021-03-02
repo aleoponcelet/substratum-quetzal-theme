@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+	android:width="24dp"
+	android:height="24dp"
+	android:viewportWidth="24"
+	android:viewportHeight="24">
+	<path
+		android:fillColor="#9399b0"
+		android:name="Plaine"
+		android:pathData="m16.111 23.5 -6.207 -5.593v1.826l0.236 -0.23l1.02 1.051l-2.721 2.644v-8.582l6.97 6.28l5.788 -18.018l-17.996 6.431l3.863 3.766l7.456 -5.647l0.884 1.168l-8.46 6.407l-6.445 -6.285l23 -8.219l-7.389 23z" />
+</vector>

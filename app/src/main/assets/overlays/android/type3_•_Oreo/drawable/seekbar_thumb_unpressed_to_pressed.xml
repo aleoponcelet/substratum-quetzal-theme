@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="seekbar_thumb_unpressed_to_pressed"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96"
+    android:tint="@*android:color/accent_material_dark">
+    <group
+        android:name="thumb_0"
+         android:pivotX="48.0"
+         android:pivotY="48.0">
+        <path
+            android:name="thumb_path_0"
+            android:fillColor="@*android:color/accent_material_dark"
+            android:pathData="M64.5,30.2L48,24l-16.5,6.2L24,48l7.5,17.8L48,72l16.5-6.2L72,48L64.5,30.2z
+M56.2,56.9L48,60l-8.2-3.1 L36,48l3.8-8.9L48,36l8.2,3.1L60,48L56.2,56.9z" />
+    </group>
+</vector>

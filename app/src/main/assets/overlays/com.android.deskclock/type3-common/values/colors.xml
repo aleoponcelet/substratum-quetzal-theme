@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="hot_blue">@*android:color/holo_gray_bright</color>
+    <color name="hot_blue_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="window_background">@*android:color/background_material_dark</color>
+    <color name="view_background">#ff252525</color>
+	<color name="text_color_light">#ffffffff</color>
+	<color name="icon_color_light">#ffffffff</color>
+	<color name="analog_color_light">#deffffff</color>
+	<color name="black">#ffffffff</color>
+    <color name="black_87p">#deffffff</color>
+    <color name="black_54p">#8affffff</color>
+    <color name="black_16p">#28ffffff</color>
+	<color name="hot_pink">@*android:color/accent_material_dark</color>
+	<color name="hairline">#ffffffff</color>
+	<color name="bright_foreground_light_disabled">#80ffffff</color>
+	<color name="clock_gray">#ffffffff</color>
+	<color name="hour_12">@*android:color/accent_material_dark</color> <!-- Date repeat text -->
+	<color name="alarm_activated">#ffffffff</color>
+    <color name="alarm_alert_color">#ff00ff0c</color>
+	
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.BetterTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                                         xmlns:app="http://schemas.android.com/apk/com.facebook.orca"
+                                         android:id="@*com.facebook.orca:id/list_header_text"
+                                         android:layout_width="fill_parent"
+                                         android:layout_height="wrap_content"
+                                         android:ellipsize="end"
+                                         android:gravity="center_vertical"
+                                         android:maxLines="1"
+                                         android:padding="@*com.facebook.orca:dimen/contacts_you_may_know_padding"
+                                         android:singleLine="true" android:textColor="#aaffffff"
+                                         android:textSize="@*com.facebook.orca:dimen/fbui_text_size_medium"
+                                         app:fbFontFamily="roboto"
+                                         app:fbFontWeight="medium"/>

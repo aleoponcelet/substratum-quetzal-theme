@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launcher_accent_color">@*android:color/accent_material_dark</color>
+    <color name="info_target_hover_tint">@*android:color/accent_material_dark</color>
+    <color name="container_fastscroll_thumb_inactive_color">@*android:color/accent_material_dark</color>
+    <color name="container_fastscroll_thumb_active_color">@*android:color/accent_material_dark</color>
+    <color name="all_apps_grid_section_text_color">@*android:color/accent_material_dark</color>
+	<color name="search_box_input_text_color">#ffffffff</color>
+    <color name="all_apps_empty_search_text_color">@*android:color/accent_material_dark</color>
+    <color name="quantum_panel_bg_color">@*android:color/background_material_dark</color>
+    <color name="all_apps_container_color">@*android:color/background_material_dark</color>
+    <color name="quantum_panel_text_color">#ffe8e8e8</color>
+    <color name="place_autocomplete_separator">#1fffffff</color>
+    <color name="all_apps_divider_color">#1fffffff</color>
+    <color name="focused_background">@*android:color/background_material_dark</color>
+    <color name="primary_color">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_color">@*android:color/primary_dark_material_dark</color>
+</resources>

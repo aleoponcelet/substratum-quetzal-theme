@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearanceMedium" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearanceSmall" parent="@*android:style/TextAppearance.Small">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFD2D2D2</item>
+    </style>
+
+    <style name="ListViewStyle" parent="@*android:style/Widget.Material.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+    <style name="ContactListFilterTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+
+    <style name="BackgroundOnlyTheme" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+
+    <style name="InCallPopupMenuStyle" parent="@*android:style/Theme.Material">
+        <item name="android:textColorPrimary">@*android:color/accent_material_dark</item>
+    </style>
+
+    <style name="InCallActionBarStyle" parent="@*android:style/Widget.Material.ActionBar">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@*android:color/material_grey_800</item>
+    </style>
+
+    <!-- <style name="Theme.InCallScreen" parent="@*android:style/Theme.Material">-->
+    <style name="Theme.InCallScreen" parent="@*com.android.dialer:style/Theme.AppCompat.Light">
+         <item name="android:textColorPrimary">@*android:color/accent_material_dark</item>
+         <item name="android:textColor">#ffffffff</item>
+         <item name="android:windowBackground">@null</item>
+         <item name="android:windowIsTranslucent">true</item>
+         <item name="android:windowContentOverlay">@null</item>
+         <item name="android:actionBarStyle">@*com.android.dialer:style/InCallActionBarStyle</item>
+         <item name="android:popupMenuStyle">@*com.android.dialer:style/InCallPopupMenuStyle</item>
+         <item name="android:alertDialogTheme">@*android:style/Theme.Material.Dialog.Alert</item>
+     </style>
+
+     <style name="AlertDialogTheme" parent="@*android:style/Theme.Material.Dialog">
+         <item name="android:colorBackground">@*android:color/material_grey_800</item>
+         <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+     </style>
+
+     <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+         <item name="android:windowBackground">@*android:color/material_grey_800</item>
+         <item name="android:windowNoTitle">true</item>
+         <item name="android:windowActionBar">false</item>
+         <item name="android:statusBarColor">@*android:color/material_grey_800</item>
+         <item name="android:navigationBarColor">@*android:color/material_grey_800</item>
+     </style>
+    <style name="SpeedDialtactsTheme" parent="@*android:style/Theme.Material">
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="*com.android.dialer:call_log_primary_text_color">@*com.android.dialer:color/dialtacts_primary_text_color</item>
+        <item name="*com.android.dialer:call_log_primary_background_color">@*android:color/material_grey_800</item>
+        <item name="*com.android.dialer:call_log_secondary_text_color">@*com.android.dialer:color/dialtacts_secondary_text_color</item>
+        <item name="*com.android.dialer:call_log_secondary_background_color">@*android:color/material_grey_800</item>
+        <item name="*com.android.dialer:call_log_header_color">@*android:color/material_grey_800</item>
+        <item name="*com.android.dialer:call_log_voicemail_status_height">48.0dip</item>
+        <item name="*com.android.dialer:call_log_voicemail_status_background_color">@*android:color/material_grey_800</item>
+        <item name="*com.android.dialer:call_log_voicemail_status_text_color">#ffffffff</item>
+        <item name="*com.android.dialer:call_log_voicemail_status_action_text_color">#ffffffff</item>
+    </style>
+     <style name="DialtactsActionBarOverflow" parent="@*android:style/Widget.Material.ActionButton.Overflow" />
+     <style name="DialtactsActionBarOverflowWhite" parent="@*android:style/Widget.Material.ActionButton.Overflow" />
+     <style name="DialtactsActionBarTabTextStyle" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+
+
+
+ </resources>

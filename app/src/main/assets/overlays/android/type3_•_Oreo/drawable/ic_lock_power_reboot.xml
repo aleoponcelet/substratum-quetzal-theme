@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@*android:color/accent_material_dark"
+        android:name="Refresh"
+        android:pathData="m21.911 18.759h2.043v1.502h-4.483v-4.506h1.494v1.69c2.485 -4.088 1.931 -9.386 -1.545 -12.881c-3.437 -3.455 -8.902 -4.063 -12.996 -1.448l-0.801 -1.268c4.68 -2.989 10.927 -2.293 14.854 1.654c4.125 4.146 4.662 10.522 1.434 15.257zm-4.334 2.124 0.801 1.268c-1.945 1.243 -4.162 1.848 -6.37 1.849c-3.104 0 -6.189 -1.196 -8.484 -3.503c-4.124 -4.146 -4.662 -10.521 -1.435 -15.257h-2.042v-1.502h4.483v4.506h-1.494v-1.689c-2.484 4.088 -1.93 9.386 1.545 12.88c3.436 3.455 8.902 4.064 12.996 1.448z" />
+</vector>

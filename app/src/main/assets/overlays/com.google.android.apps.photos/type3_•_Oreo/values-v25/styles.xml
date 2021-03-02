@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.Wallpaper">
+		<item name="android:navigationBarColor">@*android:color/background_dark</item>
+		<item name="android:statusBarColor">@*android:color/transparent</item>
+		<item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
+        <item name="android:textColorPrimaryInverse">@*android:color/accent_material_dark</item>
+        <item name="android:windowElevation">0.5dip</item>
+        <item name="android:colorBackground">@*android:color/background_dark</item>
+    </style>
+</resources>

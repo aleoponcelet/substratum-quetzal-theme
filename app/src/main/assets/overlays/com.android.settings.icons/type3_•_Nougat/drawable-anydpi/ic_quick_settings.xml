@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Ipod"
+        android:pathData="m32 7h-18v18h18v-18zm-16 16v-14h14v14h-14zm2 -7c0 2.76 2.24 5 5 5c2.76 0 5 -2.24 5 -5c0 -2.76 -2.24 -5 -5 -5c-2.76 0 -5 2.24 -5 5zm8 0c0 1.65 -1.35 3 -3 3c-1.65 0 -3 -1.35 -3 -3c0 -1.65 1.35 -3 3 -3c1.65 0 3 1.35 3 3zm-24 7v-14h10v-2h-12v18h12v-2h-10z" />
+</vector>

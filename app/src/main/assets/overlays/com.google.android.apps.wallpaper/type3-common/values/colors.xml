@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2017 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <color name="abc_input_method_navigation_guard">@*android:color/background_material_dark</color>
+    <color name="accent_color">@*android:color/accent_material_light</color>
+    <color name="accent_material_dark">@*android:color/accent_material_light</color>
+    <color name="accent_material_light">@*android:color/accent_material_light</color>
+    <color name="background_floating_material_dark">@*android:color/background_material_dark</color>
+    <color name="background_floating_material_light">@android:color/white</color>
+    <color name="background_material_dark">@*android:color/background_material_dark</color>
+    <color name="background_material_light">@*android:color/primary_material_dark</color>
+    <color name="black_38_alpha">@*android:color/holo_button_normal</color>
+    <color name="button_material_dark">@*android:color/primary_material_dark</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="cardview_dark_background">@*android:color/background_material_dark</color>
+    <color name="cardview_light_background">@*android:color/background_material_dark</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="design_fab_shadow_mid_color">#14000000</color>
+    <color name="design_fab_shadow_start_color">#44000000</color>
+    <color name="design_fab_stroke_end_inner_color">#0a000000</color>
+    <color name="design_fab_stroke_end_outer_color">#0f000000</color>
+    <color name="design_fab_stroke_top_inner_color">#1affffff</color>
+    <color name="design_fab_stroke_top_outer_color">#2effffff</color>
+    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>
+    <color name="design_textinput_error_color_dark">#ffff6e6e</color>
+    <color name="design_textinput_error_color_light">#ffd50000</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80323232</color>
+    <color name="material_blue_grey_800">@*android:color/primary_material_dark</color>
+    <color name="material_blue_grey_900">@*android:color/primary_dark_material_dark</color>
+    <color name="material_blue_grey_950">@*android:color/primary_dark_material_dark</color>
+    <color name="material_deep_teal_200">@*android:color/accent_material_light</color>
+    <color name="material_deep_teal_500">@*android:color/accent_material_light</color>
+    <color name="material_grey_100">@*android:color/primary_material_dark</color>
+    <color name="material_grey_300">@*android:color/primary_material_dark</color>
+    <color name="material_grey_50">@*android:color/primary_material_dark</color>
+    <color name="material_grey_600">@*android:color/primary_material_dark</color>
+    <color name="material_grey_800">@*android:color/primary_material_dark</color>
+    <color name="material_grey_850">@*android:color/primary_material_dark</color>
+    <color name="material_grey_900">@*android:color/primary_material_dark</color>
+    <color name="notification_icon_bg_color">@*android:color/background_material_dark</color>
+    <color name="notification_material_background_media_default_color">@*android:color/background_material_dark</color>
+    <color name="primary_color">@*android:color/background_material_dark</color>
+    <color name="primary_dark_material_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_material_dark</color>
+    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+    <color name="quantum_amber100">@*android:color/accent_material_light</color>
+    <color name="quantum_amber200">@*android:color/accent_material_light</color>
+    <color name="quantum_amber300">@*android:color/accent_material_light</color>
+    <color name="quantum_amber400">@*android:color/accent_material_light</color>
+    <color name="quantum_amber50">@*android:color/accent_material_light</color>
+    <color name="quantum_amber500">@*android:color/accent_material_light</color>
+    <color name="quantum_amber600">@*android:color/accent_material_light</color>
+    <color name="quantum_amber700">@*android:color/accent_material_light</color>
+    <color name="quantum_amber800">@*android:color/accent_material_light</color>
+    <color name="quantum_amber900">@*android:color/accent_material_light</color>
+    <color name="quantum_amberA100">@*android:color/accent_material_light</color>
+    <color name="quantum_amberA200">@*android:color/accent_material_light</color>
+    <color name="quantum_amberA400">@*android:color/accent_material_light</color>
+    <color name="quantum_amberA700">@*android:color/accent_material_light</color>
+    <color name="ripple_material_dark">@*android:color/accent_material_light</color>
+    <color name="ripple_material_light">@*android:color/accent_material_light</color>
+    <color name="scrollbar_thumb_color_dark">@*android:color/accent_material_light</color>
+    <color name="secondary_color">@*android:color/primary_material_dark</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="translucent_black">@*android:color/holo_button_normal</color>
+    <color name="translucent_black_60_alpha">@*android:color/holo_button_normal</color>
+    <color name="translucent_black_lighter">#59000000</color>
+    <color name="white_70_alpha">#b3ffffff</color>
+    <color name="white_88_alpha">#e0ffffff</color>
+</resources>

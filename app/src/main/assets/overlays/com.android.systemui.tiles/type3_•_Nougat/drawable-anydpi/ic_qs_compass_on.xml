@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="Compass"
+        android:pathData="m16 31c-7.17 0 -13 -5.89 -13 -13.12c0 -6.12 4.11 -11.37 10 -12.77l0.43 1.82c-5.05 1.2 -8.57 5.7 -8.57 10.95c0 6.2 5 11.25 11.14 11.25c6.14 0 11.14 -5.05 11.14 -11.25c0 -5.25 -3.52 -9.75 -8.57 -10.95l0.43 -1.82c5.89 1.4 10 6.65 10 12.77c0 7.24 -5.83 13.12 -13 13.12zm-3.66 -14.36 1.76 0.6 -1.28 3.83 3.8 -1.28 0.59 1.78 -7.34 2.47 2.46 -7.4zm2.44 -2.46 7.34 -2.47 -2.46 7.4 -1.76 -0.6 1.28 -3.83 -3.8 1.28 -0.59 -1.78zm2.14 -7.55h-1.86v-3.75h-1.86v-1.88h1.86h1.86h1.86v1.88h-1.86v3.75z" />
+</vector>

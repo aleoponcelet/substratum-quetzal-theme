@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="Tablet"
+        android:pathData="m15.08 25.38h1.83v1.88h-1.83v-1.88zm-10.08 -20.62h1.83v24.37h18.33v-24.37h1.83v26.25h-22v-26.25zm3.67 18.75v-18.75h14.67v18.75h-14.67zm12.83 -1.88v-15h-11v15h11zm5.5 -20.63v1.88h-22v-1.88h22z" />
+    <path
+        android:fillColor="#ffffff"
+        android:name="Rectangle"
+        android:pathData="m10 25h2v2h-2v-2z" />
+    <path
+        android:fillColor="#ffffff"
+        android:name="Rectangle"
+        android:pathData="m20 25h2v2h-2v-2z" />
+</vector>

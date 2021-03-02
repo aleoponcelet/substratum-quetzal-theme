@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="TextViewStyle.Feed" parent="@style/TextViewStyle">
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+    </style>
+	<style name="EditMediaTagPeopleShadowText">
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+        <item name="android:shadowColor">@*com.instagram.android:color/black_50_transparent</item>
+        <item name="android:shadowRadius">10.0</item>
+    </style>
+	
+	<style name="Avatar.ExploreStories" parent="@*com.instagram.android:style/Avatar">
+        <item name="android:layout_width">28.0dip</item>
+        <item name="android:layout_height">28.0dip</item>
+        <item name="*com.instagram.android:strokeColor">@*android:color/white</item>
+        <item name="*com.instagram.android:strokeWidth">0.0dip</item>
+    </style>
+	
+	<style name="TextAppearance.Snackbar.Message" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_medium</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+	
+	<style name="OverlayTextStyle">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_xxlarge</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+	
+
+    <style name="ViewerLoadingGradientStyle">
+        <item name="*com.instagram.android:gradientColor1">@*android:color/accent_material_dark</item>
+        <item name="*com.instagram.android:gradientColor2">@*android:color/accent_material_dark</item>
+        <item name="*com.instagram.android:gradientColor3">@*android:color/accent_material_dark</item>
+        <item name="*com.instagram.android:gradientColor4">@*android:color/accent_material_dark</item>
+        <item name="*com.instagram.android:gradientColor5">@*android:color/accent_material_dark</item>
+    </style>
+
+    <style name="TabBarButton">
+        <item name="*com.instagram.android:normal">@*android:color/accent_material_light</item>
+        <item name="*com.instagram.android:active">@*android:color/white</item>
+    </style>
+    <style name="TabBarButton.White" parent="@*com.instagram.android:style/TabBarButton">
+        <item name="*com.instagram.android:normal">@*android:color/accent_material_light</item>
+        <item name="*com.instagram.android:active">@*android:color/white</item>
+    </style>
+    <style name="FixedTabBar">
+        <item name="android:background">@*android:color/button_material_dark</item>
+        <item name="android:layout_height">@*com.instagram.android:dimen/top_tabbar_height</item>
+    </style>
+    <style name="FixedTabBar.Whiteout" parent="@*com.instagram.android:style/FixedTabBar">
+        <item name="android:background">@*android:color/button_material_dark</item>
+    </style>
+
+    <style name="Widget.PeopleTag" parent="">
+        <item name="*com.instagram.android:peopleTagSearchBackground">@*android:color/button_material_dark</item>
+        <item name="*com.instagram.android:peopleTagSearchCacheColorHint">@*android:color/material_grey_850</item>
+        <item name="*com.instagram.android:peopleTagSearchItemBackground">@*com.instagram.android:drawable/people_tagging_search_background</item>
+    </style>
+
+    <style name="IgDialog" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#ffdddddd</item>
+        <item name="android:windowAnimationStyle">@*com.instagram.android:style/animationDialog</item>
+        <item name="android:listChoiceIndicatorSingle">@null</item>
+        <item name="android:listChoiceIndicatorMultiple">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:listChoiceBackgroundIndicator">@null</item>
+        <item name="android:activatedBackgroundIndicator">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="IgUpdatableButtonStyle" parent="@*com.instagram.android:style/IgButton">
+        <item name="android:backgroundTint">@*android:color/highlighted_text_dark</item>
+        <item name="android:textColor">@*com.instagram.android:drawable/button_textcolor_selector</item>
+        <item name="android:background">@*com.instagram.android:drawable/button_state_drawable</item>
+    </style>
+    <style name="IgSecondaryButton" parent="@*com.instagram.android:style/IgButton">
+        <item name="android:backgroundTint">@*android:color/highlighted_text_dark</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@*com.instagram.android:drawable/secondary_button_selector</item>
+    </style>
+    <style name="IgUpdatableButtonStyle.Inverse" parent="@*com.instagram.android:style/IgButton">
+        <item name="android:textColor">@*com.instagram.android:drawable/button_inverse_textcolor_selector</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
+    <style name="IgSecondaryButton.Inverse" parent="@*com.instagram.android:style/IgButton">
+        <item name="android:textColor">@*com.instagram.android:drawable/secondary_button_inverse_textcolor_selector</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
+    <style name="IgPrimaryButton" parent="@*com.instagram.android:style/IgButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@*com.instagram.android:drawable/primary_button_selector</item>
+        <item name="android:backgroundTint">@*android:color/highlighted_text_dark</item>
+
+    </style>
+    <style name="IgPrimaryButton.Inverse" parent="@*com.instagram.android:style/IgButton">
+        <item name="android:textColor">@*com.instagram.android:drawable/primary_button_inverse_textcolor_selector</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
+<!-- these lines not supported yet for insta+ -->
+    <!--<style name="FootNoteEmphasized" parent="@*com.instagram.android:style/IgSecondaryText">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_medium</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingMultiplier">1.35</item>
+    </style>
+    <style name="FootNote" parent="@*com.instagram.android:style/IgPrimaryText">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_small</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingMultiplier">1.35</item>
+    </style>
+    <style name="BodyEmphasized" parent="@*com.instagram.android:style/IgSecondaryText">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_medium</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+    <style name="Body" parent="@*com.instagram.android:style/IgPrimaryText">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_medium</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="Label" parent="@*com.instagram.android:style/IgPrimaryText">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_medium_xlarge</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingMultiplier">1.25</item>
+    </style>
+    <style name="Section" parent="@*com.instagram.android:style/IgSecondaryText">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_medium_xlarge</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingMultiplier">1.25</item>
+    </style>
+    <style name="Headline1" parent="@*com.instagram.android:style/IgPrimaryText">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_xxlarge</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="Title" parent="@*com.instagram.android:style/IgPrimaryText">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_large</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>-->
+</resources>

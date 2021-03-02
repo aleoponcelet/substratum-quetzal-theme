@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="Cassette"
+        android:pathData="m24.91 26 -2.81 -3.64h-12.19l-2.81 3.64h-6.09v-1.82h5.16l2.81 -3.64h14.06l2.81 3.64h5.16v1.82h-6.09zm-4.3 -16.36c0 0 0.01 0 0.01 0c2.67 0 4.77 2.04 4.77 4.54c0 2.51 -2.1 4.55 -4.69 4.55l-0.09 -0l-10.31 -0.91c-0 0 -0.01 0 -0.01 0c-1.98 0 -3.66 -1.63 -3.66 -3.63c0 -2.01 1.68 -3.64 3.75 -3.64l10.23 -0.91zm-12.1 4.54c0 1 0.84 1.82 1.88 1.82l10.35 0.91c1.53 -0.02 2.77 -1.24 2.77 -2.73c0 -1.5 -1.26 -2.73 -2.81 -2.73l-10.23 0.91c-1.12 0 -1.96 0.82 -1.96 1.82zm3.75 0.91h-1.88v-1.82h1.88v1.82zm9.38 0h-1.88v-1.82h1.88v1.82zm7.5 -7.27h-26.25v14.55h-1.88v-16.36h30v16.36h-1.87v-14.55zm-7.5 18.18h-11.25v-1.82h11.25v1.82z" />
+</vector>

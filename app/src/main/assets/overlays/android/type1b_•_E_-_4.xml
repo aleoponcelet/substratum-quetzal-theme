@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<!-- Accent -->
+<color name="accent_material_dark">#FF6953</color><!--Main accent-->
+<color name="accent_material_light">#FF6953</color><!-- Sec accent-->
+<color name="highlighted_text_dark">#80FF6953</color><!--Text selection-->
+<color name="holo_blue_bright">#ffFF6953</color>
+<color name="lighter_gray">#FF6953</color>
+    <!-- Gradiente -->
+    <color name="holo_red_dark">#562a23</color>
+    <!-- Primary_dark -->
+    <color name="holo_orange_light">#40FF6953</color>
+</resources>

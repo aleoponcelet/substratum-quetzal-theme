@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:orientation="vertical" android:id="@*com.android.dialer:id/dialpad_view" android:background="@*android:color/transparent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.dialer.dialpadview.DialpadView">
+    <LinearLayout android:orientation="vertical" android:id="@*com.android.dialer:id/rate_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@*com.android.dialer:id/ild_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@*com.android.dialer:dimen/ild_margin_height" android:layout_marginBottom="@*com.android.dialer:dimen/ild_margin_height">
+            <TextView android:id="@*com.android.dialer:id/ild_country" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textStyle="bold" android:id="@*com.android.dialer:id/ild_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@*com.android.dialer:id/digits_container" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageButton android:gravity="center" android:id="@*com.android.dialer:id/dialpad_back" android:background="@*com.android.dialer:drawable/btn_dialpad_key" android:paddingLeft="@*com.android.dialer:dimen/dialpad_digits_menu_left_padding" android:paddingRight="@*com.android.dialer:dimen/dialpad_digits_menu_right_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="@*com.android.dialer:dimen/dialpad_overflow_margin" android:src="@*com.android.dialer:drawable/quantum_ic_close_white_24" android:tint="#ffffffff" />
+
+        <ImageButton android:gravity="center" android:id="@*com.android.dialer:id/dialpad_overflow" android:background="@*com.android.dialer:drawable/btn_dialpad_key" android:paddingLeft="@*com.android.dialer:dimen/dialpad_digits_menu_left_padding" android:paddingRight="@*com.android.dialer:dimen/dialpad_digits_menu_right_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="@*com.android.dialer:dimen/dialpad_overflow_margin" android:src="@*com.android.dialer:drawable/quantum_ic_more_vert_white_24" android:tint="#ffffffff" />
+        <view xmlns:ex="http://schemas.android.com/apk/com.android.dialer" android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@*com.android.dialer:id/digits" android:background="@android:color/transparent" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:cursorVisible="false" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true" android:freezesText="true" android:layout_weight="1.0" ex:resizing_text_min_size="@*com.android.dialer:dimen/dialpad_digits_text_min_size" class="com.android.dialer.dialpadview.DigitsEditText" />
+
+        <ImageButton android:state_enabled="false" android:id="@*com.android.dialer:id/deleteButton" android:background="@*com.android.dialer:drawable/btn_dialpad_key" android:paddingLeft="@*com.android.dialer:dimen/dialpad_digits_padding" android:paddingRight="@*com.android.dialer:dimen/dialpad_digits_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@*com.android.dialer:drawable/quantum_ic_backspace_white_24" android:tint="#ffffffff" />
+    </LinearLayout>
+    <View android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <Space android:layout_width="fill_parent" android:layout_height="@*com.android.dialer:dimen/dialpad_space_above_keys" />
+    <include layout="@*com.android.dialer:layout/dialpad" />
+    <Space android:layout_width="fill_parent" android:layout_height="@*com.android.dialer:dimen/dialpad_space_below_keys" />
+</view>

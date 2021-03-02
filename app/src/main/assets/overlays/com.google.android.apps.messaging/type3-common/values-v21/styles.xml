@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Platform.V21.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar">
+    <item name="android:backgroundTint">@android:color/background_dark</item>
+    <item name="android:navigationBarColor">@android:color/background_dark</item>
+    <item name="android:windowBackground">@*android:color/white</item>
+  </style>
+
+
+
+
+
+  <style name="BugleTheme.DialogActivity" parent="@*com.google.android.apps.messaging:style/Theme.AppCompat.Light.Dialog">
+    <item name="android:backgroundTint">@android:color/background_dark</item>
+    <item name="android:windowNoTitle">false</item>
+    <item name="android:background">@*com.google.android.apps.messaging:color/background_floating_material_dark</item>
+  </style>
+
+
+
+</resources>

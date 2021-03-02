@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Tag"
+        android:pathData="m22.506 11.181v-9.69h-9.71v-1.491h11.203v11.181h-1.494zm-5.997 0c-2.059 -0.013 -3.724 -1.694 -3.713 -3.749c0.012 -2.043 1.686 -3.705 3.733 -3.705c2.082 0.013 3.748 1.694 3.736 3.749c-0.012 2.043 -1.686 3.705 -3.733 3.705h-0.023zm2.263 -3.714c0.007 -1.233 -0.992 -2.242 -2.228 -2.249c-1.242 0 -2.247 0.997 -2.254 2.223c-0.007 1.233 0.992 2.242 2.228 2.249l0.015 0.745v-0.745c1.228 0 2.232 -0.997 2.239 -2.223zm2.46 4.678 1.056 1.054 -10.238 10.801 -12.05 -12.074 10.775 -10.217 1.056 1.054 -9.718 9.163 9.937 9.966 9.182 -9.747z" />
+</vector>

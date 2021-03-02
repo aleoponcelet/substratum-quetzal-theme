@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="22"
+    android:viewportHeight="22">
+    <path
+        android:fillColor="#ffffffff"
+        android:name="Phone"
+        android:pathData="m6 20v-13.091h1v7.153h8v-7.153h1v13.091h-10zm1 -4.75v3.563h8v-3.563h-8zm3.5 2.375v-1.188h1v1.188h-1zm-4.5 -16.625h10v4.75h-10v-4.75zm1 3.562h8v-2.375h-8v2.375zm3 -1.781h2v1.187h-2v-1.187z" />
+    <path
+        android:fillColor="#ffffffff"
+        android:name="Rectangle"
+        android:pathData="m18.111 6h0.889v10h-0.889v-10z" />
+    <path
+        android:fillColor="#ffffffff"
+        android:name="Rectangle"
+        android:pathData="m3 6h0.889v10h-0.889v-10z" />
+    <path
+        android:fillColor="#ffffffff"
+        android:name="Rectangle"
+        android:pathData="m0 8.5h0.889v5h-0.889v-5z" />
+    <path
+        android:fillColor="#ffffffff"
+        android:name="Rectangle"
+        android:pathData="m21 8.5h0.889v5h-0.889v-5z" />
+</vector>

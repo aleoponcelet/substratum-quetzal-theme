@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_blue_500">@*android:color/accent_material_dark</color>
+    <color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
+    <color name="primary_color">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_color">@*android:color/primary_dark_material_dark</color>
+    <color name="secondary_color">@*android:color/primary_material_dark</color>
+    <color name="accent_color">@*android:color/accent_material_light</color>
+    <color name="accent_color_lighter">@*android:color/accent_material_light</color>
+</resources>

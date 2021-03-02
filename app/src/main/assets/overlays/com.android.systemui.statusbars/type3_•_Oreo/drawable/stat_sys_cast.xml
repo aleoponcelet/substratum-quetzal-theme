@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="14dp"
+    android:viewportWidth="42"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Antenna 1"
+        android:pathData="m29 24.95c-0 -7.69 -6.26 -13.95 -13.95 -13.95v-2c8.79 0 15.95 7.16 15.95 15.95h-2zm-4.04 -0.04h-2c-0 -4.96 -4.01 -9 -8.97 -9v-2c6.06 0 10.97 4.93 10.97 11zm-8.13 -2.74c0.75 0.75 1.17 1.76 1.17 2.83c0 1.07 -0.42 2.07 -1.17 2.83l-1.41 -1.41c0.38 -0.38 0.59 -0.88 0.59 -1.42c0 -0.53 -0.21 -1.04 -0.59 -1.41c-0.76 -0.76 -2.07 -0.76 -2.83 0l-1.41 -1.41c1.51 -1.51 4.15 -1.51 5.66 0z" />
+    <path
+        android:fillColor="#fff"
+        android:name="Rectangle"
+        android:pathData="m40 3h2v26h-2v-26z" />
+    <path
+        android:fillColor="#fff"
+        android:name="Rectangle"
+        android:pathData="m10 3h34v2h-34v-2z" />
+    <path
+        android:fillColor="#fff"
+        android:name="Rectangle"
+        android:pathData="m22 27h20v2h-20v-2z" />
+    <path
+        android:fillColor="#fff"
+        android:name="Rectangle"
+        android:pathData="m10 3h2v14h-2v-14z" />
+</vector>

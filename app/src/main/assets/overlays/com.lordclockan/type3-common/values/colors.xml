@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@*android:color/primary_material_dark</color>
+    <color name="colorPrimaryDark">@*android:color/primary_dark_material_dark</color>
+    <color name="colorAccent">@*android:color/accent_material_dark</color>
+	
+	<color name="navDrawerBg">@*android:color/background_material_dark</color>
+    <color name="navDrawerText">@android:color/white</color>
+    <color name="navDrawerTextChecked">@*android:color/accent_material_dark</color>
+	
+	<color name="colorHeaderBack">@*android:color/holo_gray_bright</color>
+	
+</resources>

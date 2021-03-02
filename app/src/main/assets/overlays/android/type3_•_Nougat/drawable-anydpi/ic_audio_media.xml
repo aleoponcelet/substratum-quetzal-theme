@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="22"
+    android:viewportHeight="22">
+    <path
+        android:fillColor="@*android:color/accent_material_dark"
+        android:name="Music Note 2"
+        android:pathData="m13.018 11.139 -0.472 -1.36 5.537 -1.994v-5.621l-7.083 3.006v12.503c0 2.387 -1.906 4.328 -4.25 4.328c-2.344 0 -4.25 -1.941 -4.25 -4.328c0 -2.387 1.906 -4.328 4.25 -4.328c1.092 0 2.08 0.434 2.833 1.126v-10.263l9.917 -4.207v8.805l-6.482 2.334zm-6.268 3.648c-1.563 0 -2.833 1.294 -2.833 2.885c0 1.591 1.271 2.885 2.833 2.885c1.563 0 2.833 -1.294 2.833 -2.885c0 -1.591 -1.271 -2.885 -2.833 -2.885z" />
+</vector>

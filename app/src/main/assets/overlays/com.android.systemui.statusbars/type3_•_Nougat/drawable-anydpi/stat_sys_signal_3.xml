@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+	android:width="37dp"
+	android:height="19dp"
+	android:viewportWidth="64"
+	android:viewportHeight="32">
+	<path
+		android:fillAlpha="0.6"
+		android:fillColor="#f7c783"
+		android:name="Ipod"
+		android:pathData="m55 14c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4zm0 6.4c1.32 0 2.4 -1.08 2.4 -2.4c0 -1.32 -1.08 -2.4 -2.4 -2.4c-1.32 0 -2.4 1.08 -2.4 2.4c0 1.32 1.08 2.4 2.4 2.4z" />
+	<path
+		android:fillColor="#f7c783"
+		android:name="Ipod"
+		android:pathData="m44 14c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4zm0 6.4c1.32 0 2.4 -1.08 2.4 -2.4c0 -1.32 -1.08 -2.4 -2.4 -2.4c-1.32 0 -2.4 1.08 -2.4 2.4c0 1.32 1.08 2.4 2.4 2.4z" />
+	<path
+		android:fillColor="#f7c783"
+		android:name="Ipod"
+		android:pathData="m33 14c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4zm0 6.4c1.32 0 2.4 -1.08 2.4 -2.4c0 -1.32 -1.08 -2.4 -2.4 -2.4c-1.32 0 -2.4 1.08 -2.4 2.4c0 1.32 1.08 2.4 2.4 2.4z" />
+	<path
+		android:fillColor="#f7c783"
+		android:name="Ipod"
+		android:pathData="m22 14c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4zm0 6.4c1.32 0 2.4 -1.08 2.4 -2.4c0 -1.32 -1.08 -2.4 -2.4 -2.4c-1.32 0 -2.4 1.08 -2.4 2.4c0 1.32 1.08 2.4 2.4 2.4z" />
+	<path
+		android:fillColor="#f7c783"
+		android:name="Ipod"
+		android:pathData="m11 14c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4zm0 6.4c1.32 0 2.4 -1.08 2.4 -2.4c0 -1.32 -1.08 -2.4 -2.4 -2.4c-1.32 0 -2.4 1.08 -2.4 2.4c0 1.32 1.08 2.4 2.4 2.4z" />
+</vector>

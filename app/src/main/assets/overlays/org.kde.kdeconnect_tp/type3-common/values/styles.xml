@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="KdeConnectThemeBase" parent="@*org.kde.kdeconnect_tp:style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+</resources>

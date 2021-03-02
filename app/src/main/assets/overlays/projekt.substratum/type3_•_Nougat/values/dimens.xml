@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="design_fab_image_size">52.0dip</dimen>
+    <dimen name="main_screen_card_corner_radius">6.0dip</dimen>
+    <dimen name="cardview_default_elevation">1.0dip</dimen>
+</resources>

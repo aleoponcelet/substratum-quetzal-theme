@@ -1,0 +1,5 @@
+<resources>
+    <color name="dark_mode_icon_color_dual_tone_background">#525257</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">#97979C</color>
+    <color name="dark_mode_icon_color_single_tone">#97979C</color>
+</resources>

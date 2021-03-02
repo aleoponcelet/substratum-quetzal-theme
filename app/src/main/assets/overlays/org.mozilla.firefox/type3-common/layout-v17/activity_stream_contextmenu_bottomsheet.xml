@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/org.mozilla.firefox"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@*org.mozilla.firefox:id/info_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="noHideDescendants"
+        android:padding="10.0dip">
+
+        <org.mozilla.gecko.activitystream.homepanel.stream.StreamOverridablePageIconLayout
+            android:id="@*org.mozilla.firefox:id/page_icon_layout"
+            android:layout_width="@*org.mozilla.firefox:dimen/favicon_bg"
+            android:layout_height="@*org.mozilla.firefox:dimen/favicon_bg"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@*org.mozilla.firefox:id/url"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@*org.mozilla.firefox:id/page_icon_layout"
+            android:layout_toRightOf="@*org.mozilla.firefox:id/page_icon_layout"
+            android:paddingLeft="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+            android:paddingStart="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+            android:textColor="@*org.mozilla.firefox:color/activity_stream_subtitle"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:id="@*org.mozilla.firefox:id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@*org.mozilla.firefox:id/url"
+            android:layout_toEndOf="@*org.mozilla.firefox:id/page_icon_layout"
+            android:layout_toRightOf="@*org.mozilla.firefox:id/page_icon_layout"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:paddingLeft="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+            android:paddingStart="@*org.mozilla.firefox:dimen/activity_stream_base_margin"
+            android:textColor="#ffffffff"
+            android:textSize="14.0sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="4.0dip"
+        android:background="@*org.mozilla.firefox:color/disabled_grey"
+        android:padding="4.0dip" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/org.mozilla.firefox"
+            android:id="@*org.mozilla.firefox:id/menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:theme="@*org.mozilla.firefox:style/ActivityStreamContextMenuStyle"
+            app:itemTextAppearance="@*org.mozilla.firefox:style/ActivityStreamContextMenuText"
+            app:menu="@*org.mozilla.firefox:menu/activitystream_contextmenu"
+            style="@*org.mozilla.firefox:style/Base.TextAppearance.AppCompat.Title" />
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_elevation_material">0.0dip</dimen>
+    <dimen name="action_bar_elevation">16.0dip</dimen>
+    <dimen name="card_elevation">0.0dip</dimen>	
+    <dimen name="cardview_default_elevation">0.0dip</dimen>
+    <dimen name="design_appbar_elevation">0.0dip</dimen>
+    <dimen name="design_bottom_sheet_modal_elevation">2.0dip</dimen>
+    <dimen name="main_screen_card_corner_elevation">0.0dip</dimen>
+	<dimen name="design_fab_image_size">56.0dip</dimen>
+	<dimen name="design_fab_size_mini">56.0dip</dimen>
+    <dimen name="design_fab_size_normal">56.0dip</dimen>
+	<dimen name="materialize_icon">22.0dip</dimen>
+	<dimen name="notification_small_icon_size_as_large">24.0dip</dimen>
+	<dimen name="design_navigation_icon_size">24.0dip</dimen>
+	<dimen name="material_drawer_item_profile_icon">32.0dip</dimen>
+	<dimen name="material_mini_drawer_item_icon">42.0dip</dimen>
+    <dimen name="material_mini_drawer_item_profile_icon">32.0dip</dimen>
+</resources>

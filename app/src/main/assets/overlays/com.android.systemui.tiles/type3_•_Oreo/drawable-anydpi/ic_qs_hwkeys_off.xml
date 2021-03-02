@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@*android:color/transparent"
+    android:tintMode="src_atop"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#80ffffff"
+        android:name="Keyboard"
+        android:pathData="m12.25 10.55h1.88v1.82h-1.88v-1.82zm1.88 5.45h-1.88v-1.82h1.88v1.82zm3.75 -5.45h1.88v1.82h-1.88v-1.82zm1.88 5.45h-1.88v-1.82h1.88v1.82zm-11.25 3.64h15v1.82h-15v-1.82zm15 -9.09h1.88v1.82h-1.88v-1.82zm1.88 5.45h-1.88v-1.82h1.88v1.82zm-16.88 0h-1.88v-1.82h1.88v1.82zm-1.88 -5.45h1.88v1.82h-1.88v-1.82zm-5.63 15.45v-17.27h1.88v15.45h26.25v-16.36h-28.13v-1.82h30v20h-30z" />
+</vector>

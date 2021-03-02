@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textStyle="bold" android:textColor="#bfffffff" android:ellipsize="marquee" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawableRight="@*com.android.musicfx:drawable/more_icon" android:drawablePadding="2.0dip" style="?android:attr/spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

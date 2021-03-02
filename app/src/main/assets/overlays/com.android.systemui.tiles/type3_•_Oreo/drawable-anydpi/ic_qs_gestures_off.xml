@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@*android:color/transparent"
+    android:tintMode="src_atop"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#80ffffff"
+        android:name="Click"
+        android:pathData="m27 16.35 -1.85 14.65h-16.02l-4.13 -5.63v-6.95l2.1 -2.15l1.3 1.33l-1.57 1.6v5.55l3.21 4.38h13.39l1.65 -11.6l-8.15 -3.4l0 2.82l-1.83 0l-0.01 -12.19l0.92 -0h-0.92c0 -1.03 -0.82 -1.87 -1.83 -1.87c-1.01 0 -1.83 0.84 -1.83 1.87v17.81h-1.83v-17.81c0 -2.07 1.65 -3.75 3.67 -3.75c2.02 0 3.67 1.68 3.67 3.75h0l0.01 7.35l10.07 4.25z" />
+</vector>

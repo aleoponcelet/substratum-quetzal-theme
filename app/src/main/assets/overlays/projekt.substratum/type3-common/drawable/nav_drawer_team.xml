@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="Resume"
+        android:pathData="m3 31v-24.37h1.86v22.5h22.29v-26.25h-18.57v-1.88h20.43v30h-26zm9.29 -22.5c0 -2.07 1.67 -3.75 3.71 -3.75c2.05 0 3.71 1.68 3.71 3.75c0 2.07 -1.67 3.75 -3.71 3.75c-2.05 0 -3.71 -1.68 -3.71 -3.75zm5.57 0c0 -1.04 -0.83 -1.88 -1.86 -1.88c-1.02 0 -1.86 0.84 -1.86 1.88c0 1.03 0.83 1.87 1.86 1.87c1.02 0 1.86 -0.84 1.86 -1.87zm3.91 11.25h-11.53l1.24 -6.56l2.35 -0.88l0.65 1.76l-1.37 0.51l-0.62 3.3h7.04l-0.62 -3.21l-1.41 -0.62l0.74 -1.72l2.31 1.01l1.24 6.41zm2.59 7.5h-16.71v-1.87h16.71v1.87zm-16.71 -5.62h16.71v1.87h-16.71v-1.87z" />
+</vector>

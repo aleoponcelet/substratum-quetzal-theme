@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AttachPickerLabel">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="Theme.ActionBar.Registration.TitleTextStyle" parent="@*com.whatsapp:style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

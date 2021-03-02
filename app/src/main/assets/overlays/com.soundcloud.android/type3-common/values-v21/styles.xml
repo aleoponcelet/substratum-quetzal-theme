@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorLink">@*android:color/holo_blue_light</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:navigationBarColor">@*android:color/material_grey_800</item>		
+    </style>
+    <style name="BaseTheme" parent="@*com.soundcloud.android:style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:backgroundTint">@*android:color/material_grey_800</item>
+        <item name="android:windowBackground">@*android:color/material_grey_800</item>
+        <item name="*com.soundcloud.android:colorPrimary">@*android:color/material_grey_800</item>
+        <item name="*com.soundcloud.android:colorPrimaryDark">@*android:color/material_grey_800</item>
+        <item name="*com.soundcloud.android:colorAccent">@*android:color/holo_blue_light</item>
+        <item name="android:navigationBarColor">@*android:color/material_grey_800</item>
+    </style>
+    <style name="Widget.Container" parent="@*com.soundcloud.android:style/Widget">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@*android:drawable/dialog_holo_dark_frame</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@android:style/Widget.Material.PopupMenu" />
+    <style name="SettingsContainer">
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Platform.V21.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:navigationBarColor">@*android:color/material_grey_800</item>
+        <item name="android:textColorHintInverse">@*android:color/holo_blue_light</item>
+        <item name="android:textColorHint">@*android:color/holo_blue_light</item>
+        <item name="android:textColorLink">@*android:color/holo_blue_light</item>
+        <item name="android:textColorLinkInverse">@*android:color/holo_blue_light</item>
+    </style>
+</resources>

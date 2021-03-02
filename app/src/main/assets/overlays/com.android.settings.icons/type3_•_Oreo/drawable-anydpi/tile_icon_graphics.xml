@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="Chart"
+        android:pathData="m2.87 31h-1.87v-1.88v-28.13h1.87v28.13h4.69v-1.88h1.88v1.88h1.88v-1.88h1.87v1.88h1.88v-1.88h1.87v1.88h1.88v-1.88h1.88v1.88h1.88v-1.88h1.88v1.88h1.87v-1.88h1.88v1.88h2.81v1.88h-28.13zm19.69 -22.5h5.63v16.88h-5.63v-16.88zm1.88 15h1.87v-13.13h-1.87v13.13zm-9.37 -18.75h5.62v20.63h-5.62v-20.63zm1.87 18.75h1.88v-16.88h-1.88v16.88zm-9.37 -11.25h5.62v13.13h-5.62v-13.13zm1.88 11.25h1.88v-9.38h-1.88v9.38zm-6.56 0h1.88v1.88h-1.88v-1.88zm0 -3.75h1.88v1.88h-1.88v-1.88zm0 -3.75h1.88v1.87h-1.88v-1.87zm0 -3.75h1.88v1.88h-1.88v-1.88zm0 -3.75h1.88v1.88h-1.88v-1.88zm0 -3.75h1.88v1.88h-1.88v-1.88z" />
+</vector>

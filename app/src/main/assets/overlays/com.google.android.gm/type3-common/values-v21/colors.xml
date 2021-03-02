@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mini_drawer_activated_background_color">@*android:color/highlighted_text_dark</color>
+    <color name="text_color_undo_notification">@*com.google.android.gm:color/text_color_grey</color>
+    <color name="text_color_undo_notification_description">@*com.google.android.gm:color/text_color_black</color>
+</resources>

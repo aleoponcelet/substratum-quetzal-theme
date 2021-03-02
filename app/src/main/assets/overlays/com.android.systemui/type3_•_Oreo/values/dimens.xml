@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qs_tile_divider_height">0.0dip</dimen>
+    <dimen name="recents_task_view_rounded_corners_radius">8.0dip</dimen>
+    <dimen name="notification_material_rounded_rect_radius">1.5dip</dimen>
+    <dimen name="notification_material_rounded_rect_radius_negative">-1.5dip</dimen>
+    <dimen name="volume_panel_z">1.0dip</dimen>
+    <dimen name="recent_text_size">22.0dip</dimen>
+    <dimen name="search_panel_threshold">10.0dip</dimen>
+    <dimen name="search_panel_circle_elevation">2.0dip</dimen>
+    <dimen name="borderless_button_radius">0.0dip</dimen>
+    <dimen name="recents_task_view_highlight">0.0dip</dimen>
+    <dimen name="recents_task_view_application_icon_size">45.0dip</dimen>
+    <dimen name="recents_task_view_remove_anim_translation_x">50.0dip</dimen>
+    <dimen name="recents_task_view_z_min">0.0dip</dimen>
+    <dimen name="recents_task_view_z_max">50.0dip</dimen>
+    <dimen name="recents_animation_movement_in_dps_per_second">1000.0dip</dimen>
+    <dimen name="recents_task_view_shadow_rounded_corners_radius">8.0dip</dimen>
+    <dimen name="notification_divider_height">0.0dip</dimen>
+    <dimen name="volume_offset_top">0.0dip</dimen>
+    <dimen name="rounded_corner_radius">0.0dip</dimen>
+    <dimen name="status_bar_clock_end_padding">7.0dip</dimen>
+    <dimen name="status_bar_padding_start">15.0dip</dimen>
+    <dimen name="notification_shadow_radius">0.0dip</dimen>
+</resources>

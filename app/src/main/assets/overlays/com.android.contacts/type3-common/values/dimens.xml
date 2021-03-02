@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_edit_floating_toolbar_elevation">0.0dip</dimen>
+    <dimen name="action_bar_elevation_material">0.0dp</dimen>
+    <dimen name="button_elevation_material">0.0dip</dimen>
+    <dimen name="notification_text_margin_top">0.0dip</dimen>
+    <dimen name="cardview_default_elevation">0.0dip</dimen>
+    <dimen name="design_fab_elevation">0.0dip</dimen>
+    <dimen name="design_appbar_elevation">0.0dip</dimen>
+    <dimen name="design_bottom_navigation_elevation">0.0dip</dimen>
+    <dimen name="contact_list_header_elevation">0.0dip</dimen>
+    <dimen name="tab_elevation">0.0dip</dimen>
+</resources>

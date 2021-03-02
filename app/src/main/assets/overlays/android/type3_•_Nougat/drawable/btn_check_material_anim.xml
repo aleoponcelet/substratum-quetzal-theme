@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@*android:drawable/ic_input_add" android:alpha="0.4" />
+    <item android:state_enabled="false" android:drawable="@*android:drawable/btn_close_selected" android:alpha="0.4" />
+    <item android:state_checked="true" android:id="@id/on" android:drawable="@*android:drawable/ic_input_add" />
+    <item android:id="@id/off" android:drawable="@*android:drawable/btn_close_selected" />
+
+    <transition android:toId="@id/on" android:fromId="@id/off">
+        <animation-list>
+            <item android:duration="23" android:drawable="@*android:drawable/btn_close_selected" />
+            <item android:duration="23" android:drawable="@*android:drawable/star_on" />
+        </animation-list>
+    </transition>
+
+    <transition android:toId="@id/off" android:fromId="@id/on">
+        <animation-list>
+            <item android:duration="23" android:drawable="@*android:drawable/star_on" />
+            <item android:duration="23" android:drawable="@*android:drawable/btn_close_selected" />
+        </animation-list>
+    </transition>
+</animated-selector>

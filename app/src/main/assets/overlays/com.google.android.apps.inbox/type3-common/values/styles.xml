@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RecipientEditTextViewBase" parent="@*android:attr/autoCompleteTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@*com.google.android.apps.inbox:dimen/chip_height</item>
+        <item name="android:popupBackground">@*android:color/material_grey_850</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+    </style>
+
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="bt_BigTopAppTheme.MainActivity" parent="@*com.google.android.apps.inbox:style/bt_BigTopAppTheme">
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:background">@*android:color/material_grey_800</item>
+    </style>
+    <style name="bt_BigTopAppTheme.ComposeActivity" parent="@*com.google.android.apps.inbox:style/bt_BigTopAppTheme">
+        <item name="android:windowBackground">@*android:color/material_grey_850</item>
+    </style>
+    <style name="bt_BigTopAppTheme.ConversationViewActivity" parent="@*com.google.android.apps.inbox:style/bt_BigTopAppTheme">
+        <item name="android:windowBackground">@*android:color/material_grey_850</item>
+    </style>
+    <style name="bt_BigTopAppTheme.FixDrivePermissionsDialogActivity" parent="@*com.google.android.apps.inbox:style/bt_BigTopAppTheme">
+        <item name="android:windowBackground">@*android:color/material_grey_850</item>
+    </style>
+    <style name="bt_AclFixerDetailsDialog" parent="@*com.google.android.apps.inbox:style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@*android:color/material_grey_850</item>
+    </style>
+    <style name="bt_SignInActivity_RootView">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*android:color/material_grey_850</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="bt_DialogTextView">
+        <item name="android:textSize">@*com.google.android.apps.inbox:dimen/bt_dialog_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">@*android:color/holo_blue_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">@*com.google.android.apps.inbox:dimen/bt_dialog_row_height</item>
+        <item name="android:layout_marginLeft">@*com.google.android.apps.inbox:dimen/bt_dialog_side_margin</item>
+        <item name="android:layout_marginRight">@*com.google.android.apps.inbox:dimen/bt_dialog_side_margin</item>
+        <item name="android:editTextColor">@*android:color/holo_blue_light</item>
+    </style>
+    <style name="bt_StartupActionBar" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="android:height">@*com.google.android.apps.inbox:dimen/bt_action_bar_height</item>
+        <item name="android:displayOptions">@null</item>
+    </style>
+    <style name="bt_NotificationPrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="bt_SpeedDialItemTitle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">#50000000</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:layout_marginRight">17.0dip</item>
+        <item name="android:layout_marginBottom">3.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+    <style name="bt_DialogEditTextView">
+        <item name="android:textSize">@*com.google.android.apps.inbox:dimen/bt_dialog_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">@*android:color/holo_blue_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">@*com.google.android.apps.inbox:dimen/bt_dialog_row_height</item>
+        <item name="android:layout_marginLeft">@*com.google.android.apps.inbox:dimen/bt_dialog_edit_text_side_margin</item>
+        <item name="android:layout_marginRight">@*com.google.android.apps.inbox:dimen/bt_dialog_edit_text_side_margin</item>
+        <item name="android:editTextColor">@*android:color/holo_blue_light</item>
+    </style>
+    <style name="bt_SnoozeDialogSpinner" parent="@*com.google.android.apps.inbox:style/Widget.AppCompat.Spinner">
+        <item name="android:textSize">@*com.google.android.apps.inbox:dimen/bt_dialog_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">@*com.google.android.apps.inbox:dimen/bt_snooze_dialog_spinner_right_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@*com.google.android.apps.inbox:dimen/bt_dialog_row_height</item>
+        <item name="android:layout_marginLeft">@*com.google.android.apps.inbox:dimen/bt_dialog_default_margin</item>
+        <item name="android:layout_marginRight">@*com.google.android.apps.inbox:dimen/bt_dialog_default_margin</item>
+        <item name="android:minHeight">@*com.google.android.apps.inbox:dimen/bt_dialog_row_height</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless" parent="@*com.google.android.apps.inbox:style/Base.Widget.AppCompat.Button">
+        <item name="android:background">@*com.google.android.apps.inbox:drawable/abc_btn_borderless_material</item>
+    </style>
+
+    <style name="AbstractVacationResponderComposeArea">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@*android:color/button_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:animateLayoutChanges">true</item>
+    </style>
+</resources>

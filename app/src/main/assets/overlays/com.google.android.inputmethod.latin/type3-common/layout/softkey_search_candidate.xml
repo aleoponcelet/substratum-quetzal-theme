@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+             android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@*com.google.android.inputmethod.latin:dimen/candidate_row_height"
+                  android:background="#ff424242"
+                  android:gravity="center_vertical">
+        <FrameLayout android:layout_width="@*com.google.android.inputmethod.latin:dimen/search_candidate_icon_width"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_marginEnd="@*com.google.android.inputmethod.latin:dimen/search_candidate_icon_margin_end"
+                     android:layout_marginStart="@*com.google.android.inputmethod.latin:dimen/search_candidate_icon_margin_start">
+            <ImageView android:id="@*com.google.android.inputmethod.latin:id/search_candidate_source_icon" android:layout_width="@*com.google.android.inputmethod.latin:dimen/search_candidate_icon_width"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:alpha="@*com.google.android.inputmethod.latin:dimen/header_icon_alpha" android:tint="@android:color/white" />
+        </FrameLayout>
+        <TextView android:id="@*com.google.android.inputmethod.latin:id/label_recent_search_text"
+                  style="@*com.google.android.inputmethod.latin:style/TouchAware" android:layout_width="0.0dip"
+                  android:layout_height="fill_parent" android:layout_weight="1.0"
+                  android:ellipsize="end" android:gravity="center_vertical"
+                  android:maxLines="1" android:textColor="#ffffffff" android:textSize="@*com.google.android.inputmethod.latin:dimen/search_box_font_size"/>
+        <FrameLayout style="@*com.google.android.inputmethod.latin:style/ThreePartRowFrame.End">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AutoMirrorCompatImageView
+                android:id="@*com.google.android.inputmethod.latin:id/search_candidate_auto_fill_icon" android:layout_width="@*com.google.android.inputmethod.latin:dimen/header_icon_size"
+                android:layout_height="@*com.google.android.inputmethod.latin:dimen/header_icon_size"
+                android:layout_gravity="center"
+                android:alpha="@*com.google.android.inputmethod.latin:dimen/header_icon_alpha"
+                android:contentDescription="@*com.google.android.inputmethod.latin:string/gboard_insertion_arrow_content_desc"
+                android:padding="@*com.google.android.inputmethod.latin:dimen/header_icon_padding"
+                android:tint="@android:color/white"
+                android:src="@*com.google.android.inputmethod.latin:drawable/quantum_ic_transit_enterexit_black_18"/>
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:id="@*com.google.android.inputmethod.latin:id/search_candidate_gif_image" android:layout_width="fill_parent"
+               android:layout_height="@*com.google.android.inputmethod.latin:dimen/gif_image_candidate_row_height" android:background="#ff424242"
+               android:scaleType="fitCenter"
+               android:visibility="gone"/>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="audio_player_controls_card_elevation">0.0dip</dimen>
+	
+</resources>

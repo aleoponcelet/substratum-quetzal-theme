@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="play_card_default_elevation">0.0dip</dimen>
+    <dimen name="play_header_list_floating_elevation">0.0dip</dimen>
+    <dimen name="play_header_list_header_shadow_height">0.0dip</dimen>
+    <dimen name="play_card_flat_list_separator_height">0.0dip</dimen>
+    <dimen name="play_hairline_separator_thickness">0.0dip</dimen>
+    <dimen name="account_separator_thickness">0.0dip</dimen>
+</resources>

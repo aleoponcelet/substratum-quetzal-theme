@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="notification_sender_text">#deffffff</color>
+    <color name="notification_secondary_text">#8affffff</color>
+    <color name="notification_tertiary_text">#8affffff</color>
+    <color name="notification_subject_color">#deffffff</color>
+
+    <color name="contact_list_text_secondary">#ff919191</color>
+    <color name="settings_item_title_text_primary">#ff919191</color>
+    <color name="participant_list_text_primary">#ff919191</color>
+
+    <color name="fab_ripple">#ccffffff</color>
+
+    <color name="contact_list_text_primary">#ffffffff</color>
+    <color name="compose_contact_dark_text">#ffffffff</color>
+    <color name="participant_list_text_secondary">#ffffffff</color>
+    <color name="people_and_options_header_text">#ffffffff</color>
+    <color name="conversation_list_item_read">#ffffffff</color>
+    <color name="contact_list_alphabet_header">#ffffffff</color>
+    <color name="conversation_list_item_unread">@*android:color/accent_material_dark</color>
+    <color name="conversation_list_name">#ffffffff</color>
+    <color name="compose_send_text_color">#ffffffff</color>
+
+    <color name="conversation_list_details">#ffa2a2a2</color>
+
+    <color name="compose_notification_bar_background">@*android:color/accent_material_dark</color>
+    <color name="material_deep_teal_200">@*android:color/accent_material_dark</color>
+    <color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
+    <color name="material_blue_grey_800">@*android:color/accent_material_dark</color>
+    <color name="accent_material_dark">@*android:color/accent_material_dark</color>
+    <color name="material_blue_grey_900">@*android:color/accent_material_dark</color>
+    <color name="unblock_item_text_color">@*android:color/accent_material_dark</color>
+    <color name="accent_material_light">@*android:color/accent_material_dark</color>
+    <color name="switch_thumb_normal_material_dark">@*android:color/accent_material_dark</color>
+    <color name="switch_thumb_normal_material_light">@*android:color/accent_material_dark</color>
+    <color name="color_filter_base_color">@*android:color/accent_material_dark</color>
+    <color name="compose_message_send_color">@*android:color/accent_material_dark</color>
+    <color name="archived_conversation_action_bar_background_color">@*android:color/accent_material_dark</color>
+    <color name="letter_tile_light_green_color">@*android:color/accent_material_dark</color>
+    <color name="text_highlight_color">@*android:color/holo_red_dark</color>
+    <color name="message_image_selected_tint">@*android:color/holo_red_dark</color>
+    <color name="cm_accent">@*android:color/accent_material_dark</color> <!--mms settings advanced text accent color-->
+
+    <color name="archived_conversation_action_bar_background_color_dark">@*android:color/holo_red_dark</color>
+    <color name="action_bar_background_color_dark">@*android:color/background_dark</color>
+
+    <!-- New messenger update -->
+    <color name="primary_color">@*android:color/holo_red_dark</color>
+    <color name="action_bar_background_color">@*android:color/background_dark</color>
+
+    <color name="google_blue_900">@*android:color/holo_red_dark</color>
+    <color name="ripple_material_light">#40ffffff</color>
+    <color name="chips_dropdown_text_highlighted">@*android:color/accent_material_dark</color>
+    <color name="group_mms_setting_text_color">#ffffffff</color>
+    <color name="message_audio_button_color_incoming">#ffffffff</color>
+    <color name="primary_text_default_material_light">#ffffffff</color> <!-- dialog text color -->
+
+    <color name="fab_color">@*android:color/accent_material_dark</color>
+    <color name="fab_pressed_color">#80ffffff</color>
+
+    <color name="google_blue_grey_600">#ff919191</color>
+    <color name="top_contact_list_text_primary">#ffffffff</color>
+    <color name="google_blue_grey_900">#ffffffff</color>
+    <color name="contact_picker_background">@*android:color/background_material_dark</color>
+    <color name="contact_picker_shadow">#00000000</color>
+    <color name="contact_picker_search_background">#ffffffff</color>
+    <color name="conversation_background">@*android:color/background_material_dark</color>
+    <color name="background_material_light">@*android:color/background_material_dark</color>
+    <color name="google_blue_grey_100">#ff353535</color>
+
+    <color name="contextual_action_bar_background_color">@*android:color/holo_purple</color> <!-- Press and hold actionbar actions -->
+    <color name="conversation_list_boew_promo_positive_button_text_color">@*android:color/accent_material_dark</color>
+    <color name="message_action_timestamp_text">#99ffffff</color>
+    <color name="message_bubble_color_outgoing">@*android:color/holo_red_dark</color>
+    <color name="message_bubble_color_selected">@*android:color/holo_red_dark</color>
+    <color name="message_text_color_incoming">#ffffffff</color>
+    <color name="message_text_color_outgoing">#ffffffff</color>
+    <color name="timestamp_text_outgoing">#99ffffff</color>
+
+    <color name="google_blue_grey_200">#ff191919</color> <!-- Conversation divider -->
+    <color name="compose_message_background_color">#ff191919</color>
+
+    <color name="typing_bright_dot_color">#ff919191</color>
+    <color name="typing_dim_dot_color">#80919191</color>
+    <color name="google_blue_grey_400">#ff919191</color>
+    <!-- Ends here -->
+
+
+</resources>

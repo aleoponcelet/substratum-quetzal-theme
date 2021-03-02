@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@*org.mozilla.firefox:color/photon_browser_toolbar_bg_private" />
+</selector>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Platform.V25.AppCompat" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:statusBarColor">@*android:color/background_dark</item>
+        <item name="android:navigationBarColor">@*android:color/background_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:statusBarColor">@*android:color/background_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:navigationBarColor">@*android:color/background_dark</item>
+    </style>
+</resources>

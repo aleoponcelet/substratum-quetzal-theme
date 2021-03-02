@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/org.mozilla.firefox"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff000000"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@*org.mozilla.firefox:id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="56dip"
+        android:background="@*org.mozilla.firefox:color/text_and_tabs_tray_grey"
+        android:theme="@*org.mozilla.firefox:style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:navigationIcon="@*org.mozilla.firefox:drawable/abc_ic_clear_mtrl_alpha"
+        app:subtitleTextColor="@android:color/white"
+        app:title="@*org.mozilla.firefox:string/bookmark_add_folder"
+        app:titleTextColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:paddingEnd="16.0dip"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip"
+        android:paddingStart="16.0dip">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginTop="16.0dip">
+
+            <EditText
+                android:id="@*org.mozilla.firefox:id/edit_folder_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:hint="@*org.mozilla.firefox:string/bookmark_edit_name"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@*org.mozilla.firefox:color/text_and_tabs_tray_grey"
+                android:textSize="18.0sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginTop="16.0dip">
+
+            <EditText
+                android:id="@*org.mozilla.firefox:id/edit_parent_folder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="false"
+                android:drawableEnd="@*org.mozilla.firefox:drawable/arrow"
+                android:drawableRight="@*org.mozilla.firefox:drawable/arrow"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@*org.mozilla.firefox:string/bookmark_parent_folder"
+                android:inputType="none"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@*org.mozilla.firefox:color/text_and_tabs_tray_grey"
+                android:textSize="18.0sp" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>

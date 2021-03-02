@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@*com.android.settings:id/search_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@*com.android.settings:id/search_bar_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@*android:color/transparent">
+
+        <android.support.v7.widget.CardView
+            android:id="@*com.android.settings:id/search_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@*com.android.settings:dimen/search_bar_margin"
+            style="@*com.android.settings:style/Base.TextAppearance.AppCompat.Medium">
+
+            <Toolbar
+                android:id="@*com.android.settings:id/search_toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="@*com.android.settings:dimen/search_bar_height"
+                android:background="?android:selectableItemBackground"
+                android:contentInsetStart="0.0dip"
+                android:contentInsetStartWithNavigation="0.0dip"
+                android:theme="?android:actionBarTheme">
+
+                <SearchView
+                    android:id="@*com.android.settings:id/search_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:iconifiedByDefault="false"
+                    android:imeOptions="actionSearch|flagNoExtractUi"
+                    android:searchIcon="@null" />
+            </Toolbar>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@*com.android.settings:id/layout_results"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@*com.android.settings:id/list_results"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@*com.android.settings:dimen/dashboard_padding_bottom"
+            android:paddingEnd="@*com.android.settings:dimen/dashboard_padding_end"
+            android:paddingStart="@*com.android.settings:dimen/dashboard_padding_start"
+            android:paddingTop="@*com.android.settings:dimen/dashboard_padding_top"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical" />
+
+        <LinearLayout
+            android:id="@*com.android.settings:id/no_results_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingTop="96.0dip"
+            android:visibility="gone">
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="?android:actionBarSize" />
+
+            <ImageView
+                android:layout_width="160.0dip"
+                android:layout_height="160.0dip"
+                android:layout_gravity="center_horizontal"
+                android:src="@*com.android.settings:drawable/empty_search_results" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="24.0dip"
+                android:text="@*com.android.settings:string/search_settings_no_results"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <include layout="@*com.android.settings:layout/search_feedback" />
+</LinearLayout>

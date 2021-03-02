@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@*android:color/transparent"
+    android:tintMode="src_atop"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#80ffffff"
+        android:name="Antenna NO"
+        android:pathData="m12.25 24.91h7.5v5.59h-7.5v-5.59zm1.88 3.71h3.75v-1.84h-3.75v1.84zm3.75 -7.49c0 -1.03 -0.84 -1.87 -1.88 -1.87c-1.03 0 -1.88 0.84 -1.88 1.87v1.9h-1.88v-1.9c0 -2.07 1.68 -3.75 3.75 -3.75c2.07 0 3.75 1.68 3.75 3.75v1.9h-1.88v-1.9zm-1.88 -5.39c-2.07 0 -3.75 -1.68 -3.75 -3.75c0 -2.07 1.68 -3.75 3.75 -3.75c2.07 0 3.75 1.68 3.75 3.75c0 2.07 -1.68 3.75 -3.75 3.75zm0 -5.62c-1.03 0 -1.88 0.84 -1.88 1.87c0 1.03 0.84 1.87 1.88 1.87c1.03 0 1.88 -0.84 1.88 -1.87c0 -1.03 -0.84 -1.87 -1.88 -1.87z" />
+</vector>

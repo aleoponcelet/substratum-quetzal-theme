@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Main" parent="@android:style/Theme.Material">
+        <item name="android:actionBarStyle">@*com.aospextended.ota:style/Theme.ActionBar.SubSettings</item>
+        <item name="android:colorPrimary">@*com.aospextended.ota:color/theme_primary</item>
+        <item name="android:colorPrimaryDark">@*com.aospextended.ota:color/theme_primary_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:colorBackgroundFloating">@*android:color/background_material_dark</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
+    <style name="Theme.ActionBar.SubSettings" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="android:contentInsetStart">@*com.aospextended.ota:dimen/actionbar_subsettings_contentInsetStart</item>
+    </style>
+</resources>

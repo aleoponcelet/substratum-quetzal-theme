@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.orca.threadview.ThreadViewMessagesListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fb="http://schemas.android.com/apk/com.facebook.orca"
+    android:id="@*com.facebook.orca:id/messages_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@*android:color/material_grey_800"
+    android:backgroundTint="@*android:color/material_grey_800"
+    android:cacheColorHint="#99ffffff"
+    android:clipToPadding="false"
+    android:divider="@null"
+    android:fadingEdge="none"
+    android:listSelector="@android:color/transparent"
+    android:overScrollFooter="@null"
+    android:overScrollHeader="@null"
+    style="@*com.facebook.orca:style/Base.TextAppearance.AppCompat.Caption"
+
+    />

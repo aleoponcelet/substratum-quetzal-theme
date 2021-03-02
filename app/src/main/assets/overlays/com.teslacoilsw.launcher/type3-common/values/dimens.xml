@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="md_divider_height">0.0dp</dimen>
+    <dimen name="popup_item_divider_height">0.0dp</dimen>
+    <dimen name="design_appbar_elevation">0.0dp</dimen>
+    <dimen name="cardview_default_elevation">0.0dp</dimen>
+
+</resources>

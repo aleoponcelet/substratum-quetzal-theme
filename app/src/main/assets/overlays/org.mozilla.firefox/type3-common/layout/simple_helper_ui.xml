@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:id="@*org.mozilla.firefox:id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="#ff000000"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@*org.mozilla.firefox:id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40.0dip"
+            android:layout_marginTop="40.0dip"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@*org.mozilla.firefox:id/title"
+            android:layout_width="@*org.mozilla.firefox:dimen/firstrun_content_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance="@*org.mozilla.firefox:style/TextAppearance.FirstrunLight.Main" />
+
+        <TextView
+            android:id="@*org.mozilla.firefox:id/message"
+            android:layout_width="@*org.mozilla.firefox:dimen/firstrun_content_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="30.0dip"
+            android:paddingTop="20.0dip"
+            android:singleLine="false"
+            android:textAppearance="@*org.mozilla.firefox:style/TextAppearance.FirstrunRegular.Body" />
+
+        <Button
+            android:id="@*org.mozilla.firefox:id/button"
+            style="@*org.mozilla.firefox:style/Widget.Firstrun.Button"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30.0dip"
+            android:background="@*org.mozilla.firefox:drawable/button_background_action_photon_round" />
+    </LinearLayout>
+</merge>

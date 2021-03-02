@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="file_transfer_item_label">
+        <item name="android:textAppearance">@*android:color/accent_material_light</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="file_transfer_item_content">
+        <item name="android:textAppearance">@*android:color/accent_material_light</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingBottom">8dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

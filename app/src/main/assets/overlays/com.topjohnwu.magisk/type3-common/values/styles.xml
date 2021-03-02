@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CardViewStyle.Dark" parent="@*com.topjohnwu.magisk:style/CardView">
+        <item name="*com.topjohnwu.magisk:cardBackgroundColor">@*android:color/holo_purple</item>
+    </style>
+	
+	<style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@*com.topjohnwu.magisk:style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@*com.topjohnwu.magisk:dimen/abc_text_size_title_material_toolbar</item>
+        <item name="android:textColor">#ffff0000</item>
+    </style>
+<style name="AppTheme.Dark" parent="@*com.topjohnwu.magisk:Theme.AppCompat.NoActionBar">
+    <item name="@*com.topjohnwu.magisk:colorAccent">@*com.topjohnwu.magisk:color/accent</item>
+    <item name="@*com.topjohnwu.magisk:colorAccentFallback">@*com.topjohnwu.magisk:color/accentFallback</item>
+    <item name="android:windowActionModeOverlay">true</item>
+    <item name="android:colorEdgeEffect">@*android:color/accent_material_light</item>
+    <item name="@*com.topjohnwu.magisk:colorPrimary">@*android:color/primary_material_dark</item>
+    <item name="@*com.topjohnwu.magisk:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="@*com.topjohnwu.magisk:cardStyle">@*com.topjohnwu.magisk:style/CardViewStyle.Dark</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="@*com.topjohnwu.magisk:imageColorTint">@*android:color/background_material_dark</item>
+    <item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
+    <item name="android:statusBarColor">@*android:color/primary_dark_material_dark</item>
+    <item name="android:textColorSecondary">@*com.topjohnwu.magisk:color/dark_secondary_text</item>
+    <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+</style>
+<style name="AppTheme" parent="@*com.topjohnwu.magisk:Theme.AppCompat.Light.NoActionBar">
+    <item name="@*com.topjohnwu.magisk:colorPrimary">@*com.topjohnwu.magisk:color/primary</item>
+    <item name="@*com.topjohnwu.magisk:colorPrimaryDark">@*com.topjohnwu.magisk:color/primary_dark</item>
+    <item name="@*com.topjohnwu.magisk:colorAccent">@*com.topjohnwu.magisk:color/accent</item>
+    <item name="@*com.topjohnwu.magisk:colorAccentFallback">@*com.topjohnwu.magisk:color/accentFallback</item>
+    <item name="@*com.topjohnwu.magisk:windowActionModeOverlay">true</item>
+    <item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="@*com.topjohnwu.magisk:cardStyle">@*com.topjohnwu.magisk:style/CardViewStyle.Light</item>
+    <item name="@*com.topjohnwu.magisk:windowActionBar">false</item>
+    <item name="@*com.topjohnwu.magisk:windowNoTitle">true</item>
+    <item name="@*com.topjohnwu.magisk:imageColorTint">@*android:color/background_material_dark</item>
+    <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    <item name="android:statusBarColor">@*com.topjohnwu.magisk:color/primary_dark</item>
+</style>
+<style name="AppTheme.Transparent" parent="@*com.topjohnwu.magisk:Theme.AppCompat.NoActionBar"/>
+<style name="AppTheme.Transparent.Dark" parent="@*com.topjohnwu.magisk:AppTheme.Dark">
+    <item name="android:statusBarColor">@*android:color/primary_dark_material_dark</item>
+</style>
+<style name="CardViewStyle.Dark" parent="@*com.topjohnwu.magisk:CardView">
+    <item name="android:colorBackground">@*android:color/primary_material_dark</item>
+    <item name="android:textColorPrimary">#ffffffff</item>
+    <item name="android:textColorSecondary">#b3ffffff</item>
+</style>
+<style name="SplashTheme" parent="@*com.topjohnwu.magisk:Theme.AppCompat.NoActionBar">
+    <item name="android:windowBackground">@*com.topjohnwu.magisk:drawable/ic_splash_activity</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="android:windowTranslucentNavigation">true</item>
+    <item name="android:colorBackground">@*android:color/background_dark</item>
+</style>
+<style name="SuRequest" parent="@*com.topjohnwu.magisk:Theme.AppCompat.Dialog">
+    <item name="android:windowCloseOnTouchOutside">false</item>
+    <item name="android:colorAccent">@*com.topjohnwu.magisk:color/accent</item>
+    <item name="android:textColorPrimary">#ffffffff</item>
+    <item name="android:textColorSecondary">#b3ffffff</item>
+    <item name="android:colorBackground">@*android:color/background_dark</item>
+</style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@*mega.privacy.android.app:id/chat_full_image_viewer_parent_layout" android:background="@*android:color/legacy_primary_dark" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@*mega.privacy.android.app:id/app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@*android:color/legacy_primary_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@*mega.privacy.android.app:id/full_image_viewer_layout" android:background="@*android:color/legacy_primary_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <mega.privacy.android.app.components.ExtendedViewPager android:id="@*mega.privacy.android.app:id/image_viewer_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <android.support.v7.widget.Toolbar android:id="@*mega.privacy.android.app:id/call_toolbar" android:background="@*mega.privacy.android.app:color/transparent_black" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:popupTheme="@*mega.privacy.android.app:style/ThemeOverlay.AppCompat.Dark" app:theme="@*mega.privacy.android.app:style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+            <RelativeLayout android:id="@*mega.privacy.android.app:id/chat_image_viewer_layout_bottom" android:background="@*mega.privacy.android.app:color/transparent_black" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+                <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:ellipsize="middle" android:id="@*mega.privacy.android.app:id/chat_full_image_viewer_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:fontFamily="Roboto" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+    <item name="android:colorBackground">@*android:color/transparent</item>
+    <item name="android:colorPrimary">@*android:color/transparent</item>
+    <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+    <item name="android:navigationBarColor">@*android:color/transparent</item>
+    <item name="android:textColor">#fffafafa</item>
+    <item name="android:textColorPrimary">#fffafafa</item>
+    <item name="android:textColorSecondary">#ddffffff</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+  </style>
+<style name="Base.TextAppearance.AppCompat.Medium" parent="@android:style/TextAppearance.Material.Medium">
+  <item name="*com.whatsapp:pstsDividerColor">@android:color/transparent</item>
+  <item name="*com.whatsapp:pstsIndicatorColor">@*com.whatsapp:color/tab_indicator</item>
+  <item name="*com.whatsapp:pstsIndicatorHeight">3.0dip</item>
+  <item name="*com.whatsapp:pstsShouldExpand">true</item>
+  <item name="*com.whatsapp:pstsTabPaddingLeftRight">8.0dip</item>
+  <item name="*com.whatsapp:pstsUnderlineHeight">1.0dip</item>
+</style>
+<style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+  <item name="android:windowBackground">@*android:color/background_dark</item>
+  <item name="android:windowNoTitle">true</item>
+  <item name="android:textColorLink">#ffaaaaaa</item>
+  <item name="android:windowActionBar">false</item>
+  <item name="android:buttonBarStyle">@*com.whatsapp:style/Widget.AppCompat.ButtonBar</item>
+  <item name="android:buttonBarButtonStyle">@*com.whatsapp:style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+  <item name="android:textColorLinkInverse">#ffaaaaaa</item>
+  <item name="android:statusBarColor">@*android:color/transparent</item>
+  <item name="android:navigationBarColor">@*android:color/transparent</item>
+</style>
+<style name="Platform.V21.AppCompat" parent="@*android:style/Theme.Material.NoActionBar">
+  <item name="android:windowBackground">@*android:color/background_dark</item>
+  <item name="android:windowNoTitle">true</item>
+  <item name="android:textColorLink">#ffaaaaaa</item>
+  <item name="android:windowActionBar">false</item>
+  <item name="android:buttonBarStyle">@*com.whatsapp:style/Widget.AppCompat.ButtonBar</item>
+  <item name="android:buttonBarButtonStyle">@*com.whatsapp:style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+  <item name="android:textColorLinkInverse">#ffaaaaaa</item>
+  <item name="android:statusBarColor">@*android:color/transparent</item>
+  <item name="android:navigationBarColor">@*android:color/transparent</item>
+</style>
+<style name="Base.TextAppearance.AppCompat.Inverse" parent="@*android:style/TextAppearance.Material.Inverse" />
+<style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large.Inverse" />
+<style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@*android:style/TextAppearance.Material.Medium.Inverse" />
+<style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@*android:style/TextAppearance.Material.Small.Inverse" />
+<style name="Base.Theme.AppCompat.Dialog" parent="@*com.whatsapp:style/Base.V21.Theme.AppCompat.Dialog" />
+<style name="Base.Theme.AppCompat.Light.Dialog" parent="@*com.whatsapp:style/Base.V21.Theme.AppCompat.Light.Dialog" />
+<style name="Base.Widget.AppCompat.ProgressBar" parent="@*android:style/Widget.Material.ProgressBar" />
+<style name="Base.Widget.AppCompat.ProgressBar.Horizontal" parent="@*android:style/Widget.Material.ProgressBar.Horizontal" />
+<style name="Platform.AppCompat" parent="@style/Platform.V21.AppCompat" />
+
+<style name="Base.Widget.AppCompat.AutoCompleteTextView" parent="@*android:style/Widget.Material.AutoCompleteTextView">
+  <item name="android:background">@*com.whatsapp:drawable/abc_edit_text_material</item>
+</style>
+<style name="Base.Widget.AppCompat.ActionButton" parent="@*android:style/Widget.Material.ActionButton" >
+  <item name="android:textColor">@android:color/white</item>
+</style>
+<style name="Theme.App.White" parent="@*com.whatsapp:style/Theme.App">
+  <item name="android:windowBackground">@*android:color/background_dark</item>
+  <item name="android:statusBarColor">@*android:color/transparent</item>
+  <item name="*com.whatsapp:homeAsUpIndicator">@*com.whatsapp:drawable/ic_back_teal</item>
+</style>
+<style name="Platform.ThemeOverlay.AppCompat" parent="">
+  <item name="android:windowBackground">@*android:color/background_dark</item>
+  <item name="android:colorControlNormal">?android:textColorSecondary</item>
+  <item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
+  <item name="android:colorButtonNormal">@*android:color/button_material_dark</item>
+  <item name="android:colorControlHighlight">@*android:color/highlighted_text_dark</item>
+  <item name="android:colorPrimary">#ff000000</item>
+  <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+  <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+  <item name="android:statusBarColor">@*android:color/transparent</item>
+  <item name="android:navigationBarColor">@*android:color/transparent</item>
+</style>
+<style name="Theme.App" parent="@*com.whatsapp:style/Theme.AppCompat.Light.DarkActionBar">
+  <item name="android:windowBackground">@*android:color/background_dark</item>
+  <item name="android:windowContentOverlay">@null</item>
+  <item name="android:fastScrollThumbDrawable">@*com.whatsapp:drawable/fastscroll_thumb</item>
+  <item name="android:fastScrollTrackDrawable">@*com.whatsapp:drawable/fastscroll_track</item>
+  <item name="*com.whatsapp:windowActionModeOverlay">true</item>
+  <item name="*com.whatsapp:actionBarStyle">@*com.whatsapp:style/Widget.Styled.ActionBar</item>
+  <item name="*com.whatsapp:actionBarSize">@*com.whatsapp:dimen/actionbar_height</item>
+  <item name="*com.whatsapp:actionModeBackground">@*com.whatsapp:color/action_mode</item>
+  <item name="*com.whatsapp:toolbarStyle">@*com.whatsapp:style/Widget.Styled.Toolbar</item>
+  <item name="*com.whatsapp:panelMenuListTheme">@*com.whatsapp:style/PanelMenuList</item>
+  <item name="*com.whatsapp:colorPrimary">@*android:color/background_dark</item>
+  <item name="*com.whatsapp:colorPrimaryDark">@*android:color/background_dark</item>
+  <item name="*com.whatsapp:colorAccent">@*android:color/accent_material_dark</item>
+
+  <item name="android:statusBarColor">@*android:color/background_dark</item>
+  <item name="android:navigationBarColor">@*android:color/background_dark</item>
+</style>
+</resources>

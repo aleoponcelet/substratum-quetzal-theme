@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu">
+		<item name="android:windowElevation">0.5dip</item>	
+        <item name="android:background">@*android:color/legacy_primary_dark</item>		
+    </style>		
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@*android:color/resize_shadow_end_color</item>
+	    <item name="android:colorBackground">@*android:color/resize_shadow_end_color</item>
+	    <item name="android:windowElevation">0.5dip</item>    		
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/legacy_primary_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>		
+        <item name="android:navigationBarColor">@*android:color/holo_red_light</item>
+    </style>	
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowElevation">0.5dip</item>
+        <item name="android:windowBackground">@*android:color/resize_shadow_end_color</item>
+	    <item name="android:colorBackground">@*android:color/resize_shadow_end_color</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/legacy_primary_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>		
+        <item name="android:navigationBarColor">@*android:color/holo_red_light</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light.Dialog" parent="@*mega.privacy.android.app:style/Base.V11.Theme.AppCompat.Dialog">
+        <item name="android:windowElevation">@*mega.privacy.android.app:dimen/abc_floating_window_z</item>		
+    </style>	
+</resources>

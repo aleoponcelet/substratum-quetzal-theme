@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@*com.google.android.gm:dimen/rte_toolbar_button_background_height" android:width="@*com.google.android.gm:dimen/rte_toolbar_button_background_width" />
+    <corners android:radius="@*com.google.android.gm:dimen/rte_toolbar_button_background_corner_radius" />
+    <solid android:color="@*android:color/transparent" />
+</shape>

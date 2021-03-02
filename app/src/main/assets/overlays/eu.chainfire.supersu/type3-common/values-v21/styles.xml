@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SuperSU.Dialog.Prompt" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="Sherlock.__Theme.Material.Light.DarkActionBar" parent="@android:style/Theme.Material" />
+    <style name="Theme.SuperSU.Material.Light.DarkActionBar.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_light</item>
+    </style>
+    <style name="Theme.SuperSU.Material.Light.DarkActionBar.Dialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_light</item>
+    </style>
+    <style name="Theme.SuperSU.Material.Light.DarkActionBar" parent="@style/Theme.Sherlock.Material.Light.DarkActionBar">
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_light</item>
+    </style>
+    <style name="Theme.Sherlock.Material.Light.DarkActionBar" parent="@style/Sherlock.__Theme.Material.Light.DarkActionBar">
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="windowContentOverlay">@null</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowActionModeOverlay">false</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#757575"
+        android:name="Arrow"
+        android:pathData="m16.61 9.42 -4 5 -1.56 -1.25 4 -5 1.56 1.25zm14.32 9.38h-8.1v-2h3.9l-10.9 -13.41l-10.9 13.41h3.9v2h-8.1l15.1 -18.59l15.1 18.59zm-18.1 -2v13h6v-13h2v15h-10v-15h2z" />
+</vector>

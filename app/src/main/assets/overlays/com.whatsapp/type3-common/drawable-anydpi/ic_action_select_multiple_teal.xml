@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffffff"
+        android:name="Pool"
+        android:pathData="m16 25c-4.96 0 -9 -4.04 -9 -9c0 -4.96 4.04 -9 9 -9c4.96 0 9 4.04 9 9c0 4.96 -4.04 9 -9 9zm0 -16.88c-4.34 0 -7.88 3.53 -7.88 7.88c0 4.34 3.53 7.88 7.88 7.88c4.34 0 7.87 -3.53 7.87 -7.88c0 -4.34 -3.53 -7.88 -7.87 -7.88z" />
+    <path
+        android:fillColor="#ffffffff"
+        android:name="Picnic Basket"
+        android:pathData="m14.75 18.62 -2.1 -2.1 0.77 -0.77 1.53 1.53 4.17 -4.17 0.77 0.77 -4.11 4.23 -1.02 0.51z" />
+</vector>

@@ -1,0 +1,4 @@
+<vector android:height="20dp" android:viewportHeight="32"
+    android:viewportWidth="32" android:width="20dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffff" android:name="Agenda" android:pathData="m-0 30v-25h6v2h-4v5h28v-5h-4v-2h6v25h-32zm2 -16v14h28v-14h-28zm6 10v-2h16v2h-16zm0 -6h16v2h-16v-2zm11 -16h5v8h-5v-8zm2 6h1v-4h-1v4zm-6 -3h2v2h-2v-2zm-7 -3h5v8h-5v-8zm2 6h1v-4h-1v4z"/>
+</vector>

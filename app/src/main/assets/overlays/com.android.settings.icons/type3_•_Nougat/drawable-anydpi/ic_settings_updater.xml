@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Download"
+        android:pathData="m2 24v-6h1.429v4.5h17.143v-4.5h1.429v6h-20zm2.951 -16.5h4.192v-7.5h1.429v9h-2.951l4.38 6.898l4.38 -6.898h-2.951v-9h1.429v7.5h4.192l-7.049 11.102l-7.049 -11.102z" />
+</vector>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textAppearance" format="reference" />
+    <attr name="thumb" format="reference" />
+    <attr name="mirrorForRtl" format="boolean" />
+    <attr name="maxHeight" format="dimension" />
+    <attr name="minHeight" format="dimension" />
+    <attr name="indeterminateOnly" format="boolean" />
+    <attr name="isIndicator" format="boolean" />
+    <attr name="backgroundColor" format="integer" />
+    <attr name="kwrrkColor" format="integer" />
+    <attr name="fillColor" format="integer" />
+    <attr name="singleToneColor" format="integer" />
+
+    <declare-styleable name="BatteryMeterViewDrawable">
+        <attr name="android:gravity"/>
+        <attr name="blendMode">
+            <enum name="clear" value="0" />
+            <enum name="src" value="1" />
+            <enum name="dst" value="2" />
+            <enum name="src_over" value="3" />
+            <enum name="dst_over" value="4" />
+            <enum name="src_in" value="5" />
+            <enum name="dst_in" value="6" />
+            <enum name="src_out" value="7" />
+            <enum name="dst_out" value="8" />
+            <enum name="src_atop" value="9" />
+            <enum name="dst_atop" value="10" />
+            <enum name="xor" value="11" />
+            <enum name="add" value="12" />
+            <enum name="multiply" value="13" />
+            <enum name="screen" value="14" />
+            <enum name="overlay" value="15" />
+            <enum name="darken" value="16" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="card_border">@android:color/transparent</color>
+	<color name="gray_separator">#0dffffff</color>
+
+	<color name="app_background">@*android:color/background_material_dark</color>
+	<color name="primary_dark">@*android:color/primary_dark_material_dark</color>
+	<color name="actionbar_background">@*android:color/primary_material_dark</color>
+	<color name="card_background">@*android:color/holo_gray_bright</color>
+	<color name="drawer_list_item_background">@*android:color/background_material_dark</color>
+	<color name="accent_color">@*android:color/accent_material_dark</color>
+	
+</resources>

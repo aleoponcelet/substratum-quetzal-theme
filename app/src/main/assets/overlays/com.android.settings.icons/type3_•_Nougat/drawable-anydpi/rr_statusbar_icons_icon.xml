@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Crown"
+        android:pathData="m0 22.5v-1.493h24v1.493h-24zm18.108 -7.996 -6.102 -10.091 -5.986 10.071 -1.291 -0.76 7.265 -12.224 7.398 12.235 -1.285 0.77zm-18.108 -10.769 6.376 4.587 -0.879 1.21 -3.998 -2.876v11.366h21v-11.366l-3.998 2.876l-0.879 -1.21l6.376 -4.587v15.78h-24v-15.78z" />
+</vector>

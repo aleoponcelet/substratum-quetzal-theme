@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Tie"
+        android:pathData="m21.7 10.01h-10.56l-2.5 -10h15.56l-2.5 10zm-10.5 -8 1.5 6h7.44l1.5 -6h-10.44zm1.88 24.99 -0.33 -1.97 6 -1 0.33 1.97 -6 1zm-0.33 -9.97 6 -1 0.33 1.97 -6 1 -0.33 -1.97zm0.33 5.97 -0.33 -1.97 6 -1 0.33 1.97 -6 1zm-0.18 -10.79 -2.86 14.29 5.88 3.36 5.92 -3.38 -1.91 -14.33 1.98 -0.26 2.09 15.67 -8.08 4.62 -8.12 -4.64 3.14 -15.71 1.96 0.39z" />
+</vector>

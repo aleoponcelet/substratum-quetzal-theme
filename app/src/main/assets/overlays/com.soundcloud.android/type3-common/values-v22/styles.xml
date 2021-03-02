@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SoundCloud.Launcher" parent="@*com.soundcloud.android:style/Theme.SoundCloud">
+        <item name="android:backgroundTint">@null</item>	
+	    <item name="android:windowShowWallpaper">false</item>		
+        <item name="android:windowIsTranslucent">false</item>	
+        <item name="android:windowBackground">@*com.soundcloud.android:drawable/launcher</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+</resources>

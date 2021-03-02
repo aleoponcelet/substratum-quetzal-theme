@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+
+    <group>
+        <clip-path
+            android:name="mask"
+            android:pathData="m15.513 18.074 -0.256 1.165 -6.719 -1.169 0.256 -1.165 6.719 1.169zm0 -3 -0.256 1.165 -6.719 -1.169 0.256 -1.165 6.719 1.169zm0 -2.969 -0.256 1.165 -6.719 -1.169 0.256 -1.165 6.719 1.169zm0 -2.969 -0.256 1.165 -6.719 -1.169 0.256 -1.165 6.719 1.169z" />
+        <path
+            android:name="battery_level"
+            android:fillColor="#000000"
+            android:pathData="m4 7h16v13h-16v-13z" />
+    </group>
+
+    <path
+        android:fillColor="#99ffffff"
+        android:name="Composite Path"
+        android:pathData="m14.667 4.5h-1.333c0 -0.689 -0.598 -1.25 -1.333 -1.25c-0.735 0 -1.333 0.561 -1.333 1.25h-1.333c0 -1.379 1.196 -2.5 2.667 -2.5c1.47 0 2.667 1.121 2.667 2.5zm2 12.5v-10h-9.333v10h-1.333v-11.25h12v11.25h-1.333zm-9.333 -0.25v3h9.333v-3h1.333v4.25h-12v-4.25h1.333z" />
+</vector>

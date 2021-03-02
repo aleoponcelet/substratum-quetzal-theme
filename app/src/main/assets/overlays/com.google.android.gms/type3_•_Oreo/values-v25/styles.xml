@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@*android:color/material_grey_850</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+    </style>
+    <style name="common.Theme.Base.NoAppCompat.Light.Dialog" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="*com.google.android.gms:buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="*com.google.android.gms:buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="*com.google.android.gms:dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="android:backgroundTint">@*android:color/holo_purple</item>
+    </style>
+    <style name="common.Theme.Base.NoAppCompat.Light.Dialog.MinWidth" parent="@*android:style/Theme.Material.Dialog.MinWidth">
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="*com.google.android.gms:buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="*com.google.android.gms:buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="*com.google.android.gms:dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="android:backgroundTint">@*android:color/holo_purple</item>
+    </style>
+    <style name="TrustAgentNotificationWithNoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+    </style>
+
+</resources>

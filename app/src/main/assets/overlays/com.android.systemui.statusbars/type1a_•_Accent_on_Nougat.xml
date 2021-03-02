@@ -1,0 +1,31 @@
+<resources>
+    <color name="dark_mode_icon_color_dual_tone_background">@*android:color/accent_material_light</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">@*android:color/accent_material_dark</color>
+    <color name="dark_mode_icon_color_single_tone">@*android:color/accent_material_dark</color>
+
+    <color name="batterymeter_frame_color">#4dFFFFFF</color> <!-- statusbar battery frame color  -->
+    <color name="batterymeter_frame_color_darkintensity">#4dFFFFFF</color>
+    <color name="status_bar_battery_level_text_color">@*android:color/accent_material_light</color>
+    <color name="status_bar_clock_color">@*android:color/accent_material_light</color>
+    <color name="battery_charge_level_on_light_statusbar">@*android:color/accent_material_dark</color> <!-- level color on white statusbar -->
+    <color name="battery_charge_level_on_normal_statusbar">@*android:color/accent_material_light</color>
+    <color name="battery_charge_level_low_level">@*android:color/accent_material_dark</color>
+    <color name="battery_background">@*android:color/accent_material_light</color>
+    <color name="batterymeter_charge_color">@*android:color/accent_material_dark</color>
+    <color name="batterymeter_bolt_color">@*android:color/white</color>
+
+    <color name="light_mode_icon_color_single_tone">@*android:color/accent_material_light</color>
+    <color name="light_mode_icon_color_dual_tone_fill">@*android:color/accent_material_light</color>
+
+    <style name="DualToneLightTheme">
+        <item name="backgroundColor">@android:color/white</item>
+        <item name="fillColor">@*android:color/accent_material_dark</item>
+        <item name="singleToneColor">@android:color/white</item>
+    </style>
+    <style name="DualToneDarkTheme">
+        <item name="backgroundColor">@android:color/black</item>
+        <item name="fillColor">@*android:color/accent_material_dark</item>
+        <item name="singleToneColor">@android:color/black</item>
+    </style>
+
+</resources>

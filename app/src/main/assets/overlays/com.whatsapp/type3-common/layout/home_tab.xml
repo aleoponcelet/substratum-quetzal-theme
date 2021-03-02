@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="48.0dip" android:animateLayoutChanges="true">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:ellipsize="end" android:id="@*com.whatsapp:id/tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:textAllCaps="true" />
+        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@*android:color/accent_material_dark" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@*com.whatsapp:id/badge" android:background="@*com.whatsapp:drawable/tab_badge_background_inactive" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:minWidth="16.0dip" android:singleLine="true" />
+        <ImageView android:id="@*com.whatsapp:id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

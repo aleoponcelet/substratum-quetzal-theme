@@ -1,0 +1,4 @@
+<vector android:height="22dp" android:viewportHeight="32"
+    android:viewportWidth="32" android:width="22dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fff" android:name="Keyboard" android:pathData="m12 10h2v2h-2v-2zm2 6h-2v-2h2v2zm4 -6h2v2h-2v-2zm2 6h-2v-2h2v2zm-12 4h16v2h-16v-2zm16 -10h2v2h-2v-2zm2 6h-2v-2h2v2zm-18 0h-2v-2h2v2zm-2 -6h2v2h-2v-2zm-6 17v-19h2v17h28v-18h-30v-2h32v22h-32z"/>
+</vector>

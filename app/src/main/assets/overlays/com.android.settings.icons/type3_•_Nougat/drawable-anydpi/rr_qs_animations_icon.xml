@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@*android:color/accent_material_light"
+        android:name="Movie"
+        android:pathData="m-0.01 29v-26h32v26h-32zm30 -24h-28v22h28v-22zm-23 4h2v-2h2v4h-6v-4h2v2zm4 16h-2v-2h-2v2h-2v-4h6v4zm4 -16h2v-2h2v4h-6v-4h2v2zm4 16h-2v-2h-2v2h-2v-4h6v4zm4 -16h2v-2h2v4h-6v-4h2v2zm4 16h-2v-2h-2v2h-2v-4h6v4z" />
+</vector>

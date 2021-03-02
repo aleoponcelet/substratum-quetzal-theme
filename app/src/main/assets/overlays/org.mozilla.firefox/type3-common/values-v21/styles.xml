@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Title" parent="@android:style/TextAppearance.Material.Title">
+        <item name="*org.mozilla.firefox:itemTextAppearance">@*org.mozilla.firefox:style/ActivityStreamContextMenuText</item>
+        <item name="*org.mozilla.firefox:menu">@*org.mozilla.firefox:menu/activitystream_contextmenu</item>
+    </style>
+
+    <style name="Gecko.App" parent="@*org.mozilla.firefox:style/GeckoAppBase">
+        <item name="android:colorBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:windowBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:gridViewStyle">@*org.mozilla.firefox:style/Widget.GridView</item>
+        <item name="android:spinnerStyle">@*org.mozilla.firefox:style/Widget.Spinner</item>
+        <item name="*org.mozilla.firefox:geckoMenuListViewStyle">@*org.mozilla.firefox:style/Widget.GeckoMenuListView</item>
+        <item name="*org.mozilla.firefox:menuItemActionBarStyle">@*org.mozilla.firefox:style/Widget.MenuItemActionBar</item>
+        <item name="*org.mozilla.firefox:menuItemActionModeStyle">@*org.mozilla.firefox:style/GeckoActionBar.Button</item>
+        <item name="*org.mozilla.firefox:bookmarksListViewStyle">@*org.mozilla.firefox:style/Widget.BookmarksListView</item>
+        <item name="*org.mozilla.firefox:topSitesGridItemViewStyle">@*org.mozilla.firefox:style/Widget.TopSitesGridItemView</item>
+        <item name="*org.mozilla.firefox:topSitesGridViewStyle">@*org.mozilla.firefox:style/Widget.TopSitesGridView</item>
+        <item name="*org.mozilla.firefox:topSitesThumbnailViewStyle">@*org.mozilla.firefox:style/Widget.TopSitesThumbnailView</item>
+        <item name="*org.mozilla.firefox:homeListViewStyle">@*org.mozilla.firefox:style/Widget.HomeListView</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="GeckoAlertDialog" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:background">#ff0c0f11</item>
+        <item name="android:backgroundTint">#ff0c0f11</item>
+        <item name="android:colorAccent">@*org.mozilla.firefox:color/fennec_ui_accent</item>
+    </style>
+    <style name="GeckoBase" parent="@*org.mozilla.firefox:style/Theme.AppCompat">
+        <item name="android:colorBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:alertDialogTheme">@*org.mozilla.firefox:style/GeckoAlertDialog</item>
+        <item name="*org.mozilla.firefox:windowActionBar">false</item>
+        <item name="*org.mozilla.firefox:windowNoTitle">true</item>
+        <item name="*org.mozilla.firefox:colorPrimary">@*org.mozilla.firefox:color/text_and_tabs_tray_grey</item>
+        <item name="*org.mozilla.firefox:colorPrimaryDark">@*org.mozilla.firefox:color/status_bar_bg_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance.Material">
+        <item name="*org.mozilla.firefox:activeTextColor">@*org.mozilla.firefox:color/placeholder_grey</item>
+        <item name="*org.mozilla.firefox:inactiveTextColor">@*org.mozilla.firefox:color/tab_text_color</item>
+        <item name="*org.mozilla.firefox:strip">@*org.mozilla.firefox:drawable/home_tab_menu_strip</item>
+        <item name="*org.mozilla.firefox:stripColor">@*org.mozilla.firefox:color/tab_menu_strip_color</item>
+        <item name="*org.mozilla.firefox:tabsMarginLeft">@*org.mozilla.firefox:dimen/tab_strip_content_start</item>
+    </style>
+
+
+    <style name="Widget.Home.ActionButton" parent="@*org.mozilla.firefox:style/Widget.Home">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*org.mozilla.firefox:drawable/home_history_clear_button_bg</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:paddingStart">10.0dip</item>
+        <item name="android:paddingEnd">10.0dip</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:windowBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@*org.mozilla.firefox:color/background_material_dark</item>
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">#ff0b0e0f</item>
+        <item name="android:colorPrimaryDark">#ff0b0e0f</item>
+        <item name="android:colorPrimary">#ff0e1214</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:id="@*com.facebook.orca:id/results_list"
+                                        android:backgroundTint="#ff0c0f11"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"/>

@@ -1,0 +1,21 @@
+<resources>
+
+    <color name="batterymeter_bolt_color">@*android:color/accent_material_light</color>
+    <color name="batterymeter_frame_color">#99ffffff</color>
+    <color name="batterymeter_charge_color">@*android:color/white</color>
+
+    <color name="dark_mode_icon_color_dual_tone_background">#525257</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">#97979C</color>
+    <color name="dark_mode_icon_color_single_tone">#97979C</color>
+
+    <style name="DualToneLightTheme">
+        <item name="backgroundColor">@android:color/white</item>
+        <item name="fillColor">@android:color/white</item>
+        <item name="singleToneColor">@android:color/white</item>
+    </style>
+    <style name="DualToneDarkTheme">
+        <item name="backgroundColor">@android:color/black</item>
+        <item name="fillColor">@android:color/holo_red_light</item>
+        <item name="singleToneColor">@android:color/black</item>
+    </style>
+</resources>

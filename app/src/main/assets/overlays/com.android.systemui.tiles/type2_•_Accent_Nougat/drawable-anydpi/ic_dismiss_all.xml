@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@*android:color/accent_material_dark"
+        android:name="Delete"
+        android:pathData="m15.75 5.25h-7.5h-5.25v-1.5h5.25v-3.75h7.5v3.75h5.25v1.5h-5.25zm-1.5 -3.75h-4.5v2.25h4.5v-2.25zm-3.75 7.5v10.5h-1.5v-10.5h1.5zm4.5 0v10.5h-1.5v-10.5h1.5zm-9 13.5h12v-15.75h1.5v17.25h-15v-17.25h1.5v15.75z" />
+</vector>

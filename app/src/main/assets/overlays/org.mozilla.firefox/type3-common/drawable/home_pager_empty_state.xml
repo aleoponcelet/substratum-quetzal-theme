@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gecko="http://schemas.android.com/apk/org.mozilla.firefox">
+    <item android:drawable="@*org.mozilla.firefox:color/background_material_dark" android:maxLevel="0" />
+    <item>
+        <bitmap android:gravity="center" android:src="@*org.mozilla.firefox:drawable/icon_home_empty_firefox" />
+    </item>
+</layer-list>

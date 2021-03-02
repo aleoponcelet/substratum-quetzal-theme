@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        android:id="@*org.mozilla.firefox:id/container"
+        android:layout_width="@*org.mozilla.firefox:dimen/overlay_prompt_container_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="#ff000000"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@*org.mozilla.firefox:id/close"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="30.0dip"
+            android:layout_marginTop="30.0dip"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:padding="6.0dip"
+            android:src="@*org.mozilla.firefox:drawable/tab_close_active" />
+
+        <TextView
+            android:id="@*org.mozilla.firefox:id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6.0dip"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginTop="30.0dip"
+            android:layout_toLeftOf="@*org.mozilla.firefox:id/close"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@*org.mozilla.firefox:color/text_and_tabs_tray_grey"
+            android:textSize="20.0sp" />
+
+        <TextView
+            android:id="@*org.mozilla.firefox:id/host"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@*org.mozilla.firefox:id/title"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginRight="30.0dip"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@*org.mozilla.firefox:color/placeholder_grey"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:id="@*org.mozilla.firefox:id/icon"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_below="@*org.mozilla.firefox:id/host"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginLeft="30.0dip"
+            android:src="@*org.mozilla.firefox:drawable/icon" />
+
+        <Button
+            android:id="@*org.mozilla.firefox:id/add"
+            style="@*org.mozilla.firefox:style/Widget.BaseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@*org.mozilla.firefox:id/host"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginLeft="100.0dip"
+            android:layout_marginRight="30.0dip"
+            android:background="@*org.mozilla.firefox:drawable/button_background_action_photon_round"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:text="@*org.mozilla.firefox:string/promotion_add_page_shortcut"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+</merge>

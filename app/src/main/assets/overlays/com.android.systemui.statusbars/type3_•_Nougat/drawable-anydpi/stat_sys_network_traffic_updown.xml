@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="12dp"
+    android:height="18dp"
+    android:viewportWidth="20"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#fff"
+        android:name="Upload Cloud"
+        android:pathData="m11.685 9.801 -1.371 1.456 -1.319 -1.241v5.513h-2v-5.509l-1.309 1.236l-1.373 -1.454l3.681 -3.475l3.691 3.475z" />
+    <path
+        android:fillColor="#fff"
+        android:name="Upload Cloud"
+        android:pathData="m16.685 23.054 -1.371 -1.456 -1.319 1.241v-5.513h-2v5.509l-1.309 -1.236l-1.373 1.454l3.681 3.475l3.691 -3.475z" />
+</vector>

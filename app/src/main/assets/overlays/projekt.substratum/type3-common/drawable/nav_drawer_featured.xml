@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#ffffff"
+        android:name="Blog"
+        android:pathData="m30.06 28h-28.13h-0.94v-13.84h1.87v12h26.25v-12.9h1.88v14.75h-0.94zm-15.94 -13.85h6.56v1.85h-6.56v-1.85zm13.12 9.23h-13.12v-1.85h13.12v1.85zm-13.12 -5.54h13.12v1.85h-13.12v-1.85zm-9.38 5.54v-9.23h7.5v9.23h-7.5zm5.63 -7.38h-3.75v5.54h3.75v-5.54zm-9.38 -12h0.94h28.13h0.94v7.38h-30v-7.38zm1.87 5.54h26.25v-3.69h-26.25v3.69zm7.5 -2.77h1.88v1.85h-1.88v-1.85zm-2.81 0h1.88v1.85h-1.88v-1.85zm-2.81 0h1.88v1.85h-1.88v-1.85z" />
+</vector>

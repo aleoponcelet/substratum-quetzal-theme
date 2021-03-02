@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="diary_header_background_gray">@*android:color/background_dark</color>
+	<color name="graph_background">@*android:color/background_dark</color>
+	<color name="light_divider">@*android:color/background_dark</color>
+	<color name="meal_browse_filter_header_pressed">@*android:color/background_dark</color>
+	<color name="mfp_background">@*android:color/background_dark</color>
+	<color name="nutrient_progress_disabled">@*android:color/background_dark</color>
+	<color name="drawer_header">@*android:color/background_dark</color>
+	<color name="contextual_tip_bg">@*android:color/background_dark</color>
+	<color name="contextual_tip_border">@*android:color/background_dark</color>
+	<color name="background_material_light">@*android:color/background_dark</color>
+	<color name="background_material_dark">@*android:color/background_dark</color>
+	<color name="widget_background">@*android:color/background_dark</color>
+	<color name="white_10">@*android:color/background_dark</color>
+	<color name="white_50">@*android:color/background_dark</color>
+	<color name="white_almost_opaque">@*android:color/background_dark</color>
+	<color name="ad_background">@*android:color/background_dark</color>
+	<color name="fitness_window_background">@*android:color/background_dark</color>
+	<color name="tooltip_background_light">@*android:color/background_dark</color>
+	<color name="sc_crosshairTooltipDarkBackgroundColor">@*android:color/background_dark</color>
+	<color name="sc_crosshairTooltipDefaultBackgroundColor">@*android:color/background_dark</color>
+	<color name="fitness_title_foreground">@*android:color/background_dark</color>
+	<color name="cardview_light_background">@*android:color/background_dark</color>
+	<color name="add_friends_item_fg_highlight">@*android:color/background_dark</color>
+
+
+
+	<color name="bg_card_grey">@*android:color/holo_purple</color>
+	<color name="button_grey_normal_bg">@*android:color/holo_purple</color>
+	<color name="diary_row_background_gray">@*android:color/holo_purple</color>
+	<color name="list_item_pressed">@*android:color/holo_purple</color>
+	<color name="material_grey_100">@*android:color/holo_purple</color>
+	<color name="meal_browse_filter_header_normal">@*android:color/holo_purple</color>
+
+	<color name="theme_accent">@*android:color/accent_material_dark</color>
+	<color name="theme_primary">@*android:color/accent_material_dark</color>
+	<color name="theme_primary_dark">@*android:color/accent_material_dark</color>
+	<color name="blue">@*android:color/accent_material_dark</color>
+	<color name="blue_button_background">@*android:color/accent_material_dark</color>
+	<color name="actionbar_background">@*android:color/accent_material_dark</color>
+	<color name="bg_card_blue">@*android:color/accent_material_dark</color>
+	<color name="bg_card_blue_disabled">@*android:color/accent_material_dark</color>
+	<color name="challenges_tab_indicator">@*android:color/accent_material_dark</color>
+	<color name="friends_section_username_fg">@*android:color/accent_material_dark</color>
+	<color name="graph_carbs">@*android:color/accent_material_dark</color>
+	<color name="login_button_bg">@*android:color/accent_material_dark</color>
+	<color name="mfp_common_blue_1">@*android:color/accent_material_dark</color>
+	<color name="progress_graph_fill">@*android:color/accent_material_dark</color>
+	<color name="today_date">@*android:color/accent_material_dark</color>
+	<color name="home_macro_progress">@*android:color/accent_material_dark</color>
+	<color name="material_grey_600">@*android:color/accent_material_dark</color>
+
+	<color name="abc_search_url_text_normal">#ffffffff</color>
+	<color name="abc_search_url_text_pressed">#ffffffff</color>
+	<color name="abc_search_url_text_selected">#ffffffff</color>
+	<color name="black_hint_text">#ffffffff</color>
+	<color name="black_text">#ffffffff</color>
+	<color name="contents_text">#ffffffff</color>
+	<color name="dark_grey_text">#ffffffff</color>
+	<color name="date_bar_text_black">#ffffffff</color>
+	<color name="editText">#ffffffff</color>
+	<color name="highlighted_text_material_dark">#ffffffff</color>
+	<color name="mfp_dark_text_75">#ffffffff</color>
+	<color name="nutrient_header_text">#ffffffff</color>
+	<color name="quick_tip_text">#ffffffff</color>
+	<color name="sc_annotationDarkTextColor">#ffffffff</color>
+	<color name="sc_annotationDefaultTextColor">#ffffffff</color>
+	<color name="sc_crosshairTooltipDarkTextColor">#ffffffff</color>
+	<color name="sc_crosshairTooltipDefaultTextColor">#ffffffff</color>
+	<color name="sc_legendDarkTextColor">#ffffffff</color>
+	<color name="sc_legendDefaultTextColor">#ffffffff</color>
+	<color name="snackbar_action_text">#ffffffff</color>
+	<color name="venue_search_text_color">#ffffffff</color>
+</resources>

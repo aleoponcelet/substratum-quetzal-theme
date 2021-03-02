@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bt_notification_highlight">#ffffffff</color>
+    <color name="bt_floating_action_button_bevel_bottom">@*android:color/accent_material_dark</color>
+    <color name="bt_floating_action_button_bevel_top">@*android:color/accent_material_dark</color>
+    <color name="bt_floating_action_button_center">@*android:color/accent_material_dark</color>
+</resources>

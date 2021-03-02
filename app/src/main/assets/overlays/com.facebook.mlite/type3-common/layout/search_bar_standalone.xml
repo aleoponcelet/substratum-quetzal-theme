@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@*com.facebook.mlite:drawable/searchbox_border"
+    android:focusableInTouchMode="true"
+    android:minHeight="48.0dip"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@*com.facebook.mlite:id/edit_text_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="@*com.facebook.mlite:string/search_all_hint"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:paddingLeft="16.0dip"
+        android:textColor="@android:color/white"
+        android:textColorHint="@*com.facebook.mlite:color/searchbar_default_input_text"
+        android:textSize="@*com.facebook.mlite:dimen/text_size_large" />
+
+    <ImageButton
+        android:id="@*com.facebook.mlite:id/button_clear_search"
+        android:layout_width="48.0dip"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@*com.facebook.mlite:string/clear_search_content_description"
+        android:padding="12.0dip"
+        android:scaleType="fitCenter"
+        android:src="@*com.facebook.mlite:drawable/ic_close"
+        android:tint="@*com.facebook.mlite:color/grey_40"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="1.0dip"
+        android:layout_height="fill_parent"
+        android:background="@*com.facebook.mlite:color/searchbox_border" />
+
+    <ImageButton
+        android:id="@*com.facebook.mlite:id/button_search"
+        android:layout_width="48.0dip"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:background="@*com.facebook.mlite:color/background_floating_material_dark"
+        android:contentDescription="@*com.facebook.mlite:string/search_content_description"
+        android:padding="12.0dip"
+        android:scaleType="fitCenter"
+        android:src="@*com.facebook.mlite:drawable/ic_search"
+        android:tint="@*com.facebook.mlite:color/messenger_blue" />
+</LinearLayout>

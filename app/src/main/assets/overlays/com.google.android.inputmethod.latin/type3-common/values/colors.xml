@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--Material Dark-->
+    <color name="base_material_dark_theme">#ff121212</color>
+    <color name="candidate_material_dark_theme">#ff121212</color>
+    <color name="header_bottom_separator_material_dark_theme">#00ffffff</color> <!--08-->
+    <color name="key_bordered_dark_theme">#0dffffff</color>
+    <color name="key_dark_bordered_dark_theme">#1affffff</color>
+    <color name="key_action_bordered_dark_theme">@*android:color/accent_material_dark</color>
+    <color name="key_action_pressed_bordered_dark_theme">@*android:color/accent_material_dark</color>
+    <color name="ColorChordedTrackMaterialDarkTheme">@*android:color/accent_material_dark</color>
+    <color name="ColorGestureTrackMaterialDarkTheme">@*android:color/accent_material_dark</color>
+    <color name="popup_background_material_dark_theme">#ff2f2f2f</color>
+    <color name="label_secondary_material_dark_theme">#80ffffff</color> <!--Numbers-->
+    <color name="key_space_material_dark_theme">#1affffff</color>
+    <color name="bg_expand_access_points_hint_material_dark_theme">@*android:color/accent_material_dark</color>
+    <color name="label_composing_text_material_dark_theme">@*android:color/accent_material_dark</color>
+    <color name="slide_indicator_material_dark_theme">@*android:color/accent_material_dark</color>
+
+    <!--Material Light-->
+    <color name="candidate_material_light_theme">#ffeeeeee</color>
+    <color name="base_material_light_theme">#ffeeeeee</color>
+    <color name="label_material_light_theme">#ff424242</color>
+    <color name="key_action_bordered_light_theme">@*android:color/accent_material_dark</color>
+	<color name="key_dark_bordered_light_theme">#0d000000</color>
+    <color name="ColorChordedTrackMaterialLightTheme">@*android:color/accent_material_dark</color>
+    <color name="ColorGestureTrackMaterialLightTheme">@*android:color/accent_material_dark</color>
+    <color name="header_bottom_separator_material_light_theme">#00000000</color> <!--08-->
+    <color name="popup_background_material_light_theme">#ffe1e1e1</color>
+	<color name="key_space_material_light_theme">#1f000000</color>
+    <color name="label_secondary_material_light_theme">#ff757575</color> <!--Numbers-->
+	<color name="label_dashboard_active_layout_material_light_theme">#cc424242</color>
+	<color name="label_dashboard_inactive_layout_material_light_theme">#91000000</color>
+
+	<color name="default_green">@*android:color/accent_material_dark</color>
+	<color name="label_popup_pressed_material_dark_theme">@*android:color/accent_material_dark</color>
+	<color name="label_popup_pressed_material_light_theme">@*android:color/accent_material_dark</color>
+    <color name="material_deep_teal_200">@*android:color/accent_material_dark</color>
+    <color name="preference_fallback_accent_color">@*android:color/accent_material_dark</color>
+    <color name="highlighted_text_material_dark">@*android:color/accent_material_dark</color>
+    <color name="highlighted_text_material_light">@*android:color/accent_material_dark</color>
+
+    <color name="theme_selector_preview_background_color">#ff151515</color>
+    <color name="theme_selector_candidate_background_color">#ff252525</color>
+    <color name="theme_builder_opacity_view_background">@*android:color/accent_material_dark</color>
+
+</resources>

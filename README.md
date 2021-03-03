@@ -25,7 +25,7 @@ My first dark theme for Android.
 * Your device must be rooted
 * xhdpi, xxhdpi, xxxhdpi devices are supported
 
-#### WHAT IS INCLUDED
+#### What is included
 
 * Framework
 * Selectable Main, accent, background and gradient shades (more than 650 color combinations)

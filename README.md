@@ -18,7 +18,7 @@
 
 *Quetzal has been removed from the Google Playstore on February 21, 2021.*
 
-My first dark theme for Android 7/8.
+My first dark theme for Android.
 
 * Supports Android 7/8
 * You need substratum app from the Play Store to apply the theme

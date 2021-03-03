@@ -38,5 +38,5 @@ My first dark theme for Android.
 * Fonts (3)
 * Wallpapers (30)
 
-### License 
+#### License 
 Calypso is available under the terms of Apache License 2.0.

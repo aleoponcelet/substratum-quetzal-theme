@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/aleoponcelet/Quetzal/blob/main/Screenshots/dsl.png?raw=true" height="200" width="200"/>
+  <img src="https://github.com/aleoponcelet/Quetzal/blob/main/Screenshots/dsl.png?raw=true" height="190" width="190"/>
 </p>
 
 <h1 align="center">Quetzal Theme for Substratum</h1>

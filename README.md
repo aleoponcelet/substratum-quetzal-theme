@@ -1,10 +1,14 @@
 <p align="center">
-<img src="https://github.com/aleoponcelet/Quetzal/blob/main/Screenshots/banner.png?raw=true" height="314" width="924"/>
+  <img src="https://github.com/aleoponcelet/Quetzal/blob/main/Screenshots/dsl.png?raw=true" height="200" width="200"/>
 </p>
 
 <h1 align="center">Quetzal Theme // Substratum</h1>
 
 <p align="center">A <a href="https://github.com/substratum">Substratum</a> theme for Android 7</p>
+
+<p align="center">
+  <a href="http://www.apache.org/licenses/LICENSE-2.0"><img alt="License: Apache-2.0 License" src="https://img.shields.io/badge/License-Apache_2.0-blue.svg"></a>
+</p>
 
 <p align="center">
 <img src="https://github.com/aleoponcelet/Quetzal/blob/main/Screenshots/Fi1.png?raw=true" height="435" width="245"/>
